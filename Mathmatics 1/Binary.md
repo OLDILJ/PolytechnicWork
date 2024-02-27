@@ -84,7 +84,39 @@ PlaceValue|Binary|Decmal|
 .4|0|0|
 .8|0|0|
 
-Finished Result|
+Expected Result|
 -------|
 9.2<sub>10|
 1001.01<sub>2|
+
+Actual Result|
+-------|
+9.2<sub>10|
+1001.0011 0011 etc et|
+
+a decent algorithmn for figuring out what the decimal place is in binary is timesing somthing by 2 and rounding down to the whole number. 
+then timesing the left over by 2 until theres nothing left often you cant as its imprecise.
+e.g.
+.2 * 2 = 0.4 = 0
+.4 * 2 = 0.8 = 0
+.8 * 2 = 1.6 = 1
+.6 * 2 = 1.2 = 1
+.2 * 2 = 0.4 = 0
+etc etc.
+
+# Note
+think of binary fraction as in <sup>-x <\sup> 
+Fraction|Base|Positional Notation|Rounded to 4SF|Rounded as Fraction|Rounding Error
+-------|-------|-------|-------|-------|-------|
+1/10|10|0.1|0.1|1/10|0|
+1/3|10|0.3|0.3333|3333/10000|1/30000|
+1/2|2|0.1|0.1|1/2|0|
+1/10|2|0.00011|0.0001|1/16|3/80|
+this is how you get a rounding error from writing down 0.1 and run it through interpreter/compiler. computers tend to cut off after 23 or 52 binary digits rather than 4. But the error is *still* there and ***will*** cause problems.
+this is also what single (32) and double (64) bit things are. 
+
+Format|Total Bits|Significand|Expoent Bits|Smallest Number|Largest Number
+-------|-------|-------|-------|-------|-------|
+Single Precision|32|23 + 1 sign|8| ca 1.2 * 10<sup>-38| ca 3.4 * 10<sup>38|
+Double Precision|64|52 + 1 sign|11| ca 2.2 * 10<sup>-308| ca 2.2 * 10<sup>308|
+
