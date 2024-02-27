@@ -21,6 +21,7 @@ Hexadecimal is useful for providing a short hand for binary that is easer then d
 e.g.8 bit byte has values ranging from 00000000 to 11111111 (0 -> 255 Decimal) can be represented as 00 to FF in hexadecimal
 has 0<sub>16
 
+### Example Table
 PlaceValue|Biary|Decmal|
 -------|-------|-------|
 1|0|0|
