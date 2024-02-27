@@ -12,3 +12,9 @@ PlaceValue|Biary|Decmal|
 512|0|0|
 1024|0|0|
 2048|0|0|
+
+
+Finished Result|
+-------|
+214<sub>10<\sub>|
+11010110<sub>2<\sub>|
