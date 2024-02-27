@@ -1,0 +1,15 @@
+d:\Polytechwork\Programming1\hellowork1\bin\Debug\net8.0\hellowork1.exe
+d:\Polytechwork\Programming1\hellowork1\bin\Debug\net8.0\hellowork1.deps.json
+d:\Polytechwork\Programming1\hellowork1\bin\Debug\net8.0\hellowork1.runtimeconfig.json
+d:\Polytechwork\Programming1\hellowork1\bin\Debug\net8.0\hellowork1.dll
+d:\Polytechwork\Programming1\hellowork1\bin\Debug\net8.0\hellowork1.pdb
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.GeneratedMSBuildEditorConfig.editorconfig
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.AssemblyInfoInputs.cache
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.AssemblyInfo.cs
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.csproj.CoreCompileInputs.cache
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.sourcelink.json
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.dll
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\refint\hellowork1.dll
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.pdb
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\hellowork1.genruntimeconfig.cache
+d:\Polytechwork\Programming1\hellowork1\obj\Debug\net8.0\ref\hellowork1.dll
