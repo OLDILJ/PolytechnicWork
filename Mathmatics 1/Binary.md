@@ -16,6 +16,10 @@ Binary|Decimal|Hexadecimal|
 1101|13|D
 1110|14|E
 1111|15|F
+# Note
+Hexadecimal is useful for providing a short hand for binary that is easer then decimal.
+e.g.8 bit byte has values ranging from 00000000 to 11111111 (0 -> 255 Decimal) can be represented as 00 to FF in hexadecimal
+has 0<sub>16
 
 PlaceValue|Biary|Decmal|
 -------|-------|-------|
