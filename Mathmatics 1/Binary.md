@@ -22,7 +22,7 @@ e.g.8 bit byte has values ranging from 00000000 to 11111111 (0 -> 255 Decimal) c
 has 0<sub>16
 
 ### Example Table
-PlaceValue|Biary|Decmal|
+PlaceValue|Binary|Decmal|
 -------|-------|-------|
 1|0|0|
 2|0|0|
@@ -44,7 +44,7 @@ Finished Result|
 
 ### Example for Whole number
 
-PlaceValue|Biary|Decmal|
+PlaceValue|Binary|Decmal|
 -------|-------|-------|
 1|0|0|
 2|1|2|
@@ -67,7 +67,7 @@ Finished Result|
 
 ### Example for Decimal number
 
-PlaceValue|Biary|Decmal|
+PlaceValue|Binary|Decmal|
 -------|-------|-------|
 1|1|1|
 2|0|0|
@@ -77,7 +77,7 @@ PlaceValue|Biary|Decmal|
 32|0|0|
 64|0|0|
 
-PlaceValue|Biary|Decmal|
+PlaceValue|Binary|Decmal|
 -------|-------|-------|
 .1|0|0|
 .2|1|.2|
