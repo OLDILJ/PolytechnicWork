@@ -18,7 +18,7 @@ Finished Result|
 0<sub>10|
 0<sub>2|
 
-
+### Example for Whole number
 
 PlaceValue|Biary|Decmal|
 -------|-------|-------|
@@ -41,4 +41,26 @@ Finished Result|
 214<sub>10|
 11010110<sub>2|
 
+### Example for Decimal number
 
+PlaceValue|Biary|Decmal|
+-------|-------|-------|
+1|0|1|
+2|0|0|
+4|0|0|
+8|0|1|
+16|0|0|
+32|0|0|
+64|0|0|
+
+PlaceValue|Biary|Decmal|
+-------|-------|-------|
+1|0|0|
+2|0|1|
+4|0|0|
+8|0|0|
+
+Finished Result|
+-------|
+9.2<sub>10|
+1001.01<sub>2|
