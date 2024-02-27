@@ -105,13 +105,13 @@ e.g.
 etc etc.
 
 # Note
-think of binary fraction as in <sup>-x <\sup> 
 Fraction|Base|Positional Notation|Rounded to 4SF|Rounded as Fraction|Rounding Error
 -------|-------|-------|-------|-------|-------|
 1/10|10|0.1|0.1|1/10|0|
 1/3|10|0.3|0.3333|3333/10000|1/30000|
 1/2|2|0.1|0.1|1/2|0|
 1/10|2|0.00011|0.0001|1/16|3/80|
+
 this is how you get a rounding error from writing down 0.1 and run it through interpreter/compiler. computers tend to cut off after 23 or 52 binary digits rather than 4. But the error is *still* there and ***will*** cause problems.
 this is also what single (32) and double (64) bit things are. 
 
