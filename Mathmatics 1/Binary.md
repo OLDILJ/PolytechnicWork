@@ -97,11 +97,17 @@ Actual Result|
 a decent algorithmn for figuring out what the decimal place is in binary is timesing somthing by 2 and rounding down to the whole number. 
 then timesing the left over by 2 until theres nothing left often you cant as its imprecise.
 e.g.
+
 .2 * 2 = 0.4 = 0
+
 .4 * 2 = 0.8 = 0
+
 .8 * 2 = 1.6 = 1
+
 .6 * 2 = 1.2 = 1
+
 .2 * 2 = 0.4 = 0
+
 etc etc.
 
 # Note
