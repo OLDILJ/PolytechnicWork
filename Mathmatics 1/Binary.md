@@ -16,5 +16,5 @@ PlaceValue|Biary|Decmal|
 
 Finished Result|
 -------|
-214<sub>10<\sub>|
-11010110<sub>2<\sub>|
+214<sub>10|
+11010110<sub>2|
