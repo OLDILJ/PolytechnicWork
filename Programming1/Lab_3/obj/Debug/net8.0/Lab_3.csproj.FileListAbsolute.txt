@@ -1,0 +1,15 @@
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.GeneratedMSBuildEditorConfig.editorconfig
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.AssemblyInfoInputs.cache
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.AssemblyInfo.cs
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.csproj.CoreCompileInputs.cache
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.sourcelink.json
+H:\PolytechnicWork\Programming1\Lab_3\bin\Debug\net8.0\Lab_3.exe
+H:\PolytechnicWork\Programming1\Lab_3\bin\Debug\net8.0\Lab_3.deps.json
+H:\PolytechnicWork\Programming1\Lab_3\bin\Debug\net8.0\Lab_3.runtimeconfig.json
+H:\PolytechnicWork\Programming1\Lab_3\bin\Debug\net8.0\Lab_3.dll
+H:\PolytechnicWork\Programming1\Lab_3\bin\Debug\net8.0\Lab_3.pdb
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.dll
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\refint\Lab_3.dll
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.pdb
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\Lab_3.genruntimeconfig.cache
+H:\PolytechnicWork\Programming1\Lab_3\obj\Debug\net8.0\ref\Lab_3.dll
