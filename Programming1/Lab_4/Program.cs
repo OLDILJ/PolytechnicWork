@@ -22,7 +22,7 @@ if (confirmation.Equals("1"))
     Console.WriteLine("Enter NZD");
     nzd = Convert.ToInt32(Console.ReadLine());
     result = (nzd * aud);
-    Console.WriteLine(nzd + "NZD converts to " + result + " AUD");
+    Console.WriteLine($"{nzd}NZD converts to {result} AUD");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }
@@ -32,7 +32,7 @@ else if (confirmation.Equals("2"))
     Console.WriteLine("Enter NZD");
     nzd = Convert.ToInt32(Console.ReadLine());
     result = (nzd * usd);
-    Console.WriteLine(nzd + "NZD converts to " + result + " USD");
+    Console.WriteLine($"{nzd} NZD converts to {result} USD");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }
@@ -42,7 +42,7 @@ else if (confirmation.Equals("3"))
     Console.WriteLine("Enter NZD");
     nzd = Convert.ToInt32(Console.ReadLine());
     result = (nzd * pound);
-    Console.WriteLine(nzd + "NZD converts to " + result + " Pounds");
+    Console.WriteLine($"{nzd} NZD converts to {result} Pounds");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }
@@ -52,7 +52,7 @@ else if (confirmation.Equals("4"))
     Console.WriteLine("Enter NZD");
     nzd = Convert.ToInt32(Console.ReadLine());
     result = (nzd * yen);
-    Console.WriteLine(nzd + "NZD converts to " + result + " Yen");
+    Console.WriteLine($"{nzd} NZD converts to {result} Yen");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }
@@ -62,7 +62,7 @@ else if (confirmation.Equals("5"))
     Console.WriteLine("Enter NZD");
     nzd = Convert.ToInt32(Console.ReadLine());
     result = (nzd * euro);
-    Console.WriteLine(nzd + "NZD converts to " + result + " Euro");
+    Console.WriteLine($"{nzd} NZD converts to {result} Euro");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }

@@ -21,7 +21,7 @@ if (confirmation.Equals("1"))
     Console.WriteLine("Enter Hours");
     hours = Convert.ToInt32(Console.ReadLine());
     days = (hours / 24);
-    Console.WriteLine("There are " + days + " days in " + hours +" hours");
+    Console.WriteLine($"There are {days} days in {hours} hours");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }
@@ -31,7 +31,7 @@ else if (confirmation.Equals("2"))
     Console.WriteLine("Enter Hours");
     hours = Convert.ToInt32(Console.ReadLine());
     months = (hours / 24 / 30);
-    Console.WriteLine("There are " + months + " months in " + hours +" hours");
+    Console.WriteLine($"There are {months} months in {hours} hours");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }
@@ -41,7 +41,7 @@ else if (confirmation.Equals("3"))
     Console.WriteLine("Enter Hours");
     hours = Convert.ToInt32(Console.ReadLine());
     years = (hours / 24 / 365);
-    Console.WriteLine("There are " + years + " years in " + hours +" hours");
+    Console.WriteLine($"There are {years} years in {hours} hours");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
 }
@@ -51,7 +51,7 @@ else if (confirmation.Equals("4"))
     Console.WriteLine("Enter Hours");
     hours = Convert.ToInt32(Console.ReadLine());
     minutes = (hours * 60);
-    Console.WriteLine("There are " + minutes + " minutes in " + hours +" hours");
+    Console.WriteLine($"There are {minutes} minutes in {hours} hours");
     Console.WriteLine("Press the enter key to leave");
     Console.ReadLine();
     }
