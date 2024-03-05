@@ -41,7 +41,7 @@ if (confirmation.Equals("y"))
     //System.IO.File.WriteAllText("*", all_data);
     StreamWriter sw = new StreamWriter("test.txt");
    // sw.WriteLine(all_data);
-    Console.WriteLine(sw);
+    // Console.WriteLine(sw);
     //Creates file then writes each line one by one until it reaches the bottom
     StringReader reader = new StringReader(sb.ToString());
     while (reader.Peek() > 0)
