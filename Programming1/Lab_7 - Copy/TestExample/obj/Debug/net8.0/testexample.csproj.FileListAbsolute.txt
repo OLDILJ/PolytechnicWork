@@ -1,0 +1,15 @@
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\bin\Debug\net8.0\testexample.exe
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\bin\Debug\net8.0\testexample.deps.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\bin\Debug\net8.0\testexample.runtimeconfig.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\bin\Debug\net8.0\testexample.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\bin\Debug\net8.0\testexample.pdb
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.AssemblyInfoInputs.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.AssemblyInfo.cs
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.csproj.CoreCompileInputs.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.sourcelink.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\refint\testexample.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.pdb
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\testexample.genruntimeconfig.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_7\testexample\obj\Debug\net8.0\ref\testexample.dll
