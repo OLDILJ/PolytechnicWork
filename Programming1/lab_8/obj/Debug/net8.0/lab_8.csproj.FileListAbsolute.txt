@@ -1,0 +1,15 @@
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\bin\Debug\net8.0\lab_8.exe
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\bin\Debug\net8.0\lab_8.deps.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\bin\Debug\net8.0\lab_8.runtimeconfig.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\bin\Debug\net8.0\lab_8.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\bin\Debug\net8.0\lab_8.pdb
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.AssemblyInfoInputs.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.AssemblyInfo.cs
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.csproj.CoreCompileInputs.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.sourcelink.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\refint\lab_8.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.pdb
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\lab_8.genruntimeconfig.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Programming1\lab_8\obj\Debug\net8.0\ref\lab_8.dll
