@@ -21,6 +21,7 @@ Console.WriteLine("THE FLAWLESS HAVE ALWAYS BEEN A VERY CONSISTENT TEAM!");
 Console.WriteLine("AND ON THE AWAY TEAM WE HAVE THE RAIDERS!");
 Console.WriteLine($"WITH {team2members} PLAYERS AT RANK {team2skill}");
 Console.WriteLine("THE RAIDERS ARE A STRANGE BUNCH, SOME GAMES THEY ARE AS GOOD AS CHILDREN OTHER TIMES THEY ARE THE BEST AROUND!");
+
 /*
 step 1: team 1 starts with the ball
 step 2: team 1 has to attack team 2 has to defend
