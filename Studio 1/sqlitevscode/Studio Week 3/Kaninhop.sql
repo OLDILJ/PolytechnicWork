@@ -15,7 +15,8 @@ create table Events(
 );
 create table EventRabbit(
     EventID text,
-    RabbitID text,
+    RabbitID int,
+    RabbitIDcount INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT,
     score INTEGER,
     foreign key (EventID) references Events(name),
     foreign key (RabbitID) references Rabbits(name)
@@ -24,6 +25,12 @@ create table Tournament(
     name text primary key not null
 );
 
+-- NUKE EVERYTHING
+PRAGMA writable_schema = 1;
+delete from sqlite_master where type in ('table', 'index', 'trigger');
+PRAGMA writable_schema = 0;
+VACUUM;
+pragma integrity_check;
 
 select * from Owner;
 select * from Rabbits;
@@ -34,9 +41,9 @@ select * from Tournament;
 SELECT * FROM Owner INNER JOIN Rabbits INNER JOIN EventRabbit INNER JOIN Events INNER JOIN Tournament;
 select * from EventRabbit;
 select * from EventRabbit ORDER BY score asc;
-SELECT (RabbitID,score) from EventRabbit;
+SELECT RabbitID from EventRabbit;
 select * from owner inner join Rabbits on (Owner.name = Rabbits.owner_name) where Owner.name like "Zim";
-select * from owner inner join EventRabbit inner join Rabbits on (owner.name = Rabbits.owner_name) where owner.name like "Bim";
+select * from owner inner join Rabbits inner join EventRabbit on (owner.name = Rabbits.owner_name) where owner.name like "Bim";
 drop Table Owner;
 drop Table Rabbits;
 drop Table Events;
