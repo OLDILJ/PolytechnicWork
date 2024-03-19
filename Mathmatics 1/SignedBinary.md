@@ -12,3 +12,44 @@ Sign|64|32|16|8|4|2|1|Decimal
 0|1|0|0|0|0|0|1|64
 1|0|0|0|0|0|0|1|129
 1|1|1|0|0|0|0|0|224
+
+## Two's complement
+step 1. add binary
+step 2. Flip all the bits
+step 3. add 0000 0001 to the result (YOUR ANSWER IS THE SIGNED NEGATIVE BINARY NUMBER)
+
+MISC|Sign|64|32|16|8|4|2|1
+-------|-------|-------|-------|-------|-------|-------|-------|-------|
+&nbsp;|0|0|0|0|0|1|1|1
+FLIP|1|1|1|1|1|0|0|0
+Add|0|0|0|0|0|0|0|1
+Total|1|1|1|1|1|0|0|1
+
+### Binary Subtraction
+Computers can not subtract normally
+they can only add to circumvent this
+computers add negative numbers to positive numbers
+instead of \
+a - b = x \
+its a + (-b) = x \
+e.g.
+23 - 79
+Misc|Sign|64|32|16|8|4|2|1
+-------|-------|-------|-------|-------|-------|-------|-------|-------|
+23->|0|0|0|1|0|1|1|1
+79->|0|1|0|0|1|1|1|1
+Flip|1|0|1|1|0|0|0|0
+Add 1|0|0|0|0|0|0|0|1
+-79 in 2s complement|1|0|1|1|0|0|0|1
+preform 23 + (-79)|0|0|0|1|0|1|1|1
+&nbsp;            |1|0|1|1|0|0|0|1
+CarryOver|&nbsp;|1|1|&nbsp;|1|1|1|&nbsp;
+Total|1|1|0|0|1|0|0|0
+
+### Answer Check
+-128|64|32|16|8|4|2|1
+-------|-------|-------|-------|-------|-------|-------|-------|
+1|1|0|0|1|0|0|0
+-128|64|0|0|8|0|0|0
+
+-128 + 64 + 8 = -56
