@@ -127,6 +127,10 @@ string frame10 = @" ___       ________  ________  ________  ___  ________   ____
 ";
 int loopcount = 2;
 int delay = 100;
+Console.WriteLine("Input loop count");
+loopcount = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("Input delay");
+delay = Convert.ToInt32(Console.ReadLine());
 for (int i = loopcount; i >= 0; i--)
 {
 Console.WriteLine(frame1);
