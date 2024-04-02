@@ -1,13 +1,13 @@
 # Dot Product
-dot product is written using a central dot (alt + 0183 ·)
-a·b 
-this is the dot product of a and b
-we calc dot product of two vectors via
-a·b = |a| * |b| * cos(θ)
-where |a| is the magnitude of vector a
-|b| is the magnitude of vector b
-θ is the angle between a and b
-*OR*
+dot product is written using a central dot (alt + 0183 ·)\
+a·b \
+this is the dot product of a and b\
+we calc dot product of two vectors via\
+a·b = |a| * |b| * cos(θ)\
+where |a| is the magnitude of vector a\
+|b| is the magnitude of vector b\
+θ is the angle between a and b\
+*OR*\
 a·b =  (a.x × b.x) + (a.x × b.y)
 
 The first method is more accurate but the accuracy is negligible after rounding.
