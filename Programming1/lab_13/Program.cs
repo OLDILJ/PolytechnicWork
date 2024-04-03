@@ -62,11 +62,7 @@
     int lowerZ = 0;
 }
 */
-int repeatingchar = 0;
-string sentence = "";
-sentence = Console.ReadLine();
-Console.WriteLine($"{sentence}");
-char[] dArray = sentence.ToCharArray();
+
 /*
 foreach (char i in sentence)
 
@@ -82,22 +78,80 @@ foreach (char d in sentence)
 */
 
 // step 1 three vars: one main, one for comparator, one for total count
-// step 2 
+// step 2
+/*
 Array.Sort(dArray);
 foreach (char count in dArray)
 {
-    int index =+ 1;
+    int index =+ 1
+        if(dArray.char = dArray.char)
+        {
 
-    Console.WriteLine($"{count} ");
-    if (index >= 1)
+        }
+
+}
+*/
+int index = 0;
+int repeatingchar = 0;
+int repeatingcharsavecount = 0;
+int check = 0;
+string sentence = "";
+sentence = Console.ReadLine();
+Console.WriteLine($"{sentence}");
+char beforecount = ' ';
+char[] dArray = sentence.ToCharArray();
+string[] repeatingcharsave = new string[sentence.Length];
+
+
+Array.Sort(dArray);
+foreach (char count in dArray)
+{
+    //Console.WriteLine($"{count} ");
+    //Console.WriteLine("INDEX ABOVE 1");
+    
+     if (index >= 1)
     {
-        Console.WriteLine("INDEX ABOVE 1");
-        char beforecount = dArray[(index-1)];
+        beforecount = dArray[(index-1)];
+        
+        Console.WriteLine($"{beforecount} ");
         if (beforecount == count)
         {
             Console.WriteLine("MATCH");
             repeatingchar++;
-            Console.WriteLine(repeatingchar);
+            //Console.WriteLine(repeatingchar);
         }
+        else
+        {
+            Console.WriteLine("!Match");
+            Console.WriteLine("SavingReatingCharCount");
+            repeatingcharsave.SetValue(value: ($"{beforecount} {repeatingchar+1}"), index: repeatingcharsavecount);
+            Console.WriteLine(repeatingcharsavecount);
+            repeatingcharsavecount++;
+            repeatingchar = 0;
+            //Console.WriteLine(repeatingchar);
+        }
+        if (index == sentence.Length - 1)
+        {
+            Console.WriteLine("LASTONEEMERGENCYSAVE");
+            repeatingcharsave.SetValue(value: ($"{beforecount} {repeatingchar+1}"), index: repeatingcharsavecount);
+            Console.WriteLine(repeatingcharsavecount);
+            repeatingcharsavecount++;
+            /*var repeatcharList = repeatingcharsave.ToList();
+
+            repeatcharList.RemoveAll(x => x == check);
+
+            repeatingcharsave = repeatcharList.ToArray();*/
+
+            foreach(var item in repeatingcharsave)
+            {
+                if (item != null)
+                {
+                Console.WriteLine(item);
+                }
+            }
+
+        }
+        
     }
+    index += 1;
 }
