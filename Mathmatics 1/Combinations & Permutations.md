@@ -14,7 +14,7 @@ There are two main types of permutation:
 1. **Repetition is Allowed**: like a combination lock, the answer could be "222". 
 2. **No Repetition**: Like the first three people in a race. You can't be first *and* second.
 
-### Permutations with Repetition.
+## Permutations with Repetition.
 These ones are simple. \
 When a thing has ***N*** different types we have ***N*** choices each time.\
 E.g. choosing 3 things, the permutations are: 
@@ -39,7 +39,7 @@ The formula for Permutations with Repetition is just.
 ***N^R***
 (where **n** is the number of things to choose from, and we choose **r** of them, repetition is allowed, and order matters.)
 
-### Permutations **WITHOUT** Repetition
+## Permutations **WITHOUT** Repetition
 We tend to **reduce** the number of available choices each time. \
 e.g. what order could 16 pool balls be in? \
 after choosing number "16" we **CAN'T** choose it again. \
