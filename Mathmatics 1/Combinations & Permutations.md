@@ -6,8 +6,6 @@ Wehn order ***DOES MATTER***, it is a *Permutation*. \
 In other words. \
 *A PERMUTATION IS AN **ORDERED** COMBINATION*
 
----
-
 ## Permutations
 
 There are two main types of permutation: 
