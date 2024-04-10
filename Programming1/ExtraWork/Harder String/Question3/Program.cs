@@ -1,5 +1,7 @@
 ﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("Hello, World!");
+Console.WriteLine("WELCOME TO PALINDROME DETECTOR V0.1!");
+Console.WriteLine("PLEASE WRITE A PALINDROME");
+
 string sentence = Console.ReadLine();
 char[] chararray = sentence.ToCharArray();
 char[] reversed = chararray.Reverse().ToArray();
@@ -12,5 +14,5 @@ if (rsentence == sentence)
 }
 else
 {
-    Console.WriteLine("No PALINDROME Found :(");
+    Console.WriteLine($"{sentence} is not a palindrome :(");
 }
