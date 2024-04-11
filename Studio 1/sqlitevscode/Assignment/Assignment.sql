@@ -9,6 +9,22 @@ pragma integrity_check;
 
 -- test code environment
 
+CREATE TABLE AfflictedStatusEffect (
+    AfflictedStatusEffect_ID INTEGER PRIMARY KEY,
+    StatusEffect_ID INTEGER,
+    Battle_ID INTEGER,
+    FOREIGN KEY (StatusEffect_ID) REFERENCES StatusEffect(StatusEffect_ID),
+    FOREIGN KEY (Battle_ID) REFERENCES BattleMaster(Battle_ID)
+);
+
+CREATE TABLE StatusEffect (
+    StatusEffect_ID INTEGER PRIMARY KEY,
+    Name TEXT,
+    Description TEXT
+);
+
+
+-- Team1
 
 -- big math time
 UPDATE Status
@@ -42,8 +58,20 @@ select * from Status;
 select * from StatModifier;
 select * from Entity;
 select * from Team;
-SELECT * FROM StatusStatModifier;
-SELECT * FROM BattleMaster;
+SELECT * from StatusStatModifier;
+SELECT * from BattleMaster;
+select * from AfflictedStatusEffect;
+select * from StatusEffect;
+
+-- Main Team Select
+SELECT *
+FROM team
+ORDER BY team.Name ASC;
+
+SELECT Team.TeamID, Team.Name, Entity.Status_ID
+FROM Team
+INNER JOIN Entity ON Team.Entity_ID = Entity.Entity_ID
+ORDER BY Entity.Status_ID;
 
 -- Check current/ max hp of 'player1' entity
 SELECT Status.Current_HP, Status.Max_health FROM Entity INNER JOIN Status ON Entity.Status_ID = Status.Status_ID WHERE Entity.Name = 'Player1';
@@ -52,7 +80,7 @@ SELECT Current_HP FROM Entity INNER JOIN Status WHERE Entity.Name = 'Player1'; -
 
 
 -- the GIGA STATEMENT
-
+-- increase Player1 MAX_HEALTH by statmodifier maxhealth mod
 UPDATE Status
 SET Max_health = CAST(CAST(Max_health AS INTEGER) + (
     SELECT SUM(CAST(StatModifier.Max_health_modifier AS INTEGER))
@@ -80,28 +108,49 @@ WHERE Status_ID = (SELECT Status_ID FROM Entity WHERE Entity_ID = 1);
 SELECT BattleMaster.Battle_ID, BattleMaster.Name AS BattleName, BattleMaster.Special_Event, Team.Name AS TeamName
 FROM BattleMaster
 JOIN Team ON BattleMaster.TeamID = Team.TeamID;
+-- Inner Join
+SELECT Entity.Name, Equipment.EquipmentSlot FROM Entity
+INNER JOIN Equipment ON Entity.Equipment = Equipment.Name;
+
+SELECT Entity.Name
+FROM Entity
+LEFT JOIN Equipment ON Entity.Equipment = Equipment.Name
+WHERE Equipment.Name IS NULL;
 
 -- Data Inserts
 
--- Battle Master
-INSERT INTO BattleMaster (Battle_ID, Name, Special_Event, TeamID, Afflicted_Status_effects)
-VALUES
-(1, 'Battle1', 'Ambush', 1, 'Stunned'),
-(2, 'Battle2', 'Boss Fight', 2, 'Poisoned'),
-(3, 'Battle3', 'Siege', 1, 'Slowed'),
-(4, 'Battle4', 'Normal Battle', 1, null);
 
-
--- Team
-INSERT INTO Team (Name, Entity_ID) VALUES 
-('Team1', 1), -- Player1
-('Team2', 2); -- Enemy1
 -- Equipment
-insert into Equipment (Name, EquipmentSlot) VALUES ('Sword', 'Weapon');
-insert into Equipment (Name, EquipmentSlot) VALUES ('Shield', 'Offhand');
-insert into Equipment (Name, EquipmentSlot) VALUES ('Helmet', 'Head');
-insert into Equipment (Name, EquipmentSlot) VALUES ('Boots', 'Feet');
-INSERT INTO Equipment (Name, EquipmentSlot) VALUES ('Ring', 'Accessory');
+-- Weapons
+INSERT INTO Equipment (Name, EquipmentSlot) VALUES 
+('Sword', 'Weapon'),
+('Bow', 'Weapon'),
+('Staff', 'Weapon'),
+('Dagger', 'Weapon');
+
+-- Armor
+INSERT INTO Equipment (Name, EquipmentSlot) VALUES 
+('Helmet', 'Head'),
+('Leather Helmet', 'Head'),
+('Steel Helmet', 'Head'),
+('Chainmail Helmet', 'Head'),
+('Robe', 'Body'),
+('Leather Armor', 'Body'),
+('Steel Armor', 'Body'),
+('Chainmail Armor', 'Body');
+
+-- Accessories
+INSERT INTO Equipment (Name, EquipmentSlot) VALUES 
+('Boots', 'Feet'),
+('Water Walkers', 'Feet'),
+('Gloves', 'Hands'),
+('Gauntlets', 'Hands'),
+('Leather Gloves', 'Hands'),
+('Shield', 'Offhand'),
+('Magic Shield', 'Offhand'),
+('Shield', 'Offhand'),
+('Necklace', 'Accessory'),
+('Ring', 'Accessory');
 
 -- Status
 
@@ -111,7 +160,8 @@ VALUES
 ('120', '110', '70', '65', '15', '20', '25', '30', '8', '30', '85%', '25', '20%'),
 ('80', '70', '40', '35', '8', '12', '18', '20', '3', '20', '75%', '15', '10%'),
 ('150', '140', '80', '75', '20', '25', '30', '35', '10', '35', '90%', '30', '25%'),
-('90', '85', '60', '55', '12', '18', '22', '28', '6', '28', '82%', '22', '18%');
+('90', '85', '60', '55', '12', '18', '22', '28', '6', '28', '82%', '22', '18%'),
+('120', '110', '70', '65', '25', '15', '10', '30', '8', '30', '85%', '25', '20%');
 
 -- Stat Mod
 
@@ -132,11 +182,71 @@ VALUES
 (2, 2); -- Status 2, StatModifier 2
 
 -- Entity
-INSERT INTO Entity (Name, Equipment, Status_ID)
-VALUES ('Player1', 'Sword', 1);
 
-INSERT INTO Entity (Name, Equipment, Status_ID)
-VALUES ('Enemy1', 'None', 2);
+-- Team1
+INSERT INTO Entity (Name, Equipment, Status_ID) VALUES 
+('Player1', 'Sword', 1),
+('Mage', 'Staff', 4);
+
+-- Armor and Accessories for Team1
+INSERT INTO Entity (Name, Equipment, Status_ID) VALUES 
+('Warrior', 'Steel Helmet', 3);
+
+-- Team2
+INSERT INTO Entity (Name, Equipment, Status_ID) VALUES
+('Enemy1', 'None', 2);
+
+-- Armor and Accessories for Team2
+INSERT INTO Entity (Name, Equipment, Status_ID) VALUES 
+('Goblin', 'Leather Helmet', 5),
+('Orc', 'Steel Helmet', 6);
+
+-- StatusEffect
+INSERT INTO StatusEffect (StatusEffect_ID, Name, Description)
+VALUES
+(1,'Stunned' , '- Unable to take any action for one turn.'),
+(2,'Poisoned' , '- Lose 10 HP per turn.'),
+(3,'Slowed' , '- Movement speed reduced by 50%.'),
+(4,'Frozen' , '- Unable to take any action until thawed.'),
+(5,'Confused' , '- Chance to hit self with attacks.');
+
+-- AfflictedStatusEffect
+INSERT INTO AfflictedStatusEffect (AfflictedStatusEffect_ID, StatusEffect_ID, Battle_ID)
+VALUES
+(1, 1, 1),
+(2, 2, 2),
+(3, 3, 3),
+(4, 4, 4),
+(5, 5, 5);
+
+-- Team
+INSERT INTO Team (Name, Entity_ID) VALUES 
+('Team1', 1), -- Player1
+('Team1', 3), -- Warrior
+('Team1', 4), -- Enemy1
+
+('Team2', 2), -- Mage
+('Team2', 5), -- Goblin
+('Team2', 6); -- Orc
+
+-- Battle Master
+INSERT INTO BattleMaster (Battle_ID, Name, Special_Event, TeamID, Afflicted_Status_effects)
+VALUES
+(1, 'Battle1', 'Ambush', 1, 1),
+(2, 'Battle2', 'Boss Fight', 2, 2),
+(3, 'Battle3', 'Siege', 1, 3),
+(4, 'Battle4', 'Normal Battle', 1, null),
+(5, 'Battle5', 'Blizzard', 2, 4), 
+(6, 'Battle6', 'Fog', 1, 5); 
+
+
+
+-- Update Query
+UPDATE Entity 
+SET Equipment = 'Dagger' 
+WHERE Name = 'Player1';
+
+DELETE FROM Entity WHERE Entity_ID = 4;
 
 -- Main Code
 
@@ -178,20 +288,7 @@ CREATE TABLE StatModifier(
     Attack_modifier TEXT,
     Accuracy_modifier TEXT,
     Defense_modifier TEXT,
-    Evasion_modifier TEXT/*
-    FOREIGN KEY (Max_health_modifier) REFERENCES Status(Max_health),
-    FOREIGN KEY (Current_HP_modifier) REFERENCES Status(Current_HP),
-    FOREIGN KEY (Max_MP_modifier) REFERENCES Status(Max_MP),
-    FOREIGN KEY (Current_MP_modifier) REFERENCES Status(Current_MP),
-    FOREIGN KEY (Strength_modifier) REFERENCES Status(Strength),
-    FOREIGN KEY (Agility_modifier) REFERENCES Status(Agility),
-    FOREIGN KEY (Intelligence_modifier) REFERENCES Status(Intelligence),
-    FOREIGN KEY (Stamina_modifier) REFERENCES Status(Stamina),
-    FOREIGN KEY (Luck_modifier) REFERENCES Status(Luck),
-    FOREIGN KEY (Attack_modifier) REFERENCES Status(Attack),
-    FOREIGN KEY (Accuracy_modifier) REFERENCES Status(Accuracy),
-    FOREIGN KEY (Defense_modifier) REFERENCES Status(Defense),
-    FOREIGN KEY (Evasion_modifier) REFERENCES Status(Evasion) */
+    Evasion_modifier TEXT
 );
 
 CREATE TABLE StatusStatModifier (
@@ -223,9 +320,24 @@ CREATE TABLE BattleMaster (
     Name TEXT,
     Special_Event TEXT,
     TeamID INTEGER NOT NULL,
-    Afflicted_Status_effects TEXT,
+    Afflicted_Status_effects INTEGER,
     FOREIGN KEY (TeamID) REFERENCES Team(TeamID)
 );
+
+CREATE TABLE AfflictedStatusEffect (
+    AfflictedStatusEffect_ID INTEGER PRIMARY KEY,
+    StatusEffect_ID INTEGER,
+    Battle_ID INTEGER,
+    FOREIGN KEY (StatusEffect_ID) REFERENCES StatusEffect(StatusEffect_ID),
+    FOREIGN KEY (Battle_ID) REFERENCES BattleMaster(Battle_ID)
+);
+
+CREATE TABLE StatusEffect (
+    StatusEffect_ID INTEGER PRIMARY KEY,
+    Name TEXT,
+    Description TEXT
+);
+
 
 --FAKE CODE VERSION BELOW
 
@@ -290,3 +402,7 @@ TeamID foreign key not null,
 Afflicted_Status_effects text,
 Equipment text
 );
+
+create table statusEffect(
+
+)
