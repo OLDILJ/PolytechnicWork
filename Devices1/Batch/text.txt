@@ -1,0 +1,1215 @@
+ Volume in drive C is New Volume
+ Volume Serial Number is 346E-2BB4
+
+ Directory of C:\
+
+26/12/2023  11:08 am             8,192 DumpStack.log
+27/04/2024  11:07 am             8,192 DumpStack.log.tmp
+27/04/2024  08:47 pm     5,100,273,664 pagefile.sys
+27/04/2024  11:07 am        16,777,216 swapfile.sys
+               4 File(s)  5,117,067,264 bytes
+
+ Directory of C:\$Recycle.Bin\S-1-5-21-2997150457-1502828934-1963821894-1001
+
+25/12/2023  02:53 pm               129 desktop.ini
+               1 File(s)            129 bytes
+
+ Directory of C:\games\Adrorium v0.10.5.1 (WIN64)\Mods\Example mod 1
+
+28/08/2018  03:49 am               158 0Blocks.json.meta
+28/08/2018  03:49 am               158 0Dialogs.json.meta
+28/08/2018  03:49 am               158 0Gametypes.json.meta
+23/04/2022  05:39 am               158 0Images.json.meta
+28/08/2018  03:49 am               158 0Items.json.meta
+28/08/2018  03:49 am               158 0Loots.json.meta
+28/08/2018  03:49 am               158 0Manualentries.json.meta
+28/08/2018  03:49 am               158 0Missions.json.meta
+28/08/2018  03:49 am               158 0Recipes.json.meta
+28/08/2018  03:49 am               158 0Researches.json.meta
+07/09/2019  12:00 pm               569 Demoscript.dll.meta
+23/04/2022  05:15 am               458 jump.mp3.meta
+07/10/2019  05:54 am             1,831 mat1.png.meta
+05/09/2018  02:24 am             1,831 moddeditem1.png.meta
+05/09/2018  02:24 am             1,831 moddedsmg.png.meta
+08/02/2019  06:45 pm               158 Modinfo.json.meta
+15/08/2019  10:06 am               158 modship1.json.meta
+27/10/2019  02:06 am             2,264 modsmg.obj.meta
+06/10/2019  11:48 pm             2,264 obj1.obj.meta
+06/10/2019  11:48 pm             2,264 obj2.obj.meta
+06/10/2019  11:48 pm             2,264 obj3.obj.meta
+12/07/2020  06:20 am               458 test.wav.meta
+              22 File(s)         17,930 bytes
+
+ Directory of C:\Program Files
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Program Files (x86)
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\ProgramData\Microsoft\User Account Pictures
+
+25/12/2023  02:53 pm                75 desktop.ini
+               1 File(s)             75 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs
+
+04/12/2023  02:54 pm               400 desktop.ini
+               1 File(s)            400 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessibility
+
+04/12/2023  02:54 pm               370 desktop.ini
+               1 File(s)            370 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories
+
+04/12/2023  02:54 pm             1,472 desktop.ini
+               1 File(s)          1,472 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools
+
+07/12/2019  09:12 pm                85 desktop.ini
+               1 File(s)             85 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+
+04/12/2023  02:54 pm             2,850 desktop.ini
+               1 File(s)          2,850 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\LibreOffice 7.6
+
+25/12/2023  03:18 pm                36 Desktop.ini
+               1 File(s)             36 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Maintenance
+
+07/12/2019  09:12 pm               170 Desktop.ini
+               1 File(s)            170 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\StartUp
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\System Tools
+
+04/12/2023  02:54 pm               338 desktop.ini
+               1 File(s)            338 bytes
+
+ Directory of C:\ProgramData\Microsoft\Windows\Start Menu\Programs\Windows PowerShell
+
+07/12/2019  09:53 pm               218 desktop.ini
+               1 File(s)            218 bytes
+
+ Directory of C:\Sandbox
+
+04/01/2024  12:21 am               218 desktop.ini
+               1 File(s)            218 bytes
+
+ Directory of C:\Sandbox\Logan
+
+04/01/2024  12:21 am               218 desktop.ini
+               1 File(s)            218 bytes
+
+ Directory of C:\Sandbox\Logan\DefaultBox
+
+04/01/2024  12:21 am               218 desktop.ini
+04/01/2024  12:21 am            65,536 RegHive.LOG1
+04/01/2024  12:21 am            16,384 RegHive.LOG2
+04/01/2024  12:21 am            65,536 RegHive{d324103f-a9d2-11ee-ad08-c4e9840c5599}.TM.blf
+04/01/2024  12:21 am           524,288 RegHive{d324103f-a9d2-11ee-ad08-c4e9840c5599}.TMContainer00000000000000000001.regtrans-ms
+04/01/2024  12:21 am           524,288 RegHive{d324103f-a9d2-11ee-ad08-c4e9840c5599}.TMContainer00000000000000000002.regtrans-ms
+               6 File(s)      1,196,250 bytes
+
+ Directory of C:\Users
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\All Users\Microsoft\User Account Pictures
+
+25/12/2023  02:53 pm                75 desktop.ini
+               1 File(s)             75 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs
+
+04/12/2023  02:54 pm               400 desktop.ini
+               1 File(s)            400 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessibility
+
+04/12/2023  02:54 pm               370 desktop.ini
+               1 File(s)            370 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessories
+
+04/12/2023  02:54 pm             1,472 desktop.ini
+               1 File(s)          1,472 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Accessories\System Tools
+
+07/12/2019  09:12 pm                85 desktop.ini
+               1 File(s)             85 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+
+04/12/2023  02:54 pm             2,850 desktop.ini
+               1 File(s)          2,850 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\LibreOffice 7.6
+
+25/12/2023  03:18 pm                36 Desktop.ini
+               1 File(s)             36 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Maintenance
+
+07/12/2019  09:12 pm               170 Desktop.ini
+               1 File(s)            170 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\StartUp
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\System Tools
+
+04/12/2023  02:54 pm               338 desktop.ini
+               1 File(s)            338 bytes
+
+ Directory of C:\Users\All Users\Microsoft\Windows\Start Menu\Programs\Windows PowerShell
+
+07/12/2019  09:53 pm               218 desktop.ini
+               1 File(s)            218 bytes
+
+ Directory of C:\Users\Default
+
+07/12/2019  09:03 pm            73,728 NTUSER.DAT.LOG1
+07/12/2019  09:03 pm            40,960 NTUSER.DAT.LOG2
+26/12/2023  11:47 am            65,536 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+26/12/2023  11:47 am           524,288 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+26/12/2023  11:47 am           524,288 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+               5 File(s)      1,228,800 bytes
+
+ Directory of C:\Users\Default\AppData\Local\Microsoft\Windows
+
+25/12/2023  03:02 pm             8,192 UsrClass.dat.LOG1
+25/12/2023  03:02 pm                 0 UsrClass.dat.LOG2
+25/12/2023  03:18 pm            65,536 UsrClass.dat{5f8b81d2-8627-11ed-9aa4-98eecb56f2d1}.TM.blf
+25/12/2023  03:02 pm           524,288 UsrClass.dat{5f8b81d2-8627-11ed-9aa4-98eecb56f2d1}.TMContainer00000000000000000001.regtrans-ms
+25/12/2023  03:02 pm           524,288 UsrClass.dat{5f8b81d2-8627-11ed-9aa4-98eecb56f2d1}.TMContainer00000000000000000002.regtrans-ms
+               5 File(s)      1,122,304 bytes
+
+ Directory of C:\Users\Default\AppData\Local\Microsoft\Windows\WinX\Group1
+
+07/12/2019  09:12 pm                75 desktop.ini
+               1 File(s)             75 bytes
+
+ Directory of C:\Users\Default\AppData\Local\Microsoft\Windows\WinX\Group2
+
+07/12/2019  09:12 pm               325 desktop.ini
+               1 File(s)            325 bytes
+
+ Directory of C:\Users\Default\AppData\Local\Microsoft\Windows\WinX\Group3
+
+07/12/2019  09:12 pm               941 desktop.ini
+               1 File(s)            941 bytes
+
+ Directory of C:\Users\Default\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
+
+07/12/2019  09:12 pm               148 desktop.ini
+               1 File(s)            148 bytes
+
+ Directory of C:\Users\Default\AppData\Roaming\Microsoft\Windows\SendTo
+
+04/12/2023  02:54 pm               558 desktop.ini
+               1 File(s)            558 bytes
+
+ Directory of C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+
+07/12/2019  09:53 pm                47 desktop.ini
+               1 File(s)             47 bytes
+
+ Directory of C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility
+
+04/12/2023  02:54 pm               568 desktop.ini
+               1 File(s)            568 bytes
+
+ Directory of C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories
+
+04/12/2023  02:54 pm               218 desktop.ini
+               1 File(s)            218 bytes
+
+ Directory of C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance
+
+07/12/2019  09:12 pm               170 Desktop.ini
+               1 File(s)            170 bytes
+
+ Directory of C:\Users\Default\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools
+
+07/12/2019  09:12 pm               934 Desktop.ini
+               1 File(s)            934 bytes
+
+ Directory of C:\Users\oldin
+
+27/04/2024  01:31 am         4,980,736 NTUSER.DAT
+25/12/2023  02:50 pm         1,276,928 ntuser.dat.LOG1
+25/12/2023  02:50 pm           131,072 ntuser.dat.LOG2
+25/12/2023  02:50 pm            65,536 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TM.blf
+25/12/2023  02:50 pm           524,288 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+25/12/2023  02:50 pm           524,288 NTUSER.DAT{53b39e88-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+25/12/2023  02:50 pm                20 ntuser.ini
+               7 File(s)      7,502,868 bytes
+
+ Directory of C:\Users\oldin\3D Objects
+
+25/12/2023  02:52 pm               298 desktop.ini
+               1 File(s)            298 bytes
+
+ Directory of C:\Users\oldin\AppData\Local
+
+27/04/2024  01:31 am            96,523 IconCache.db
+               1 File(s)         96,523 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Credentials
+
+06/02/2024  12:37 pm             2,672 1B307CD630D0CCBCBA3A03890CCC5828
+06/02/2024  05:22 pm             3,248 223D3A5C7DA9E8932C9D8910297AC135
+06/02/2024  12:39 pm               832 2667533FFDF347B83F81E73F64B31B35
+06/02/2024  12:39 pm             3,040 3C49F0983C34D2DB53C9223E7B8810D6
+06/02/2024  12:39 pm             3,056 45DD88FFDF404A2A77BDDA79F55FBFBC
+06/02/2024  12:38 pm             2,768 49C581501BA8B5BAD88442F67C2E4EE8
+06/02/2024  12:37 pm               720 6AF80DF0B9EBDAF58D2A00458E63EE59
+03/02/2024  04:39 pm             1,360 72660934AC0550AA376799832EEBF0A0
+06/02/2024  12:39 pm             3,120 88D9856B7D970C99AA93CD0C6164B734
+06/02/2024  04:37 pm             3,280 A56C00EFFD986AD97C00EC3B18B64261
+06/02/2024  05:22 pm               784 AE813A08C05914E703756DE5C896A28B
+06/02/2024  04:37 pm               832 B5E67DF236FB84FFAEF120FBBAD48F43
+06/02/2024  05:22 pm             1,264 C661A0A39562857674689720934B689D
+06/02/2024  05:22 pm             2,256 D2B68B8DE5636DB119108F15870FE672
+15/04/2024  12:21 am               768 DA042F61FDC048D8F9B32351FBA4FEA2
+08/03/2024  02:31 pm            11,136 DFBE70A7E5CC19A398EBF1B96859CE5D
+06/02/2024  05:22 pm             3,248 E52BEB2F6A562C155FA54F54517F715A
+06/02/2024  12:38 pm             2,624 F2D3A5E6C966787D8E3AEF1036EC69D2
+06/02/2024  12:39 pm             3,296 FC7AFD6392276CD7029833A815151364
+              19 File(s)         50,304 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows
+
+27/04/2024  01:31 am         9,699,328 UsrClass.dat
+25/12/2023  02:50 pm         1,703,936 UsrClass.dat.LOG1
+25/12/2023  02:50 pm         2,468,864 UsrClass.dat.LOG2
+10/04/2024  11:05 pm            65,536 UsrClass.dat{f9ff69d5-a37f-11ee-acf8-2cf05d2278a5}.TM.blf
+10/04/2024  11:05 pm           524,288 UsrClass.dat{f9ff69d5-a37f-11ee-acf8-2cf05d2278a5}.TMContainer00000000000000000001.regtrans-ms
+25/12/2023  02:50 pm           524,288 UsrClass.dat{f9ff69d5-a37f-11ee-acf8-2cf05d2278a5}.TMContainer00000000000000000002.regtrans-ms
+25/12/2023  02:52 pm                 0 WebCacheLock.dat
+               7 File(s)     14,986,240 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\AppCache
+
+25/12/2023  02:54 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\AppCache\SHNUUCXN
+
+25/12/2023  02:54 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\Application Shortcuts
+
+25/12/2023  02:52 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\Burn\Burn
+
+25/12/2023  02:53 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\Burn\Burn1
+
+11/04/2024  10:06 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\Burn\Burn2
+
+11/04/2024  10:06 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\Burn\Burn3
+
+11/04/2024  10:06 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024040120240408
+
+08/04/2024  10:04 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024040820240415
+
+15/04/2024  12:01 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024041520240422
+
+22/04/2024  09:06 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024042220240423
+
+22/04/2024  09:06 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024042320240424
+
+23/04/2024  12:27 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024042420240425
+
+24/04/2024  12:07 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024042520240426
+
+25/04/2024  12:29 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024042620240427
+
+26/04/2024  12:23 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\History\History.IE5\MSHist012024042720240428
+
+27/04/2024  12:01 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\INetCache\IE
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\INetCookies
+
+27/12/2023  05:35 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\INetCookies\ESE
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\Notifications
+
+27/04/2024  11:07 am                 0 WPNPRMRY.tmp
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\WinX\Group1
+
+07/12/2019  09:12 pm                75 desktop.ini
+               1 File(s)             75 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\WinX\Group2
+
+07/12/2019  09:12 pm               325 desktop.ini
+               1 File(s)            325 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Microsoft\Windows\WinX\Group3
+
+07/12/2019  09:12 pm               941 desktop.ini
+               1 File(s)            941 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\28017CharlesMilette.TranslucentTB_v826wp6bftszj\SystemAppData\Helium
+
+25/12/2023  07:53 am            16,384 User.dat.LOG1
+25/12/2023  07:53 am             8,192 User.dat.LOG2
+25/12/2023  07:53 am             8,192 UserClasses.dat.LOG1
+25/12/2023  07:53 am             8,192 UserClasses.dat.LOG2
+               4 File(s)         40,960 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.AAD.BrokerPlugin_cw5n1h2txyewy\Settings
+
+25/12/2023  02:52 pm             8,192 settings.dat.LOG1
+25/12/2023  02:52 pm                 0 settings.dat.LOG2
+               2 File(s)          8,192 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\AC\INetCache
+
+25/12/2023  07:39 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\AC\INetCookies\ESE
+
+25/12/2023  07:39 am                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\Settings
+
+25/12/2023  02:53 pm             8,192 settings.dat.LOG1
+25/12/2023  02:53 pm                 0 settings.dat.LOG2
+               2 File(s)          8,192 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.DesktopAppInstaller_8wekyb3d8bbwe\SystemAppData\Helium
+
+16/01/2024  06:38 pm             8,192 User.dat.LOG1
+16/01/2024  06:38 pm                 0 User.dat.LOG2
+16/01/2024  06:38 pm             8,192 UserClasses.dat.LOG1
+16/01/2024  06:38 pm                 0 UserClasses.dat.LOG2
+               4 File(s)         16,384 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\XXX302GF
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\AppCache\XXX302GF\2
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\INetCache
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\INetCookies\ESE
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\AC\Microsoft\Internet Explorer\DOMStore
+
+25/12/2023  02:52 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.Search_cw5n1h2txyewy\Settings
+
+25/12/2023  02:52 pm            73,728 settings.dat.LOG1
+25/12/2023  02:52 pm            40,960 settings.dat.LOG2
+               2 File(s)        114,688 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.ShellExperienceHost_cw5n1h2txyewy\Settings
+
+25/12/2023  02:53 pm            32,768 settings.dat.LOG1
+25/12/2023  02:53 pm            32,768 settings.dat.LOG2
+               2 File(s)         65,536 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\AC\GEH
+
+25/12/2023  02:53 pm             8,192 POF.dat.LOG1
+25/12/2023  02:53 pm             8,192 POF.dat.LOG2
+               2 File(s)         16,384 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.Windows.StartMenuExperienceHost_cw5n1h2txyewy\Settings
+
+25/12/2023  02:52 pm            32,768 settings.dat.LOG1
+25/12/2023  02:52 pm             8,192 settings.dat.LOG2
+               2 File(s)         40,960 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\Microsoft.WindowsCalculator_8wekyb3d8bbwe\Settings
+
+30/12/2023  10:15 pm            12,288 settings.dat.LOG1
+30/12/2023  10:15 pm            16,384 settings.dat.LOG2
+               2 File(s)         28,672 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AC\INetCache
+
+25/12/2023  02:53 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\AC\INetCookies\ESE
+
+25/12/2023  02:53 pm                 0 container.dat
+               1 File(s)              0 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\MicrosoftWindows.Client.CBS_cw5n1h2txyewy\Settings
+
+25/12/2023  02:53 pm            32,768 settings.dat.LOG1
+25/12/2023  02:53 pm            32,768 settings.dat.LOG2
+               2 File(s)         65,536 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\NVIDIACorp.NVIDIAControlPanel_56jybvy8sckqj\SystemAppData\Helium
+
+20/01/2024  12:09 pm             8,192 User.dat.LOG1
+20/01/2024  12:09 pm             8,192 User.dat.LOG2
+20/01/2024  12:09 pm             8,192 UserClasses.dat.LOG1
+20/01/2024  12:09 pm                 0 UserClasses.dat.LOG2
+               4 File(s)         24,576 bytes
+
+ Directory of C:\Users\oldin\AppData\Local\Packages\windows.immersivecontrolpanel_cw5n1h2txyewy\Settings
+
+26/02/2024  09:53 pm             8,192 settings.dat.LOG1
+26/02/2024  09:53 pm                 0 settings.dat.LOG2
+               2 File(s)          8,192 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Credentials
+
+27/04/2024  07:59 pm               538 6A1B68D805BDC13DE194D7546B335E37
+25/12/2023  07:37 am               490 DD76822F13ADC704B765BC8FAA13E63C
+               2 File(s)          1,028 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch
+
+07/12/2019  09:12 pm               148 desktop.ini
+               1 File(s)            148 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar
+
+25/12/2023  02:53 pm                83 desktop.ini
+               1 File(s)             83 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Protect
+
+25/12/2023  02:50 pm                24 CREDHIST
+               1 File(s)             24 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Protect\S-1-5-21-2997150457-1502828934-1963821894-1001
+
+24/03/2024  09:38 pm               468 15101e1b-236b-43d0-b20d-fd72ec92bdf0
+25/12/2023  03:00 pm               468 29e6cd23-25ff-40b2-9a97-5310d07797ca
+25/12/2023  07:19 am               468 d3307d85-12c1-46ff-b137-2f9095a9ef0e
+24/03/2024  09:38 pm                24 Preferred
+               4 File(s)          1,428 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\AccountPictures
+
+25/12/2023  02:52 pm               196 desktop.ini
+               1 File(s)            196 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Libraries
+
+25/12/2023  02:53 pm               451 desktop.ini
+               1 File(s)            451 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Recent
+
+25/12/2023  02:52 pm               432 desktop.ini
+               1 File(s)            432 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\SendTo
+
+25/12/2023  02:53 pm               694 desktop.ini
+               1 File(s)            694 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu
+
+25/12/2023  02:52 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs
+
+03/01/2024  09:46 pm               264 desktop.ini
+               1 File(s)            264 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessibility
+
+04/12/2023  02:54 pm               568 desktop.ini
+               1 File(s)            568 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Accessories
+
+25/12/2023  02:52 pm               338 desktop.ini
+               1 File(s)            338 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Administrative Tools
+
+25/12/2023  02:52 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Maintenance
+
+07/12/2019  09:12 pm               170 Desktop.ini
+               1 File(s)            170 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\Startup
+
+25/12/2023  02:52 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\oldin\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\System Tools
+
+07/12/2019  09:12 pm               934 Desktop.ini
+               1 File(s)            934 bytes
+
+ Directory of C:\Users\oldin\Contacts
+
+25/12/2023  02:52 pm               412 desktop.ini
+               1 File(s)            412 bytes
+
+ Directory of C:\Users\oldin\Downloads
+
+27/04/2024  03:23 pm               109 .~lock.ID520 Batch Script File Assignment S1 2024.docx#
+25/12/2023  02:52 pm               282 desktop.ini
+               2 File(s)            391 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\.Grok's Modpack Installer\G.A.M.M.A\modpack_addons\G.A.M.M.A. Weapon Pack\gamedata\textures\wpn\addons
+
+25/03/2022  12:56 am                58 desktop.ini
+               1 File(s)             58 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\274- Dark Signal Audio Pack - Shrike\gamedata\Sounds\material\bullet\collide
+
+30/08/2019  10:40 pm                48 desktop.ini
+               1 File(s)             48 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\274- Dark Signal Audio Pack - Shrike\gamedata\Sounds\weapons\rattle\raise
+
+08/12/2021  05:14 pm                70 desktop.ini
+               1 File(s)             70 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\305- Dux Characters Kit Voices Pack - Demonized\gamedata\sounds\characters_voice\human\greh_1
+
+06/01/2023  10:41 pm                46 desktop.ini
+               1 File(s)             46 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\305- Dux Characters Kit Voices Pack - Demonized\gamedata\sounds\characters_voice\human\greh_3
+
+06/01/2023  10:40 pm                46 desktop.ini
+               1 File(s)             46 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\305- Dux Characters Kit Voices Pack - Demonized\gamedata\sounds\characters_voice\human\isg_1
+
+19/03/2021  10:43 pm               115 desktop.ini
+               1 File(s)            115 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\305- Dux Characters Kit Voices Pack - Demonized\gamedata\sounds\characters_voice\human\killer_2
+
+06/01/2023  10:40 pm                46 desktop.ini
+               1 File(s)             46 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\305- Dux Characters Kit Voices Pack - Demonized\gamedata\sounds\characters_voice\human\stalker_1
+
+06/01/2023  10:40 pm                46 desktop.ini
+               1 File(s)             46 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\305- Dux Characters Kit Voices Pack - Demonized\gamedata\sounds\characters_voice\human\stalker_2
+
+06/01/2023  10:40 pm                46 desktop.ini
+               1 File(s)             46 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\305- Dux Characters Kit Voices Pack - Demonized\gamedata\sounds\characters_voice\human\stalker_3
+
+06/01/2023  10:40 pm                46 desktop.ini
+               1 File(s)             46 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\67- JSRS - Solarint\gamedata\sounds\weapons\_cracks\mono\_new
+
+11/07/2022  12:23 pm               498 desktop.ini
+               1 File(s)            498 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\91- Pretty Pistols Pack - Blackgrowl\gamedata\textures\wpn\tritium
+
+01/03/2022  07:39 am               194 desktop.ini
+               1 File(s)            194 bytes
+
+ Directory of C:\Users\oldin\Downloads\GAMMA RC3\mods\G.A.M.M.A. Weapon Pack\gamedata\textures\wpn\addons
+
+25/03/2022  12:56 am                58 desktop.ini
+               1 File(s)             58 bytes
+
+ Directory of C:\Users\oldin\Favorites
+
+25/12/2023  02:52 pm               402 desktop.ini
+               1 File(s)            402 bytes
+
+ Directory of C:\Users\oldin\Favorites\Links
+
+25/12/2023  02:52 pm                80 desktop.ini
+               1 File(s)             80 bytes
+
+ Directory of C:\Users\oldin\Links
+
+25/12/2023  02:52 pm               504 desktop.ini
+               1 File(s)            504 bytes
+
+ Directory of C:\Users\oldin\Music
+
+25/12/2023  02:52 pm               504 desktop.ini
+               1 File(s)            504 bytes
+
+ Directory of C:\Users\oldin\OneDrive
+
+25/12/2023  03:00 pm                63 .849C9593-D756-4E56-8D6E-42412F2A707B
+25/12/2023  02:53 pm                96 desktop.ini
+               2 File(s)            159 bytes
+
+ Directory of C:\Users\oldin\OneDrive\Desktop
+
+25/12/2023  02:54 pm               282 desktop.ini
+               1 File(s)            282 bytes
+
+ Directory of C:\Users\oldin\OneDrive\Documents
+
+25/12/2023  02:54 pm               418 desktop.ini
+               1 File(s)            418 bytes
+
+ Directory of C:\Users\oldin\OneDrive\Pictures
+
+25/12/2023  02:54 pm               520 desktop.ini
+               1 File(s)            520 bytes
+
+ Directory of C:\Users\oldin\OneDrive\Pictures\Camera Roll
+
+25/12/2023  02:54 pm               190 desktop.ini
+               1 File(s)            190 bytes
+
+ Directory of C:\Users\oldin\OneDrive\Pictures\Saved Pictures
+
+25/12/2023  02:53 pm               190 desktop.ini
+               1 File(s)            190 bytes
+
+ Directory of C:\Users\oldin\OneDrive\Pictures\Screenshots
+
+25/12/2023  02:54 pm               190 desktop.ini
+               1 File(s)            190 bytes
+
+ Directory of C:\Users\oldin\Saved Games
+
+25/12/2023  02:52 pm               282 desktop.ini
+               1 File(s)            282 bytes
+
+ Directory of C:\Users\oldin\Searches
+
+25/12/2023  02:52 pm               524 desktop.ini
+25/12/2023  02:52 pm               248 Everywhere.search-ms
+25/12/2023  02:52 pm               248 Indexed Locations.search-ms
+               3 File(s)          1,020 bytes
+
+ Directory of C:\Users\oldin\Videos
+
+25/12/2023  02:52 pm               504 desktop.ini
+               1 File(s)            504 bytes
+
+ Directory of C:\Users\oldin\Videos\Captures
+
+02/04/2024  07:46 pm               190 desktop.ini
+               1 File(s)            190 bytes
+
+ Directory of C:\Users\Public
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\Public\AccountPictures
+
+25/12/2023  02:52 pm               196 desktop.ini
+               1 File(s)            196 bytes
+
+ Directory of C:\Users\Public\AccountPictures\S-1-5-21-2997150457-1502828934-1963821894-1001
+
+25/12/2023  02:53 pm            39,059 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image1080.jpg
+25/12/2023  02:53 pm             4,144 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image192.jpg
+25/12/2023  02:53 pm             4,628 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image208.jpg
+25/12/2023  02:53 pm             5,580 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image240.jpg
+25/12/2023  02:53 pm               959 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image32.jpg
+25/12/2023  02:53 pm             1,130 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image40.jpg
+25/12/2023  02:53 pm            10,588 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image424.jpg
+25/12/2023  02:53 pm            11,451 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image448.jpg
+25/12/2023  02:53 pm             1,288 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image48.jpg
+25/12/2023  02:53 pm             1,498 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image64.jpg
+25/12/2023  02:53 pm             1,986 {813A9225-CFFF-4A1A-85C1-50BE58BC58F7}-Image96.jpg
+              11 File(s)         82,311 bytes
+
+ Directory of C:\Users\Public\Desktop
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\Public\Documents
+
+07/12/2019  09:12 pm               278 desktop.ini
+               1 File(s)            278 bytes
+
+ Directory of C:\Users\Public\Downloads
+
+07/12/2019  09:12 pm               174 desktop.ini
+               1 File(s)            174 bytes
+
+ Directory of C:\Users\Public\Libraries
+
+07/12/2019  09:12 pm               175 desktop.ini
+               1 File(s)            175 bytes
+
+ Directory of C:\Users\Public\Music
+
+07/12/2019  09:12 pm               380 desktop.ini
+               1 File(s)            380 bytes
+
+ Directory of C:\Users\Public\Pictures
+
+07/12/2019  09:12 pm               380 desktop.ini
+               1 File(s)            380 bytes
+
+ Directory of C:\Users\Public\Videos
+
+07/12/2019  09:12 pm               380 desktop.ini
+               1 File(s)            380 bytes
+
+ Directory of C:\Windows
+
+07/12/2019  09:09 pm               670 WindowsShell.Manifest
+               1 File(s)            670 bytes
+
+ Directory of C:\Windows\assembly
+
+25/12/2023  08:42 pm               227 Desktop.ini
+25/12/2023  03:18 pm                 0 PublisherPolicy.tme
+25/12/2023  03:18 pm                 0 pubpol5.dat
+               3 File(s)            227 bytes
+
+ Directory of C:\Windows\assembly\NativeImages_v2.0.50727_32
+
+26/12/2023  03:59 pm                 0 index1e.dat
+26/12/2023  03:59 pm                 0 index1f.dat
+               2 File(s)              0 bytes
+
+ Directory of C:\Windows\assembly\NativeImages_v2.0.50727_64
+
+26/12/2023  03:58 pm                 0 index20.dat
+26/12/2023  03:58 pm                 0 index21.dat
+26/12/2023  02:24 pm                 0 indexc.dat
+               3 File(s)              0 bytes
+
+ Directory of C:\Windows\BitLockerDiscoveryVolumeContents
+
+07/12/2019  09:53 pm             9,216 ar-SA_BitLockerToGo.exe.mui
+07/12/2019  09:10 pm               116 autorun.inf
+07/12/2019  09:53 pm             9,216 bg-BG_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             8,704 cs-CZ_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 da-DK_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm            10,240 de-DE_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm            10,752 el-GR_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             8,704 en-GB_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             8,704 en-US_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 es-ES_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 es-MX_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             8,704 et-EE_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 fi-FI_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm            10,240 fr-CA_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm            10,240 fr-FR_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             8,192 he-IL_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 hr-HR_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 hu-HU_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 it-IT_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             7,168 ja-JP_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             7,168 ko-KR_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 lt-LT_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 lv-LV_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 nb-NO_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 nl-NL_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 pl-PL_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 pt-BR_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 pt-PT_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 ro-RO_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 ru-RU_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 sk-SK_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 sl-SI_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,728 sr-Latn-RS_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             8,704 sv-SE_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             8,704 th-TH_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 tr-TR_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             9,216 uk-UA_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             6,656 zh-CN_BitLockerToGo.exe.mui
+07/12/2019  09:53 pm             6,656 zh-TW_BitLockerToGo.exe.mui
+              39 File(s)        346,740 bytes
+
+ Directory of C:\Windows\Downloaded Program Files
+
+07/12/2019  09:12 pm                65 desktop.ini
+               1 File(s)             65 bytes
+
+ Directory of C:\Windows\Fonts
+
+07/12/2019  09:12 pm            84,241 fms_metadata.xml
+               1 File(s)         84,241 bytes
+
+ Directory of C:\Windows\Media
+
+07/12/2019  09:12 pm             3,050 Desktop.ini
+               1 File(s)          3,050 bytes
+
+ Directory of C:\Windows\Offline Web Pages
+
+07/12/2019  09:12 pm                65 desktop.ini
+               1 File(s)             65 bytes
+
+ Directory of C:\Windows\System32\drivers
+
+26/12/2023  11:46 am                 0 Msft_User_WpdFs_01_11_00.Wdf
+               1 File(s)              0 bytes
+
+ Directory of C:\Windows\System32\Microsoft\Protect\S-1-5-18
+
+26/12/2023  11:47 am               468 5f32a5c2-87e2-4aa5-95b7-c86811579630
+29/03/2024  02:18 pm               468 bc870652-bf69-4e2c-8071-e1e5c337f31f
+25/12/2023  07:36 am               468 d942867c-4197-4a9a-b3b5-1555b03bbb28
+26/12/2023  11:47 am               468 e18aeafb-0ead-474a-8301-35fdb96d7573
+29/03/2024  02:18 pm                24 Preferred
+               5 File(s)          1,896 bytes
+
+ Directory of C:\Windows\System32\Microsoft\Protect\S-1-5-18\User
+
+26/12/2023  11:47 am               468 478c15fd-afe8-4379-bbde-f8798966e8d7
+25/12/2023  07:53 am               468 a3810180-5deb-45eb-95bb-be92cd4fc11e
+25/12/2023  07:19 am                32 Diagnostic
+24/03/2024  03:29 pm               468 f9ebb51c-d0c6-4349-bc6b-e414c7529bf5
+26/12/2023  11:47 am               468 fb4c68b3-0e04-4dc4-9b1f-3a258d36dc75
+24/03/2024  03:29 pm                24 Preferred
+               6 File(s)          1,928 bytes
+
+ Directory of C:\Windows\System32\SMI\Store\Machine
+
+07/12/2019  09:03 pm             8,192 SCHEMA.DAT.LOG1
+07/12/2019  09:03 pm             8,192 SCHEMA.DAT.LOG2
+25/12/2023  08:41 pm            65,536 SCHEMA.DAT{53b39e94-18c4-11ea-a811-000d3aa4692b}.TM.blf
+25/12/2023  08:41 pm           524,288 SCHEMA.DAT{53b39e94-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000001.regtrans-ms
+25/12/2023  02:49 pm           524,288 SCHEMA.DAT{53b39e94-18c4-11ea-a811-000d3aa4692b}.TMContainer00000000000000000002.regtrans-ms
+               5 File(s)      1,130,496 bytes
+
+ Directory of C:\Windows\System32\spp\store\2.0
+
+25/04/2024  05:51 pm             6,496 data.dat
+               1 File(s)          6,496 bytes
+
+ Directory of C:\Windows\Tasks
+
+27/04/2024  11:07 am                 6 SA.DAT
+               1 File(s)              6 bytes
+
+ Directory of C:\Windows\Web\Wallpaper\Theme1
+
+07/12/2019  09:12 pm                81 Desktop.ini
+               1 File(s)             81 bytes
+
+ Directory of C:\Windows\Web\Wallpaper\Theme2
+
+07/12/2019  09:12 pm                81 Desktop.ini
+               1 File(s)             81 bytes
+
+ Directory of C:\Windows\WinSxS\amd64_microsoft-windows-shell32_31bf3856ad364e35_10.0.19041.3758_none_e0b7c4b9c756e3d6
+
+07/12/2019  09:09 pm               670 WindowsShell.Manifest
+               1 File(s)            670 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_ar-sa_1a5d43fd89b7652f
+
+07/12/2019  09:53 pm             9,216 ar-SA_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_bg-bg_c09d25867a37b686
+
+07/12/2019  09:53 pm             9,216 bg-BG_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_cs-cz_6ba69c2167bf92b1
+
+07/12/2019  09:53 pm             8,704 cs-CZ_BitLockerToGo.exe.mui
+               1 File(s)          8,704 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_da-dk_08e07c485e058eb0
+
+07/12/2019  09:53 pm             9,216 da-DK_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_de-de_060c11845fdbe34a
+
+07/12/2019  09:53 pm            10,240 de-DE_BitLockerToGo.exe.mui
+               1 File(s)         10,240 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_el-gr_aea23f174ef14bd8
+
+07/12/2019  09:53 pm            10,752 el-GR_BitLockerToGo.exe.mui
+               1 File(s)         10,752 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_en-gb_a7742c5f53913b4a
+
+07/12/2019  09:53 pm             8,704 en-GB_BitLockerToGo.exe.mui
+               1 File(s)          8,704 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_en-us_aefce77d4eb9ef0f
+
+07/12/2019  09:53 pm             8,704 en-US_BitLockerToGo.exe.mui
+               1 File(s)          8,704 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_es-es_aec844614ee0e0b4
+
+07/12/2019  09:53 pm             9,216 es-ES_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_es-mx_b0ff32074d74c45f
+
+07/12/2019  09:53 pm             9,216 es-MX_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_et-ee_a8880ff152e6bd43
+
+07/12/2019  09:53 pm             8,704 et-EE_BitLockerToGo.exe.mui
+               1 File(s)          8,704 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_fi-fi_4de3490e43fad2de
+
+07/12/2019  09:53 pm             9,728 fi-FI_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_fr-ca_49f604aa468b5d3c
+
+07/12/2019  09:53 pm            10,240 fr-CA_BitLockerToGo.exe.mui
+               1 File(s)         10,240 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_fr-fr_517fba6041b2f716
+
+07/12/2019  09:53 pm            10,240 fr-FR_BitLockerToGo.exe.mui
+               1 File(s)         10,240 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_he-il_959f62022821f804
+
+07/12/2019  09:53 pm             8,192 he-IL_BitLockerToGo.exe.mui
+               1 File(s)          8,192 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_hr-hr_97bc14e226d564ca
+
+07/12/2019  09:53 pm             9,216 hr-HR_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_hu-hu_98f03aa82612c632
+
+07/12/2019  09:53 pm             9,728 hu-HU_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_it-it_3ba7b0a718e4dc94
+
+07/12/2019  09:53 pm             9,216 it-IT_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_ja-jp_ddcd2fb40bffee6f
+
+07/12/2019  09:53 pm             7,168 ja-JP_BitLockerToGo.exe.mui
+               1 File(s)          7,168 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_ko-kr_81370c68fe70b585
+
+07/12/2019  09:53 pm             7,168 ko-KR_BitLockerToGo.exe.mui
+               1 File(s)          7,168 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_lt-lt_25023869f0988122
+
+07/12/2019  09:53 pm             9,728 lt-LT_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_lv-lv_25cfa6edf016c212
+
+07/12/2019  09:53 pm             9,216 lv-LV_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_nb-no_69c98d9dd695e141
+
+07/12/2019  09:53 pm             9,216 nb-NO_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_nl-nl_6808d8dbd7c1eb16
+
+07/12/2019  09:53 pm             9,728 nl-NL_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_pl-pl_ae45335dbce458ca
+
+07/12/2019  09:53 pm             9,728 pl-PL_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_pt-br_b0991e01bb6decae
+
+07/12/2019  09:53 pm             9,728 pt-BR_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_pt-pt_b17aed6dbadd5c8a
+
+07/12/2019  09:53 pm             9,728 pt-PT_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_ro-ro_f5b5b3a5a14427e6
+
+07/12/2019  09:53 pm             9,728 ro-RO_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_ru-ru_f81dff319fbeeab6
+
+07/12/2019  09:53 pm             9,728 ru-RU_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_sk-sk_973903de94d8dce0
+
+07/12/2019  09:53 pm             9,216 sk-SK_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_sl-si_964b25969572efc3
+
+07/12/2019  09:53 pm             9,216 sl-SI_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_sr-..-rs_3c7b8ddb0a8496f4
+
+07/12/2019  09:53 pm             9,728 sr-Latn-RS_BitLockerToGo.exe.mui
+               1 File(s)          9,728 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_sv-se_9418e9a696e7f511
+
+07/12/2019  09:53 pm             8,704 sv-SE_BitLockerToGo.exe.mui
+               1 File(s)          8,704 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_th-th_39230b59882cb252
+
+07/12/2019  09:53 pm             8,704 th-TH_BitLockerToGo.exe.mui
+               1 File(s)          8,704 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_tr-tr_3d2633ed85a3f702
+
+07/12/2019  09:53 pm             9,216 tr-TR_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_uk-ua_d90616947cd51d4e
+
+07/12/2019  09:53 pm             9,216 uk-UA_BitLockerToGo.exe.mui
+               1 File(s)          9,216 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_zh-cn_0e8351eb35dbc921
+
+07/12/2019  09:53 pm             6,656 zh-CN_BitLockerToGo.exe.mui
+               1 File(s)          6,656 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..-binaries.resources_31bf3856ad364e35_10.0.19041.1_zh-tw_127f8f41334ca591
+
+07/12/2019  09:53 pm             6,656 zh-TW_BitLockerToGo.exe.mui
+               1 File(s)          6,656 bytes
+
+ Directory of C:\Windows\WinSxS\x86_microsoft-windows-s..ccessagent-binaries_31bf3856ad364e35_10.0.19041.1_none_3802d0d85b60df4c
+
+07/12/2019  09:10 pm               116 autorun.inf
+               1 File(s)            116 bytes
+
+     Total Files Listed:
+             369 File(s)  5,145,749,968 bytes
+               0 Dir(s)  80,646,574,080 bytes free

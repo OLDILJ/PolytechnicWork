@@ -1,0 +1,1 @@
+start cmd /k "chkdsk C: > \Desktop\chkdskResults.txt"

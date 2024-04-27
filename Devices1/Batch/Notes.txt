@@ -1,0 +1,22 @@
+d -- drive
+p -- path
+n -- file name
+x -- extension
+f -- full path
+
+@echo off
+
+SETLOCAL EnableDelayedExpansion
+
+echo Full path and filename: %~f0
+echo Drive: %~d0
+echo Path: %~p0
+echo Drive and path: %~dp0
+echo Filename without extension: %~n0
+echo Filename with    extension: %~nx0
+echo Extension: %~x0
+
+echo date time : %~t0
+echo file size: %~z0
+
+ENDLOCAL
