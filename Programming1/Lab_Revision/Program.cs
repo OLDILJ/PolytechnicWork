@@ -29,7 +29,10 @@ PlayerAge = Convert.ToInt32(Console.ReadLine());
 if (PlayerAge > AgeBarrier)
 {
     Console.WriteLine("WONDERFUL ENJOY YOUR STAY");
-    GameStart:
+    GameStart();
+    void GameStart()
+    {
+    
         
         Console.WriteLine("YOU HAVE AN APPOINTMENT FOR A 5 ROUND MATCH?");
         //RoundCount = Convert.ToInt32(Console.ReadLine());
@@ -113,11 +116,11 @@ if (PlayerAge > AgeBarrier)
             if (PlayerResponse.Equals("1") || PlayerResponse.Equals("yes") || PlayerResponse.Equals("y"))
                 {
                     CurrentRound = 0;
-                    goto GameStart;
+                    GameStart();
                 }
             else
             {
-                goto GameEnd;
+                GameEnd();
             }
 
 
@@ -126,8 +129,9 @@ if (PlayerAge > AgeBarrier)
         else 
         {
             Console.WriteLine("NO?");
-            goto GameEnd;
+            GameEnd();
         }
+    }
         
         
 
@@ -137,9 +141,11 @@ if (PlayerAge > AgeBarrier)
 else
 {
     Console.WriteLine($"COME BACK IN {AgeBarrier - PlayerAge + 1} YEARS KID");
-    goto FIN;
+    FIN();
 }
-    GameEnd:
+void GameEnd()
+{
+    
     Console.WriteLine("THANKS FOR COMING TO CLYDE'S CASINO");
     Console.WriteLine("HOPE YOU ENJOYED YOUR STAY COME AGAIN SOON!");
     if (PlayerBalance > 0)
@@ -152,12 +158,15 @@ else
     }
     else
     {
-        goto FIN;
+        FIN();
     }
+}
 
-    goto FIN;
-    FIN:
+    FIN();
+static void FIN()
+{
     Console.ReadLine();
+}
 /*
 //CLYDE'S CASINO GOOD EDITION
 Console.WriteLine("WELCOME TO CLYDE'S CASINO");
