@@ -1,0 +1,15 @@
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\bin\Debug\net8.0\Checksumcalc.exe
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\bin\Debug\net8.0\Checksumcalc.deps.json
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\bin\Debug\net8.0\Checksumcalc.runtimeconfig.json
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\bin\Debug\net8.0\Checksumcalc.dll
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\bin\Debug\net8.0\Checksumcalc.pdb
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.GeneratedMSBuildEditorConfig.editorconfig
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.AssemblyInfoInputs.cache
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.AssemblyInfo.cs
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.csproj.CoreCompileInputs.cache
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.sourcelink.json
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.dll
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\refint\Checksumcalc.dll
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.pdb
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\Checksumcalc.genruntimeconfig.cache
+C:\Poly\PolytechnicWork\Mathmatics 1\Checksumcalc\obj\Debug\net8.0\ref\Checksumcalc.dll

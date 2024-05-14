@@ -1,0 +1,15 @@
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\bin\Debug\net8.0\RNG.exe
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\bin\Debug\net8.0\RNG.deps.json
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\bin\Debug\net8.0\RNG.runtimeconfig.json
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\bin\Debug\net8.0\RNG.dll
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\bin\Debug\net8.0\RNG.pdb
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.GeneratedMSBuildEditorConfig.editorconfig
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.AssemblyInfoInputs.cache
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.AssemblyInfo.cs
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.csproj.CoreCompileInputs.cache
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.sourcelink.json
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.dll
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\refint\RNG.dll
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.pdb
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\RNG.genruntimeconfig.cache
+C:\Poly\PolytechnicWork\Mathmatics 1\RNG\obj\Debug\net8.0\ref\RNG.dll
