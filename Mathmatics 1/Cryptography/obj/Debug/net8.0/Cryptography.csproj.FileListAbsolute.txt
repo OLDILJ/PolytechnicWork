@@ -1,0 +1,15 @@
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\bin\Debug\net8.0\Cryptography.exe
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\bin\Debug\net8.0\Cryptography.deps.json
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\bin\Debug\net8.0\Cryptography.runtimeconfig.json
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\bin\Debug\net8.0\Cryptography.dll
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\bin\Debug\net8.0\Cryptography.pdb
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.GeneratedMSBuildEditorConfig.editorconfig
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.AssemblyInfoInputs.cache
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.AssemblyInfo.cs
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.csproj.CoreCompileInputs.cache
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.sourcelink.json
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.dll
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\refint\Cryptography.dll
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.pdb
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\Cryptography.genruntimeconfig.cache
+C:\Oldilj\PolytechnicWork\Mathmatics 1\Cryptography\obj\Debug\net8.0\ref\Cryptography.dll
