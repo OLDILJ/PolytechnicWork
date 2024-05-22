@@ -1,0 +1,15 @@
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\bin\Debug\net8.0\testenvironment.exe
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\bin\Debug\net8.0\testenvironment.deps.json
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\bin\Debug\net8.0\testenvironment.runtimeconfig.json
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\bin\Debug\net8.0\testenvironment.dll
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\bin\Debug\net8.0\testenvironment.pdb
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.GeneratedMSBuildEditorConfig.editorconfig
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.AssemblyInfoInputs.cache
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.AssemblyInfo.cs
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.csproj.CoreCompileInputs.cache
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.sourcelink.json
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.dll
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\refint\testenvironment.dll
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.pdb
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\testenvironment.genruntimeconfig.cache
+C:\PolytechnicWork\Mathmatics 1\Cryptography\testenvironment\obj\Debug\net8.0\ref\testenvironment.dll

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\Cryptography.csproj": {}
+    "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\testenvironment\\testenvironment.csproj": {}
   },
   "projects": {
-    "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\Cryptography.csproj": {
+    "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\testenvironment\\testenvironment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\Cryptography.csproj",
-        "projectName": "Cryptography",
-        "projectPath": "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\Cryptography.csproj",
+        "projectUniqueName": "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\testenvironment\\testenvironment.csproj",
+        "projectName": "testenvironment",
+        "projectPath": "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\testenvironment\\testenvironment.csproj",
         "packagesPath": "C:\\Users\\oldilj1\\.nuget\\packages\\",
-        "outputPath": "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\obj\\",
+        "outputPath": "C:\\PolytechnicWork\\Mathmatics 1\\Cryptography\\testenvironment\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
