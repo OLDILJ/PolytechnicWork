@@ -1,0 +1,15 @@
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\bin\Debug\net8.0\MathTestCS.exe
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\bin\Debug\net8.0\MathTestCS.deps.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\bin\Debug\net8.0\MathTestCS.runtimeconfig.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\bin\Debug\net8.0\MathTestCS.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\bin\Debug\net8.0\MathTestCS.pdb
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.AssemblyInfoInputs.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.AssemblyInfo.cs
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.csproj.CoreCompileInputs.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.sourcelink.json
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\refint\MathTestCS.dll
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.pdb
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\MathTestCS.genruntimeconfig.cache
+C:\Users\oldilj1\Documents\GitHub\PolytechnicWork\Mathmatics 1\MathTestCS\obj\Debug\net8.0\ref\MathTestCS.dll
