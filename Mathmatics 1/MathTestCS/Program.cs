@@ -514,3 +514,4 @@ static void Cryptography()
         }
 
     }
+        Console.ReadLine();
