@@ -1,0 +1,2 @@
+//Makes directories from the first number (15) increasing in the second number (1) to the third number (25) with the prefix Lab_
+for /l %i in (15,1,25) do md "Lab_%i"
