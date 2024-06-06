@@ -1,0 +1,15 @@
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\bin\Debug\net8.0\test_0.exe
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\bin\Debug\net8.0\test_0.deps.json
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\bin\Debug\net8.0\test_0.runtimeconfig.json
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\bin\Debug\net8.0\test_0.dll
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\bin\Debug\net8.0\test_0.pdb
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.GeneratedMSBuildEditorConfig.editorconfig
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.AssemblyInfoInputs.cache
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.AssemblyInfo.cs
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.csproj.CoreCompileInputs.cache
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.sourcelink.json
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.dll
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\refint\test_0.dll
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.pdb
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\test_0.genruntimeconfig.cache
+D:\ljo\PolytechnicWork\Mathmatics 1\Algorithms\test_0\obj\Debug\net8.0\ref\test_0.dll
