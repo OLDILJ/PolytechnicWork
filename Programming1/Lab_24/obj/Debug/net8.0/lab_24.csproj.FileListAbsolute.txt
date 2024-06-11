@@ -1,0 +1,15 @@
+D:\test\PolytechnicWork\Programming1\lab_24\bin\Debug\net8.0\lab_24.exe
+D:\test\PolytechnicWork\Programming1\lab_24\bin\Debug\net8.0\lab_24.deps.json
+D:\test\PolytechnicWork\Programming1\lab_24\bin\Debug\net8.0\lab_24.runtimeconfig.json
+D:\test\PolytechnicWork\Programming1\lab_24\bin\Debug\net8.0\lab_24.dll
+D:\test\PolytechnicWork\Programming1\lab_24\bin\Debug\net8.0\lab_24.pdb
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.AssemblyInfoInputs.cache
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.AssemblyInfo.cs
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.csproj.CoreCompileInputs.cache
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.sourcelink.json
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.dll
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\refint\lab_24.dll
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.pdb
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\lab_24.genruntimeconfig.cache
+D:\test\PolytechnicWork\Programming1\lab_24\obj\Debug\net8.0\ref\lab_24.dll
