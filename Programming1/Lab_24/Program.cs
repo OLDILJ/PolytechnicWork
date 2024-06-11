@@ -19,8 +19,8 @@ switch(UserResponse)
         UserResponse2 = Convert.ToInt32(Console.ReadLine());
         while (numbers.Count < UserResponse2)
         {
-            numbers.Add(rand.Next(0,9)); 
-            UserResponse2 = UserResponse2 + 1;
+            numbers.Add(rand.Next(1,11)); 
+            //UserResponse2 = UserResponse2 + 1;
             Console.WriteLine("One Slot Filled");
             Console.WriteLine(UserResponse2);
             Console.WriteLine(numbers.Count);
@@ -38,6 +38,10 @@ switch(UserResponse)
 
 
 GnomeSort(numbers);
+foreach(var number in numbers)
+{
+    Console.WriteLine(number);
+}
 void GnomeSort (List<int> numbers)
 {
     while (position < numbers.Count)
