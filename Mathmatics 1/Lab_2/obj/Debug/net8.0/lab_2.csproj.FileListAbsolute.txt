@@ -1,0 +1,15 @@
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.AssemblyInfoInputs.cache
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.AssemblyInfo.cs
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.csproj.CoreCompileInputs.cache
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.sourcelink.json
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\bin\Debug\net8.0\lab_2.exe
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\bin\Debug\net8.0\lab_2.deps.json
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\bin\Debug\net8.0\lab_2.runtimeconfig.json
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\bin\Debug\net8.0\lab_2.dll
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\bin\Debug\net8.0\lab_2.pdb
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.dll
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\refint\lab_2.dll
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.pdb
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\lab_2.genruntimeconfig.cache
+D:\test\PolytechnicWork\Mathmatics 1\Lab_2\obj\Debug\net8.0\ref\lab_2.dll

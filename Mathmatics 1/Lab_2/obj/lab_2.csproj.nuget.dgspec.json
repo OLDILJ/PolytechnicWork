@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\test\\PolytechnicWork\\Mathmatics 1\\lab_2\\lab_2.csproj": {}
+    "D:\\test\\PolytechnicWork\\Mathmatics 1\\Lab_2\\lab_2.csproj": {}
   },
   "projects": {
-    "D:\\test\\PolytechnicWork\\Mathmatics 1\\lab_2\\lab_2.csproj": {
+    "D:\\test\\PolytechnicWork\\Mathmatics 1\\Lab_2\\lab_2.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\test\\PolytechnicWork\\Mathmatics 1\\lab_2\\lab_2.csproj",
+        "projectUniqueName": "D:\\test\\PolytechnicWork\\Mathmatics 1\\Lab_2\\lab_2.csproj",
         "projectName": "lab_2",
-        "projectPath": "D:\\test\\PolytechnicWork\\Mathmatics 1\\lab_2\\lab_2.csproj",
+        "projectPath": "D:\\test\\PolytechnicWork\\Mathmatics 1\\Lab_2\\lab_2.csproj",
         "packagesPath": "C:\\Users\\oldilj1\\.nuget\\packages\\",
-        "outputPath": "D:\\test\\PolytechnicWork\\Mathmatics 1\\lab_2\\obj\\",
+        "outputPath": "D:\\test\\PolytechnicWork\\Mathmatics 1\\Lab_2\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
