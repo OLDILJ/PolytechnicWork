@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\test\\PolytechnicWork\\Programming1\\Lab_21 (Assignment)\\Lab_21.csproj": {}
+    "D:\\test\\PolytechnicWork\\Programming1\\TestEnviroment\\RNGToSum\\RNGToSum.csproj": {}
   },
   "projects": {
-    "D:\\test\\PolytechnicWork\\Programming1\\Lab_21 (Assignment)\\Lab_21.csproj": {
+    "D:\\test\\PolytechnicWork\\Programming1\\TestEnviroment\\RNGToSum\\RNGToSum.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\test\\PolytechnicWork\\Programming1\\Lab_21 (Assignment)\\Lab_21.csproj",
-        "projectName": "Lab_21",
-        "projectPath": "D:\\test\\PolytechnicWork\\Programming1\\Lab_21 (Assignment)\\Lab_21.csproj",
+        "projectUniqueName": "D:\\test\\PolytechnicWork\\Programming1\\TestEnviroment\\RNGToSum\\RNGToSum.csproj",
+        "projectName": "RNGToSum",
+        "projectPath": "D:\\test\\PolytechnicWork\\Programming1\\TestEnviroment\\RNGToSum\\RNGToSum.csproj",
         "packagesPath": "C:\\Users\\oldilj1\\.nuget\\packages\\",
-        "outputPath": "D:\\test\\PolytechnicWork\\Programming1\\Lab_21 (Assignment)\\obj\\",
+        "outputPath": "D:\\test\\PolytechnicWork\\Programming1\\TestEnviroment\\RNGToSum\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

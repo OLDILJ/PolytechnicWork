@@ -28,3 +28,18 @@ C:\PolytechnicWork\Programming1\lab_21\bin\Debug\net8.0\Lab_21.dll
 C:\PolytechnicWork\Programming1\lab_21\bin\Debug\net8.0\Lab_21.pdb
 C:\PolytechnicWork\Programming1\lab_21\obj\Debug\net8.0\Lab_21.genruntimeconfig.cache
 C:\PolytechnicWork\Programming1\lab_21\obj\Debug\net8.0\ref\Lab_21.dll
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.AssemblyInfoInputs.cache
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.AssemblyInfo.cs
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.csproj.CoreCompileInputs.cache
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.sourcelink.json
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.dll
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\refint\Lab_21.dll
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.pdb
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\bin\Debug\net8.0\Lab_21.exe
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\bin\Debug\net8.0\Lab_21.deps.json
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\bin\Debug\net8.0\Lab_21.runtimeconfig.json
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\bin\Debug\net8.0\Lab_21.dll
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\bin\Debug\net8.0\Lab_21.pdb
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\Lab_21.genruntimeconfig.cache
+D:\test\PolytechnicWork\Programming1\Lab_21 (Assignment)\obj\Debug\net8.0\ref\Lab_21.dll

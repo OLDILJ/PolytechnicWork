@@ -1,0 +1,15 @@
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\bin\Debug\net8.0\RNGToSum.exe
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\bin\Debug\net8.0\RNGToSum.deps.json
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\bin\Debug\net8.0\RNGToSum.runtimeconfig.json
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\bin\Debug\net8.0\RNGToSum.dll
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\bin\Debug\net8.0\RNGToSum.pdb
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.AssemblyInfoInputs.cache
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.AssemblyInfo.cs
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.csproj.CoreCompileInputs.cache
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.sourcelink.json
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.dll
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\refint\RNGToSum.dll
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.pdb
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\RNGToSum.genruntimeconfig.cache
+D:\test\PolytechnicWork\Programming1\TestEnviroment\RNGToSum\obj\Debug\net8.0\ref\RNGToSum.dll

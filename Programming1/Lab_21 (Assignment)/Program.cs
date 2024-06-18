@@ -15,6 +15,10 @@
 
             FamFeudPlayers[] Players = new FamFeudPlayers[27];
             //vector<string> FamFeudPlayers;
+            Random rand = new Random();
+            int total = 100;
+            int IntSize = 5;
+            int[] nums;
             int PlayerCharactersMade = 0;
             int StartedGame = 0;
             string PlayerChoice;
@@ -77,8 +81,21 @@
                 Console.WriteLine($"Please enter Contestants #{PlayerCharactersMade-1}'s INTEREST");
                 Players[PlayerCharactersMade-1].Interest = Console.ReadLine();
 
-
-
+            }
+            int[] RNGToSum(int IntSize, int Total)
+            {
+                {
+                    nums = new int[IntSize];
+                    for (int i = 0; i < IntSize; i++)
+                    {
+                        int sum = nums.Sum();
+                        nums[i] = rand.Next(0,(Total - sum));
+                        Console.WriteLine($"number #{i} generated");
+                    }
+                    int sum1 = nums.Sum();
+                    nums[IntSize-1] = (Total - sum1);
+                }
+                return nums;
             }
             void TextReader()
             {
