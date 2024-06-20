@@ -1,0 +1,15 @@
+C:\test\PolytechnicWork\Exams\Mathematics 1\bin\Debug\net8.0\Mathematics 1.exe
+C:\test\PolytechnicWork\Exams\Mathematics 1\bin\Debug\net8.0\Mathematics 1.deps.json
+C:\test\PolytechnicWork\Exams\Mathematics 1\bin\Debug\net8.0\Mathematics 1.runtimeconfig.json
+C:\test\PolytechnicWork\Exams\Mathematics 1\bin\Debug\net8.0\Mathematics 1.dll
+C:\test\PolytechnicWork\Exams\Mathematics 1\bin\Debug\net8.0\Mathematics 1.pdb
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.AssemblyInfoInputs.cache
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.AssemblyInfo.cs
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.csproj.CoreCompileInputs.cache
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.sourcelink.json
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.dll
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\refint\Mathematics 1.dll
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.pdb
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\Mathematics 1.genruntimeconfig.cache
+C:\test\PolytechnicWork\Exams\Mathematics 1\obj\Debug\net8.0\ref\Mathematics 1.dll
