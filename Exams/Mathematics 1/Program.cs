@@ -5,11 +5,11 @@ Console.WriteLine("Welcome To Logan's Logic Gate Simulator!");
 
 // 0 = off
 // 1 = on
-int a = 1; // and gate
-int b = 1; // and gate
-int c = 0; // exclusive or gate
-int d = 0; // and gate result
-int result = 0; // exclusive gate result
+int a = 0; // and gate
+int b = 0; // and gate
+int c = 1; // exclusive or gate
+int d = 1; // and gate result
+int result = 1; // exclusive gate result
 string ExitString = "";
 while (ExitString != "EXIT")
 {
@@ -22,7 +22,7 @@ while (ExitString != "EXIT")
     Console.WriteLine("Integer C: ");
     c = Convert.ToInt32(Console.ReadLine());
     AndGate(a,b);
-    Console.WriteLine(d);
+    //Console.WriteLine(d);
     ExclusiveOr(c,d);
 
     Console.WriteLine($"The Final Result was {result}");
@@ -43,12 +43,17 @@ int AndGate (int a, int b)
             Console.WriteLine("AndGate Step 2 Pass");
             d = 1;
         }
+        else
+        {
+            d = 0;
+        }
     }
     else
     {
         d = 0;
         Console.WriteLine("AndGate Step 1 Fail");
     }
+    //Console.WriteLine($"D = {d}");
     return d;
 }
 
@@ -58,20 +63,28 @@ int AndGate (int a, int b)
 // c = on d = on result = off
 int ExclusiveOr (int d, int c)
 {
+    Console.WriteLine($"C = {c}");
+    Console.WriteLine($"D = {d}");
     if (d != c)
     {
         Console.WriteLine("ExclusiveOr Step 1 Pass");
         if (d == 1)
         {
             Console.WriteLine("ExclusiveOr Step 2.1 Pass");
-            result = 1;
+            result = 0;
         }
         if (c == 1)
         {
             Console.WriteLine("ExclusiveOr Step 2.2 Pass");
-            result = 1;
+            result = 0;
         }
     }
+    else 
+    {
+        result = 1;
+    }
+    
+
 
     return result;
 }
