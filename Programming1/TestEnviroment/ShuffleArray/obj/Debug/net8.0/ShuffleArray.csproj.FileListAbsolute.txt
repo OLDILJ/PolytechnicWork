@@ -1,0 +1,15 @@
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\bin\Debug\net8.0\ShuffleArray.exe
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\bin\Debug\net8.0\ShuffleArray.deps.json
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\bin\Debug\net8.0\ShuffleArray.runtimeconfig.json
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\bin\Debug\net8.0\ShuffleArray.dll
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\bin\Debug\net8.0\ShuffleArray.pdb
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.GeneratedMSBuildEditorConfig.editorconfig
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.AssemblyInfoInputs.cache
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.AssemblyInfo.cs
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.csproj.CoreCompileInputs.cache
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.sourcelink.json
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.dll
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\refint\ShuffleArray.dll
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.pdb
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ShuffleArray.genruntimeconfig.cache
+C:\test\PolytechnicWork\Programming1\TestEnviroment\ShuffleArray\obj\Debug\net8.0\ref\ShuffleArray.dll

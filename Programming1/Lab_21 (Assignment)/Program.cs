@@ -5,11 +5,12 @@
         public string FName;
         public string LName;
         public string Interest;
+        public string CombinedName;
     }
     class Program
     {
         static readonly string textFile = @"names.txt";
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             //Console.WriteLine("ClosingFile");
 
@@ -19,16 +20,27 @@
             int total = 100;
             int IntSize = 5;
             int[] nums;
+            string[] team1;
+            string[] team2;
+            int[] team1Score;
+            int[] team2Score;
             int PlayerCharactersMade = 0;
             int StartedGame = 0;
             string PlayerChoice;
+            string[] PotentialInterests;
+            PotentialInterests = new string[150];
             StreamReader si = new StreamReader("interest.txt");
-            for (int i = 0;i <= 26; i++)
+            
+            for (int i = 0;i != 150; i++)
             {
                 //Players[i].FName = sr.ReadLine();
                 //Players[i].LName = sr.ReadLine();
                 //Players[i].Address = "Dunedin";
-                Players[i].Interest = si.ReadLine();
+
+                //Players[i].Interest = si.ReadLine();
+
+                PotentialInterests[i] = si.ReadLine();
+
                 //Console.WriteLine(Players[i].FName);
                 //Console.WriteLine(Players[i].LName);
                 //Console.WriteLine(Players[i].Address);
@@ -36,6 +48,27 @@
                 //i++;
             }
             si.Close();
+            Random.Shared.Shuffle(PotentialInterests);
+            for (int i = 0;i != 27; i++)
+            {
+                //Players[i].FName = sr.ReadLine();
+                //Players[i].LName = sr.ReadLine();
+                //Players[i].Address = "Dunedin";
+
+                //Players[i].Interest = si.ReadLine();
+                //Players[i].CombinedName = " ";
+                
+
+                Players[i].Interest = PotentialInterests[i];
+
+                //Console.WriteLine(Players[i].FName);
+                //Console.WriteLine(Players[i].LName);
+                //Console.WriteLine(Players[i].Address);
+                //Console.WriteLine(Players[i].team);
+                //i++;
+            }
+            
+            
 
             Console.WriteLine("Welcome To Family Feud");
             Console.WriteLine("Before We Begin Please Type {Y} To Take Part In This Game");
@@ -113,11 +146,49 @@
                 //i++;
             }
             sr.Close();
+            for (int i = 0; i != 27; i++)
+            {
+                Players[i].CombinedName = String.Concat(Players[i].FName," ",Players[i].LName);
+                //Console.WriteLine(Players[i].CombinedName);
+            }
+            string[] TempArray = new string[27];
+            for (int i = 0; i != 27; i++)
+            {
+                TempArray[i] = Players[i].CombinedName;
+            }
+            Random.Shared.Shuffle(TempArray);
+            for (int i = 0; i != 27; i++)
+            {
+                //TempArray[i] = Players[i].CombinedName;
+                Players[i].CombinedName = TempArray[i];
+                Console.WriteLine(Players[i].CombinedName);
+
+            }
+            /*
+            for (int i = 0; i != 13; i++)
+            {
+                TempArray[i] = Players[rand.Next(0,13)].CombinedName;
+                Console.WriteLine(TempArray[i]);
+            }
+            for (int i = 0; i != 13; i++)
+            {
+                if (Players[i].CombinedName != TempArray[i])
+                {
+                    Players[i].CombinedName = TempArray[i];
+                }
+                    //Players[rand.Next(0,27)].CombinedName = TempArray[i];
+                //Players[rand.Next(0,27)].CombinedName = TempArray[i];
+                //Players[rand.Next(0,27)].CombinedName = Players[i].CombinedName;
+                Console.WriteLine(Players[i].CombinedName);
+                
+                
+            }
+            */
             Console.WriteLine("ClosingFile");
             }
             void CustomDisplay()
             {
-                Console.WriteLine("TEST");
+                //Console.WriteLine("TEST");
                 
                 for (int i = 0;i <= 26; i++)
                 {
@@ -128,14 +199,92 @@
                     //Console.WriteLine(i);
                 }
             }
+            void DisplayTeams()
+            {
+                string tempscore = "";
+                Console.WriteLine("TEAM 1:");
+                for (int i = 0; i < 9; i++)
+                {
+                    tempscore = team1Score[i].ToString();
+                    
+
+                    Console.Write(team1[i].PadLeft(25));
+                    Console.WriteLine(tempscore.PadLeft(5));
+
+                    //Console.Write(Players[i].LName.PadLeft(20));
+                    //Console.WriteLine(Players[i].Interest.PadLeft(30));
+                    //Console.WriteLine(Convert.ToString(students[i].team).PadLeft(20));
+                    //Console.WriteLine(i);
+                }
+                Console.WriteLine("TEAM 2:");
+                for (int i = 0; i < 9; i++)
+                {
+                    tempscore = team2Score[i].ToString();
+                    Console.Write(team2[i].PadLeft(25));
+                    Console.WriteLine(tempscore.PadLeft(5));
+                }
+                
+            }
             //sr.Close();
             void StartGame()
             {
                 Console.WriteLine("WELCOME TO FAMILY FEUD");
-                Console.WriteLine("IM YOUR HOST FEUD GUY");
+                Console.WriteLine("IM YOUR HOST FREDDY FEUD");
                 Console.WriteLine("HERE ARE OUR CONTESTANTS FOR THE DAY");
                 CustomDisplay();
+                Console.WriteLine("LETS SELECT 10 LUCKY PEOPLE TO TAKE PART IN TODAYS GAME");
+                TeamSort();
+                DisplayTeams();
 
+
+            }
+            string[] TeamSort()
+            {
+                //step 1 organize players into their name
+                //step 2 Shuffle list
+                //step 3 Grab 10 random numbers from list
+                //step 4 put into team 1 then team 2.
+                //ConCatPlayers();
+                team1 = new string[9];
+                team2 = new string[9];
+                team1Score = new int[9];
+                team2Score = new int[9];
+                
+                for (int i = 0; i != 9; i++)
+                {
+                    team1[i] = Players[i].CombinedName;
+                    Console.WriteLine(team1[i]); 
+                }
+                for (int i = 0; i != 9; i++)
+                {
+                    team2[i] = Players[i+10].CombinedName;
+                    Console.WriteLine(team2[i]);
+                }
+                
+
+                
+                return team1;
+                return team2;
+            }
+        
+
+            void ConCatPlayers()
+            {
+                /*
+                for (int i = 0; i <= 26; i++)
+                {
+                    Players[i].CombinedName = String.Concat(Players[i].FName," ",Players[i].LName);
+                    Console.WriteLine(Players[i].CombinedName);
+                    
+                }
+                string[] tempteam = {Players.CombinedName};
+                //return Players.CombinedName;
+                */
+                
+                
+                
+                
+                
 
             }
 
@@ -156,17 +305,14 @@
                     FIN();
                 }
             }
-
-
-
-            
+            static void FIN()
+            {
+                Console.ReadLine();
+            }
         }
-    static void FIN()
-    {
-        Console.ReadLine();
+            
     }
-    }
-
+    
 }
 /*
             Students[] students = new Students[27];
