@@ -186,6 +186,7 @@
             */
             Console.WriteLine("ClosingFile");
             }
+            
             void CustomDisplay()
             {
                 //Console.WriteLine("TEST");
@@ -235,6 +236,50 @@
                 Console.WriteLine("LETS SELECT 10 LUCKY PEOPLE TO TAKE PART IN TODAYS GAME");
                 TeamSort();
                 DisplayTeams();
+                Console.WriteLine("HOW MANY ROUNDS WOULD YOU LIKE TO PLAY TODAY");
+                int roundcount = Convert.ToInt32(Console.ReadLine());
+                GameplayLoop(roundcount, team1Score, team2Score);
+
+
+            }
+            int[] GameplayLoop(int roundcount,int[] team1Score, int[] team2Score)
+            {
+                //step 1 increment round counter by 1
+                //step 2 grab next thing in question array
+                //step 3 assign values to 6 questions using RngToSum()
+                //step 4 let each team guess 3 times if they get it right they get points else they get nothing
+                //step 5 the other team can "steal" all of their points by guessing any of the remaining answers
+                //step 6 tally up each teams points
+                //step 7 display points and loop.
+                int rCount = roundcount;
+                int i = 0;
+                int currentteam = 1;
+                while (i < rCount)
+                {
+                    Console.WriteLine($"WELCOME TO ROUND {i+1}");
+                    Console.WriteLine("LETS LOOK HOW THE TEAMS ARE DOING");
+                    DisplayTeams();
+                    Console.WriteLine($"HERE IS QUESTION #{i+1}");
+                    if (currentteam == 1)
+                    {
+                        team1Score[i%9] += 1;
+                    }
+                    if (currentteam == 2)
+                    {
+                        team2Score[i%9] += 1;
+                    }
+
+                    //Console.WriteLine(question);
+                    
+                    
+                    //Console.WriteLine(i);
+                    i = i + 1;
+                }
+                //roundcount = rCount;
+                //return roundcount;
+                return team1Score;
+
+                
 
 
             }
