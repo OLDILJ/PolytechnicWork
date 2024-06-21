@@ -28,6 +28,8 @@
             int StartedGame = 0;
             string PlayerChoice;
             string[] PotentialInterests;
+            string[] Questions;
+            Questions = new string [10]
             PotentialInterests = new string[150];
             StreamReader si = new StreamReader("interest.txt");
             
@@ -67,6 +69,27 @@
                 //Console.WriteLine(Players[i].team);
                 //i++;
             }
+
+            StreamReader si1 = new StreamReader("question.txt");
+
+
+            for (int i = 0;i != 10; i++)
+            {
+                //Players[i].FName = sr.ReadLine();
+                //Players[i].LName = sr.ReadLine();
+                //Players[i].Address = "Dunedin";
+
+                //Players[i].Interest = si.ReadLine();
+
+                Questions[i] = si1.ReadLine();
+
+                //Console.WriteLine(Players[i].FName);
+                //Console.WriteLine(Players[i].LName);
+                //Console.WriteLine(Players[i].Address);
+                //Console.WriteLine(Players[i].team);
+                //i++;
+            }
+            si.Close();
             
             
 
