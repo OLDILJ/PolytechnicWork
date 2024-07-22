@@ -1,0 +1,15 @@
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.GeneratedMSBuildEditorConfig.editorconfig
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.AssemblyInfoInputs.cache
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.AssemblyInfo.cs
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.csproj.CoreCompileInputs.cache
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.sourcelink.json
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\bin\Debug\net8.0\L1-Task1.exe
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\bin\Debug\net8.0\L1-Task1.deps.json
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\bin\Debug\net8.0\L1-Task1.runtimeconfig.json
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\bin\Debug\net8.0\L1-Task1.dll
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\bin\Debug\net8.0\L1-Task1.pdb
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.dll
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\refint\L1-Task1.dll
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.pdb
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\L1-Task1.genruntimeconfig.cache
+D:\ljo\PolytechnicWork\Programming 2\L1-Task1\obj\Debug\net8.0\ref\L1-Task1.dll
