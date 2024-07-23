@@ -1,0 +1,15 @@
+D:\test\PolytechnicWork\Programming 2\L1-Task3\bin\Debug\net8.0\L1-Task3.exe
+D:\test\PolytechnicWork\Programming 2\L1-Task3\bin\Debug\net8.0\L1-Task3.deps.json
+D:\test\PolytechnicWork\Programming 2\L1-Task3\bin\Debug\net8.0\L1-Task3.runtimeconfig.json
+D:\test\PolytechnicWork\Programming 2\L1-Task3\bin\Debug\net8.0\L1-Task3.dll
+D:\test\PolytechnicWork\Programming 2\L1-Task3\bin\Debug\net8.0\L1-Task3.pdb
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.GeneratedMSBuildEditorConfig.editorconfig
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.AssemblyInfoInputs.cache
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.AssemblyInfo.cs
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.csproj.CoreCompileInputs.cache
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.sourcelink.json
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.dll
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\refint\L1-Task3.dll
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.pdb
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\L1-Task3.genruntimeconfig.cache
+D:\test\PolytechnicWork\Programming 2\L1-Task3\obj\Debug\net8.0\ref\L1-Task3.dll
