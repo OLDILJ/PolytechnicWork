@@ -1,0 +1,41 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ljo\\PolytechnicWork\\Programming 2\\L2\\Task-2\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{F4B5F634-57D2-48CB-8DC0-6567BDDB4BB4}|Task-2\\Task-2.csproj|d:\\ljo\\polytechnicwork\\programming 2\\l2\\task-2\\task-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F4B5F634-57D2-48CB-8DC0-6567BDDB4BB4}|Task-2\\Task-2.csproj|solutionrelative:task-2\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ljo\\PolytechnicWork\\Programming 2\\L2\\Task-2\\Task-2\\Program.cs",
+              "RelativeDocumentMoniker": "Task-2\\Program.cs",
+              "ToolTip": "D:\\ljo\\PolytechnicWork\\Programming 2\\L2\\Task-2\\Task-2\\Program.cs",
+              "RelativeToolTip": "Task-2\\Program.cs",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAABwAAAAbAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-29T01:41:03.066Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

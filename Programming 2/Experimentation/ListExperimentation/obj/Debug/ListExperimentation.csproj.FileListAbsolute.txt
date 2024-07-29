@@ -1,0 +1,7 @@
+D:\ljo\PolytechnicWork\Programming 2\Experimentation\ListExperimentation\bin\Debug\ListExperimentation.exe.config
+D:\ljo\PolytechnicWork\Programming 2\Experimentation\ListExperimentation\bin\Debug\ListExperimentation.exe
+D:\ljo\PolytechnicWork\Programming 2\Experimentation\ListExperimentation\bin\Debug\ListExperimentation.pdb
+D:\ljo\PolytechnicWork\Programming 2\Experimentation\ListExperimentation\obj\Debug\ListExperimentation.csproj.AssemblyReference.cache
+D:\ljo\PolytechnicWork\Programming 2\Experimentation\ListExperimentation\obj\Debug\ListExperimentation.csproj.CoreCompileInputs.cache
+D:\ljo\PolytechnicWork\Programming 2\Experimentation\ListExperimentation\obj\Debug\ListExperimentation.exe
+D:\ljo\PolytechnicWork\Programming 2\Experimentation\ListExperimentation\obj\Debug\ListExperimentation.pdb

@@ -1,0 +1,7 @@
+D:\ljo\PolytechnicWork\Programming 2\L2\Task-2\Task-2\bin\Debug\Task-2.exe.config
+D:\ljo\PolytechnicWork\Programming 2\L2\Task-2\Task-2\bin\Debug\Task-2.exe
+D:\ljo\PolytechnicWork\Programming 2\L2\Task-2\Task-2\bin\Debug\Task-2.pdb
+D:\ljo\PolytechnicWork\Programming 2\L2\Task-2\Task-2\obj\Debug\Task-2.csproj.AssemblyReference.cache
+D:\ljo\PolytechnicWork\Programming 2\L2\Task-2\Task-2\obj\Debug\Task-2.csproj.CoreCompileInputs.cache
+D:\ljo\PolytechnicWork\Programming 2\L2\Task-2\Task-2\obj\Debug\Task-2.exe
+D:\ljo\PolytechnicWork\Programming 2\L2\Task-2\Task-2\obj\Debug\Task-2.pdb
