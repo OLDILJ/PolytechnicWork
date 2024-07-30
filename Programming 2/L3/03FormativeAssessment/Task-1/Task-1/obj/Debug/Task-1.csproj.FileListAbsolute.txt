@@ -1,0 +1,12 @@
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task-1.csproj.AssemblyReference.cache
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task_1.Form1.resources
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task_1.Properties.Resources.resources
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task-1.csproj.GenerateResource.cache
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task-1.csproj.CoreCompileInputs.cache
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\bin\Debug\Task-1.exe.config
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\bin\Debug\Task-1.exe
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\bin\Debug\Task-1.pdb
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task-1.exe
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task-1.pdb
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task_1.MainForm.resources
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\Task-1\Task-1\obj\Debug\Task_1.Form2.resources

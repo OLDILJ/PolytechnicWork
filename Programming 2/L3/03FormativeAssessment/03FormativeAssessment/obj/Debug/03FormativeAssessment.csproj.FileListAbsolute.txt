@@ -1,0 +1,10 @@
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\bin\Debug\03FormativeAssessment.exe.config
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\bin\Debug\03FormativeAssessment.exe
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\bin\Debug\03FormativeAssessment.pdb
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\obj\Debug\03FormativeAssessment.csproj.AssemblyReference.cache
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\obj\Debug\_03FormativeAssessment.Form1.resources
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\obj\Debug\_03FormativeAssessment.Properties.Resources.resources
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\obj\Debug\03FormativeAssessment.csproj.GenerateResource.cache
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\obj\Debug\03FormativeAssessment.csproj.CoreCompileInputs.cache
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\obj\Debug\03FormativeAssessment.exe
+D:\test\PolytechnicWork\Programming 2\L3\03FormativeAssessment\03FormativeAssessment\obj\Debug\03FormativeAssessment.pdb
