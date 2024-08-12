@@ -60,5 +60,15 @@ namespace Task_1
             textBox3.Text = NumSum.ToString();
 
         }
+
+        private void button8_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+        }
+
+        private void button9_Click(object sender, EventArgs e)
+        {
+            new Form3().Show();
+        }
     }
 }
