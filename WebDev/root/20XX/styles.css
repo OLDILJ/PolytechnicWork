@@ -1,0 +1,31 @@
+
+nav.mainBar ul 
+{
+  list-style-type: none;
+  display: flex;
+  justify-content: space-evenly;
+  padding: 0, 10%, 0, 10%;
+}
+
+nav.mainBar ul li 
+{
+  
+  background-color: #efefff;
+  border-radius: 20%;
+
+}
+
+h2
+{
+    color: #333;
+}
+:root
+{
+    --system-ui-font: system-ui, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+body 
+{
+    background-color: #ffffffee;
+    font-family: var(--system-ui-font);
+}
