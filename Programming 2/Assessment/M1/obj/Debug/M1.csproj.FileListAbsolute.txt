@@ -1,0 +1,10 @@
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.exe.config
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.exe
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.pdb
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.AssemblyReference.cache
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.Form1.resources
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.Properties.Resources.resources
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.GenerateResource.cache
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.CoreCompileInputs.cache
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.exe
+C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.pdb

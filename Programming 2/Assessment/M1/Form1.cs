@@ -16,5 +16,35 @@ namespace M1
         {
             InitializeComponent();
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Utils.SeedInstitutions();
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            Utils.SeedDepartments();
+        }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Utils.SeedCourses();
+        }
+
+        private void button6_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

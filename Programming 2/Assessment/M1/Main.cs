@@ -6,7 +6,7 @@ using System.Windows.Forms;
 
 namespace M1
 {
-    internal static class Program
+    internal static class M1
     {
         /// <summary>
         /// The main entry point for the application.
