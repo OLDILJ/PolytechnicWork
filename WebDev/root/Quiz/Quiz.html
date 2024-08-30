@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="Styles.css">
+    <script defer src="Script.js"></script>
+</head>
+
+<body>
+    <form action="">
+        <ul>
+            <li class="checkboxInput"><input type="checkbox" name="c1" id="cb1">test1</li>
+            <li class="checkboxInput"><input type="checkbox" name="c1" id="cb2">test2</li>
+            <li class="checkboxInput"><input type="checkbox" name="c1" id="cb3">test3</li>
+            <li class="checkboxInput"><input type="checkbox" name="c1" id="cb4">test4</li>
+        </ul>
+    </form>
+    <form action="">
+        <ul>
+            <li class="radioinput"><input type="radio" name="t1" id="radio1" value="1">test1</li>
+            <li class="radioinput"><input type="radio" name="t1" id="radio2" value="2">test2</li>
+            <li class="radioinput"><input type="radio" name="t1" id="radio3" value="3">test3</li>
+            <li class="radioinput"><input type="radio" name="t1" id="radio4" value="4">test4</li>
+            
+        </ul>
+    </form>
+    <form action="">
+        <label for="TextField">Input between 4 and 8 characters</label>
+        <input type="text" name="TextField" id="TextField" required minlength="4" maxlength="10" size="24" autocapitalize="words">
+
+    </form>
+    
+    <button type="button">Submit</button>
+    <button id = "btn" disabled> tick all to enable button.</button>
+    
+
+</body>
+</html>
