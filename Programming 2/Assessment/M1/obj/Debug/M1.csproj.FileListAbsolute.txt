@@ -8,3 +8,13 @@ C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.GenerateR
 C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.CoreCompileInputs.cache
 C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.exe
 C:\ljo\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.pdb
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.exe.config
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.exe
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.pdb
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.AssemblyReference.cache
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.Form1.resources
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.Properties.Resources.resources
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.GenerateResource.cache
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.CoreCompileInputs.cache
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.exe
+C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.pdb
