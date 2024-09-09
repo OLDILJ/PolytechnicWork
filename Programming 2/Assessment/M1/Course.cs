@@ -8,13 +8,14 @@ namespace M1
 {
     public class Course
     {
+
         private Department department;
         private string code;
         private string name;
         private string description;
         private int credits;
         private double fees;
-        //private string NameOfType;
+        
 
 
         public Department Department { get => department; set => department = value; }

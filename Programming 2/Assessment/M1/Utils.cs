@@ -9,6 +9,7 @@ namespace M1
 {
     public static class Utils
     {
+
         public static List<Institution> SeedInstitutions()
         {
             List<Institution> InstituteList = new List<Institution>(3);

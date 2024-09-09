@@ -18,3 +18,13 @@ C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.Generate
 C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.CoreCompileInputs.cache
 C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.exe
 C:\test\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.pdb
+C:\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.exe.config
+C:\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.exe
+C:\PolytechnicWork\Programming 2\Assessment\M1\bin\Debug\M1.pdb
+C:\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.AssemblyReference.cache
+C:\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.Form1.resources
+C:\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.Properties.Resources.resources
+C:\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.GenerateResource.cache
+C:\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.csproj.CoreCompileInputs.cache
+C:\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.exe
+C:\PolytechnicWork\Programming 2\Assessment\M1\obj\Debug\M1.pdb

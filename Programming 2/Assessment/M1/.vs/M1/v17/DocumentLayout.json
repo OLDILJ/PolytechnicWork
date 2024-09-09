@@ -1,38 +1,41 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\",
+  "WorkspaceRootPath": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|c:\\test\\polytechnicwork\\programming 2\\assessment\\m1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|c:\\polytechnicwork\\programming 2\\assessment\\m1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|c:\\polytechnicwork\\programming 2\\assessment\\m1\\courseassessmentmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:courseassessmentmark.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\courseassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:courseassessment.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:utils.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:main.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F0456D27-9D96-47CF-B64E-4B586619A18D}|..\\TestEnvironment\\TestEnvironment.csproj|c:\\polytechnicwork\\programming 2\\assessment\\testenvironment\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:course.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:institution.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{F2DD4720-56B3-4474-B95C-43784E128E27}|M1.csproj|solutionrelative:department.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,15 +45,15 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 7,
               "Title": "Institution.cs",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Institution.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Institution.cs",
               "RelativeDocumentMoniker": "Institution.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Institution.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Institution.cs",
               "RelativeToolTip": "Institution.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -60,13 +63,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 8,
               "Title": "Department.cs",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Department.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Department.cs",
               "RelativeDocumentMoniker": "Department.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Department.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Department.cs",
               "RelativeToolTip": "Department.cs",
-              "ViewState": "AQIAAAQAAAAAAAAAAAAUwA4AAAAIAAAA",
+              "ViewState": "AQIAAAQAAAAAAAAAAAAUwA0AAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T22:32:52.611Z",
               "IsPinned": true,
@@ -74,13 +77,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Course.cs",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Course.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Course.cs",
               "RelativeDocumentMoniker": "Course.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Course.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Course.cs",
               "RelativeToolTip": "Course.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBMAAAAcAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAABKAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T22:20:29.936Z",
               "IsPinned": true,
@@ -88,13 +91,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 3,
               "Title": "Utils.cs",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Utils.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Utils.cs",
               "RelativeDocumentMoniker": "Utils.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Utils.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Utils.cs",
               "RelativeToolTip": "Utils.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAgwDUAAAAMAAAA",
+              "ViewState": "AQIAAB4AAAAAAAAAAAA5wAkAAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T22:20:38.388Z",
               "IsPinned": true,
@@ -106,39 +109,52 @@
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\TestEnvironment\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "..\\TestEnvironment\\UnitTest1.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\TestEnvironment\\UnitTest1.cs",
+              "RelativeToolTip": "..\\TestEnvironment\\UnitTest1.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-09T01:38:32.892Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Form1.cs",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs",
               "RelativeToolTip": "Form1.cs",
-              "ViewState": "AQIAACMAAAAAAAAAAAAwwDIAAAAJAAAA",
+              "ViewState": "AQIAAG0AAAAAAAAAAAAswHcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T22:28:15.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Main.cs",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Main.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Main.cs",
               "RelativeDocumentMoniker": "Main.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Main.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Main.cs",
               "RelativeToolTip": "Main.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAcAAAA",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAxwBAAAAAtAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T22:16:52.589Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "courseAssessment.cs",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\courseAssessment.cs",
-              "RelativeDocumentMoniker": "courseAssessment.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\courseAssessment.cs",
-              "RelativeToolTip": "courseAssessment.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 2,
+              "Title": "courseAssessmentMark.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\courseAssessmentMark.cs",
+              "RelativeDocumentMoniker": "courseAssessmentMark.cs",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\courseAssessmentMark.cs",
+              "RelativeToolTip": "courseAssessmentMark.cs",
+              "ViewState": "AQIAAA0AAAAAAAAAAAA1wHIAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-27T22:20:05.76Z",
               "EditorCaption": ""
@@ -147,9 +163,9 @@
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs",
+              "DocumentMoniker": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs",
               "RelativeDocumentMoniker": "Form1.cs",
-              "ToolTip": "C:\\test\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs [Design]",
+              "ToolTip": "C:\\PolytechnicWork\\Programming 2\\Assessment\\M1\\Form1.cs [Design]",
               "RelativeToolTip": "Form1.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-08-13T23:22:12.706Z",

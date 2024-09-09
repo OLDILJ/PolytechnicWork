@@ -16,6 +16,7 @@ namespace M1
 
         public Institution Institute { get => institute; set => institute = value; }
         public string Name { get => name; set => name = value; }
+
         public string PrintData()
         {
             return $"Department Name:{Name}, Department Institute Name:{Institute.Name}, Institute Region: {Institute.Region},Institute Country:{Institute.Country}";
