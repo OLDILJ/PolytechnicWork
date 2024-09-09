@@ -1,0 +1,22 @@
+.ApiCall
+{
+    display: flex;
+    justify-content: center;
+    background-color: rgb(252, 252, 214);
+    border-color: red;
+    font: 3em sans-serif;
+    border-style: solid;
+    border-radius: 10%;
+}
+.ApiCall:hover
+{
+    background-color: rgb(218, 218, 191);
+}
+.ApiCall:active
+{
+    background-color: rgb(255, 255, 150);
+    border-color: red;
+    font: 3em sans-serif;
+    border-style: solid;
+    border-radius: 10%;
+}
