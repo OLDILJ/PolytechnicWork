@@ -10,8 +10,28 @@
 <p>Lorem ipsum dolor sit amet.
 Eum officia nemo molestiae incidunt!</p>
 
+<p></p>
+<ul>
+    <li>Name: <input type="text" name="" id=""></li>
+    <li>Phone: <input type="tel" name="Phone" id=""></li>
+    <li>Email: <input type="email" name="Email" id=""></li>
+    Message Destination: <select name="" id="">
+        <option value="Shredder">Shredder</option>
+        <option value="Retail">Retail</option>
+        <option value="Admin">Admin</option>
+        <option value="Distribution">Distribution</option>
+    </select>
+</ul>
 
-Name:<input type="text" name="" id="">
-Phone:<input type="tel" name="Phone" id="">
-Email:<input type="email" name="Email" id="">
-<style></style>
+<style>
+    ul > *{
+        
+    list-style-type: none;
+    padding: 1em;
+    }
+    select
+    {
+        font-size-adjust: 5em;
+
+    }
+</style>
