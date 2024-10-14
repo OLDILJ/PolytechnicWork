@@ -14,5 +14,12 @@
 </header>
 
 <style>
-
+li
+{
+    justify-self: center;
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 2em;
+    display: inline;
+}
 </style>
