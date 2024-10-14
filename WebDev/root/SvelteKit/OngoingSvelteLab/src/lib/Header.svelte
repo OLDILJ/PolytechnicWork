@@ -1,9 +1,9 @@
 <script>
-
+    export let headerTitle = "Ongoing Svelte Test";
 </script>
 
 <header>
-    <h1>Svelte Kit Ongoing Lab</h1>
+    <h1>{headerTitle}</h1>
     <nav>
         <ul>
             <li><a href="/">Home</a></li>
