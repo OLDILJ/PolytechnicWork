@@ -7,4 +7,11 @@
 
 <Head headerTitle = "Contact"/>
 
+<p>Lorem ipsum dolor sit amet.
+Eum officia nemo molestiae incidunt!</p>
+
+
+Name:<input type="text" name="" id="">
+Phone:<input type="tel" name="Phone" id="">
+Email:<input type="email" name="Email" id="">
 <style></style>
