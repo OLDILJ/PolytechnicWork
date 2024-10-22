@@ -14,6 +14,8 @@ namespace PongCode
 {
     public partial class Form1 : Form
     {
+        private Bitmap offScreenBitMap;
+        private Graphics offScreenGraphics;
         bool gamestart = false;
         Graphics g;
         Controller control;
@@ -24,14 +26,17 @@ namespace PongCode
         {
             InitializeComponent();
             g = CreateGraphics();
-            P1 = new Player1(new System.Drawing.Point(10, 10), new System.Drawing.Point(100, 100), Color.Black, g);
-            control = new Controller(g, ClientSize);
+            offScreenBitMap = new Bitmap(Width, Height); // An image used as a buffer for rendering
+            offScreenGraphics = Graphics.FromImage(offScreenBitMap); // Enables you to draw on the offScreenBitmap
+            P1 = new Player1(new System.Drawing.Point(10, 10), new System.Drawing.Point(100, 200), Color.Black, g);
+            control = new Controller(offScreenGraphics, ClientSize);
         }
 
         private void timer1_Tick(object sender, EventArgs e)
         {
             if (gamestart)
             {
+                g.Clear(BackColor);
                 control.Run();
                 P1.InputCheck();
                 P1.Draw();

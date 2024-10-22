@@ -41,7 +41,8 @@ namespace PongCode
         }
         public void Draw()
         {
-            Rectangle rectang = new Rectangle(position.X, position.Y, BSize, BSize);
+            
+            Rectangle rectang = new Rectangle(position.X, position.Y, BSize, BSize * 4);
             graphics.FillRectangle(brush, rectang);
         }
     }

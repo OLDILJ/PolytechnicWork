@@ -14,6 +14,9 @@ namespace PongCode
         {
             ball = new Ball(new Point(10, 10), new Point(100, 100), Color.Black, graphics, clSize);
         }
+        public void Clear()
+        {
+        }
         public void Run()
         {
             ball.Move();
