@@ -16,15 +16,17 @@ namespace PongCode
         private System.Drawing.Color color;
         private Graphics graphics;
         private System.Drawing.Brush brush;
+        private System.Drawing.Size CSize;
         public System.Drawing.Point Position { get => position; set => position = value; }
 
-        public Player2(System.Drawing.Point speed, System.Drawing.Point position, System.Drawing.Color color, Graphics graphics)
+        public Player2(System.Drawing.Point speed, System.Drawing.Point position, System.Drawing.Color color, Graphics graphics, System.Drawing.Size cSize)
         {
             this.speed = speed;
             this.position = position;
             this.color = color;
             this.graphics = graphics;
             brush = new SolidBrush(color);
+            this.CSize = cSize;
         }
         public void InputCheck()
         {

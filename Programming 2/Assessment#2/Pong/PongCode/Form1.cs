@@ -30,8 +30,8 @@ namespace PongCode
             offScreenBitMap = new Bitmap(Width, Height); // An image used as a buffer for rendering
             offScreenGraphics = Graphics.FromImage(offScreenBitMap); // Enables you to draw on the offScreenBitmap
             control = new Controller(g, ClientSize);
-            P1 = new Player1(new System.Drawing.Point(10, 10), new System.Drawing.Point(100, 200), Color.Black, g);
-            P2 = new Player2(new System.Drawing.Point(10, 10), new System.Drawing.Point(700, 200), Color.Black, g);
+            P1 = new Player1(new System.Drawing.Point(10, 10), new System.Drawing.Point(100, 200), Color.Black, g, ClientSize);
+            P2 = new Player2(new System.Drawing.Point(10, 10), new System.Drawing.Point(700, 200), Color.Black, g, ClientSize);
 
         }
 
