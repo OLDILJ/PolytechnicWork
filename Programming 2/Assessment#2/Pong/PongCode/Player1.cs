@@ -18,7 +18,8 @@ namespace PongCode
         private System.Drawing.Color color;
         private Graphics graphics;
         private System.Drawing.Brush brush;
-        
+
+        public System.Drawing.Point Position { get => position; set => position = value; }
 
         public Player1(System.Drawing.Point speed, System.Drawing.Point position, System.Drawing.Color color, Graphics graphics)
         {
