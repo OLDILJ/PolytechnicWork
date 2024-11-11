@@ -55,6 +55,16 @@ namespace PongCode
         {
             if (position.X < 0 || position.X > clSize.Width)
             {
+                if (position.X < 0)
+                {
+                    //Left Wall Connect
+                    Console.WriteLine("P2 Scored");
+                }
+                if (position.X > clSize.Width)
+                {
+                    //Right Wall Connect
+                    Console.WriteLine("P1 Scored");
+                }
                 speed.X = -speed.X;
                 Console.WriteLine("Point Scored");
                 Console.WriteLine(speed.X);
@@ -77,7 +87,8 @@ namespace PongCode
         {
             Rectangle rectang = new Rectangle(PadPos.X, PadPos.Y, BSize, BSize*4);
             rectang.Offset(-5,-5);
-            rectang.Inflate(10,10);
+            rectang.Inflate(15,15);
+           // graphics.FillEllipse(brush,rectang);
             if (rectang.Contains(position.X,position.Y))
             {
                 speed.Y = (-speed.Y);

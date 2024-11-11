@@ -1,7 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Assessment#2",
+    "\\Assessment#2\\Pong",
+    "\\Assessment#2\\Pong\\PongCode"
   ],
-  "SelectedNode": "\\L3",
+  "SelectedNode": "\\Assessment#2\\Pong\\PongCode\\Player1.cs",
   "PreviewInSolutionExplorer": false
 }

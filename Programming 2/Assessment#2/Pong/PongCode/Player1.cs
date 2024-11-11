@@ -33,7 +33,7 @@ namespace PongCode
         }
         public void InputCheck()
         {
-            if (Keyboard.IsKeyDown(Key.W))
+            if (Keyboard.IsKeyDown(Key.W) && (position.Y > 0 || position.Y > CSize.Height - 32 * 4))
             {
                 position.Y = position.Y - speed.Y; 
             }
