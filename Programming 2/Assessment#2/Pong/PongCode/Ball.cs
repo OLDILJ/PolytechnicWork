@@ -18,6 +18,8 @@ namespace PongCode
         private Brush brush;
         private Size clSize;
         new Random rand = new Random();
+        public int P1Score = 0;
+        public int P2Score = 0;
 
         public Ball(Point speed, Point position, Color color, Graphics graphics, Size clSize)
         {
@@ -51,25 +53,39 @@ namespace PongCode
             position.X = position.X + speed.X;
             position.Y = position.Y + speed.Y;
         }
+        public int[] BothScores()
+        {
+            //Console.WriteLine($"Ball.BothScoresTriggered with values {P1Score} {P2Score}");
+            return new int[] { P1Score, P2Score };
+        }
+        public int ExportP1Score(int score)
+        {
+            //Console.WriteLine(score);
+            Console.WriteLine(P1Score);
+            return P1Score = score;
+        }
         public void Bounce()
         {
             if (position.X < 0 || position.X > clSize.Width)
             {
                 if (position.X < 0)
                 {
+                    P2Score++;
                     //Left Wall Connect
                     Console.WriteLine("P2 Scored");
                 }
                 if (position.X > clSize.Width)
                 {
+                    P1Score++;
+                    ExportP1Score(P1Score);
                     //Right Wall Connect
                     Console.WriteLine("P1 Scored");
                 }
                 speed.X = -speed.X;
                 Console.WriteLine("Point Scored");
                 Console.WriteLine(speed.X);
-                position.X = (clSize.Width + rand.Next(clSize.Width/10, clSize.Width/6)) / 2;
-                position.Y = (clSize.Height + rand.Next(clSize.Height / 10, clSize.Height / 6)) / 2;
+                position.X = (clSize.Width + rand.Next(clSize.Width/10, clSize.Width/3)) / 2;
+                position.Y = (clSize.Height + rand.Next(clSize.Height / 10, clSize.Height / 3)) / 2;
                 CollisionSound("../../PongWin.wav");
             }
             if (position.Y < 0 || position.Y > clSize.Height - 32)

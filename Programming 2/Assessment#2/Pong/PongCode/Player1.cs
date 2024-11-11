@@ -19,10 +19,11 @@ namespace PongCode
         private Graphics graphics;
         private System.Drawing.Brush brush;
         private System.Drawing.Size CSize;
+        private string Score;
 
         public System.Drawing.Point Position { get => position; set => position = value; }
 
-        public Player1(System.Drawing.Point speed, System.Drawing.Point position, System.Drawing.Color color, Graphics graphics, System.Drawing.Size cSize)
+        public Player1(System.Drawing.Point speed, System.Drawing.Point position, System.Drawing.Color color, Graphics graphics, System.Drawing.Size cSize, string score)
         {
             this.speed = speed;
             this.position = position;
@@ -30,6 +31,7 @@ namespace PongCode
             this.graphics = graphics;
             brush = new SolidBrush(color);
             this.CSize = cSize;
+            this.Score = score;
         }
         public void InputCheck()
         {

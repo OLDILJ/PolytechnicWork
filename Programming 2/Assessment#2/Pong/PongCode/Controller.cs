@@ -10,6 +10,7 @@ namespace PongCode
     internal class Controller
     {
         private Ball ball;
+        public int[] scores;
         public Controller(Graphics graphics, Size clSize) 
         {
             ball = new Ball(new Point(10, 10), new Point(100, 100), Color.Black, graphics, clSize);
@@ -20,8 +21,13 @@ namespace PongCode
             ball.Move();
             ball.Draw();
             ball.Bounce();
-            
+            scores = ball.BothScores();
         }
+        public int[] SendScoreUp()
+        {
+            return scores;
+        }
+
         public void PadCheck(Point pad)
         {
             ball.PaddleCollision(pad);
