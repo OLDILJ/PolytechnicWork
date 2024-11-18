@@ -1,0 +1,14 @@
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\InstanceVsStatic.GeneratedMSBuildEditorConfig.editorconfig
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\InstanceVsStatic.AssemblyInfoInputs.cache
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\InstanceVsStatic.AssemblyInfo.cs
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\InstanceVsStatic.csproj.CoreCompileInputs.cache
+C:\ExamCodeExamples\InstanceVsStatic\bin\Debug\net8.0\InstanceVsStatic.exe
+C:\ExamCodeExamples\InstanceVsStatic\bin\Debug\net8.0\InstanceVsStatic.deps.json
+C:\ExamCodeExamples\InstanceVsStatic\bin\Debug\net8.0\InstanceVsStatic.runtimeconfig.json
+C:\ExamCodeExamples\InstanceVsStatic\bin\Debug\net8.0\InstanceVsStatic.dll
+C:\ExamCodeExamples\InstanceVsStatic\bin\Debug\net8.0\InstanceVsStatic.pdb
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\InstanceVsStatic.dll
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\refint\InstanceVsStatic.dll
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\InstanceVsStatic.pdb
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\InstanceVsStatic.genruntimeconfig.cache
+C:\ExamCodeExamples\InstanceVsStatic\obj\Debug\net8.0\ref\InstanceVsStatic.dll

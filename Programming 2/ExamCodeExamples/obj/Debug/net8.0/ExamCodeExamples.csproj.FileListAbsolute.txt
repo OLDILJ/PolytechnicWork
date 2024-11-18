@@ -1,0 +1,4 @@
+C:\ExamCodeExamples\obj\Debug\net8.0\ExamCodeExamples.GeneratedMSBuildEditorConfig.editorconfig
+C:\ExamCodeExamples\obj\Debug\net8.0\ExamCodeExamples.AssemblyInfoInputs.cache
+C:\ExamCodeExamples\obj\Debug\net8.0\ExamCodeExamples.AssemblyInfo.cs
+C:\ExamCodeExamples\obj\Debug\net8.0\ExamCodeExamples.csproj.CoreCompileInputs.cache

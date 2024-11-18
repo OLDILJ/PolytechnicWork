@@ -1,0 +1,14 @@
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ParseTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ParseTest.AssemblyInfoInputs.cache
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ParseTest.AssemblyInfo.cs
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ParseTest.csproj.CoreCompileInputs.cache
+C:\ExamCodeExamples\ParseTest\bin\Debug\net8.0\ParseTest.exe
+C:\ExamCodeExamples\ParseTest\bin\Debug\net8.0\ParseTest.deps.json
+C:\ExamCodeExamples\ParseTest\bin\Debug\net8.0\ParseTest.runtimeconfig.json
+C:\ExamCodeExamples\ParseTest\bin\Debug\net8.0\ParseTest.dll
+C:\ExamCodeExamples\ParseTest\bin\Debug\net8.0\ParseTest.pdb
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ParseTest.dll
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\refint\ParseTest.dll
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ParseTest.pdb
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ParseTest.genruntimeconfig.cache
+C:\ExamCodeExamples\ParseTest\obj\Debug\net8.0\ref\ParseTest.dll
