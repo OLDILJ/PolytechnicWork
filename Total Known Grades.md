@@ -11,8 +11,8 @@
 - Intro App Dev
 
 
-- OSC 9/100 -> 9/50
+- OSC 25.6/100
 Checkpoint 1: 90% -> 9% of total grade
-
+SBA : 16/20: 80% -> 16.6% of total grade
 - Studio 2
 
