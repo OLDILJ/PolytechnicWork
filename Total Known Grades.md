@@ -1,7 +1,7 @@
 ### PASS CHECKLIST
 [ ] Networking/Routing
 [ ] IntroAppDev
-[ ] OSC
+[x] OSC
 [ ] Studio 2
 
 ### Current Grades
