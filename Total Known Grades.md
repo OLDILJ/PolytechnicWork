@@ -8,7 +8,13 @@
 - Networking
 
 
+Assignment 40% -> 16% of total grade
+
+
+
 - Intro App Dev
+
+Practical 100% -> 20% of total grade
 
 
 - OSC 60/100
@@ -19,7 +25,7 @@ Checkpoint 2: 75% -> 7.5% of total grade
 
 SBA : 16/20: 80% -> 16.6% of total grade
 
-Bash Scripting 87.5/100 -> 87.5% -> 26.3%
+Bash Scripting 87.5% -> 87.5% -> 26.3%
 
 - Studio 2
 
