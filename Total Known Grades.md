@@ -11,12 +11,13 @@
 - Intro App Dev
 
 
-- OSC 33.1/100
+- OSC 60/100
   
 Checkpoint 1: 90% -> 9% of total grade
 
 Checkpoint 2: 75% -> 7.5% of total grade
 SBA : 16/20: 80% -> 16.6% of total grade
+Bash Scripting 87.5/100 -> 87.5% -> 26.3%
 
 - Studio 2
 
