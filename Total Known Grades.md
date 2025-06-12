@@ -6,11 +6,11 @@
 
 
 ### Current Grades
-- Networking
+- Networking 28.4%~
 
 
 Assignment 40% -> 16% of total grade
-
+Theory 62% -> 12.4% of total grade
 
 
 - Intro App Dev
