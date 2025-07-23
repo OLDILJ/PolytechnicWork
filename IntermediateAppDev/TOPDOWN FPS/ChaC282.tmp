@@ -1,0 +1,65 @@
+[gd_scene load_steps=10 format=3 uid="uid://fwstwo3gc5ry"]
+
+[ext_resource type="Script" path="res://camera.gd" id="1_71qrp"]
+[ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_fsq6j"]
+[ext_resource type="PackedScene" uid="uid://baqrnhr4uj8du" path="res://laser.tscn" id="3_cyvd4"]
+
+[sub_resource type="CapsuleShape3D" id="CapsuleShape3D_spnco"]
+
+[sub_resource type="CapsuleMesh" id="CapsuleMesh_o0rkh"]
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_ejgkc"]
+albedo_color = Color(1, 1, 0, 1)
+
+[sub_resource type="PrismMesh" id="PrismMesh_mw81s"]
+material = SubResource("StandardMaterial3D_ejgkc")
+size = Vector3(1, 1, 0.2)
+
+[sub_resource type="StandardMaterial3D" id="StandardMaterial3D_eblfp"]
+albedo_color = Color(0, 0, 0, 1)
+
+[sub_resource type="BoxMesh" id="BoxMesh_eteg8"]
+material = SubResource("StandardMaterial3D_eblfp")
+size = Vector3(0.1, 0.1, 0.1)
+
+[node name="Node3D" type="Node3D"]
+script = ExtResource("1_71qrp")
+
+[node name="CharacterBody3D" type="CharacterBody3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 1, 0)
+script = ExtResource("1_fsq6j")
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="CharacterBody3D"]
+shape = SubResource("CapsuleShape3D_spnco")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D/CollisionShape3D"]
+mesh = SubResource("CapsuleMesh_o0rkh")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="CharacterBody3D/CollisionShape3D/MeshInstance3D"]
+transform = Transform3D(-1, -8.74228e-08, 3.82137e-15, 0, -4.37114e-08, -1, 8.74228e-08, -1, 4.37114e-08, 0, 0.778334, -0.642583)
+mesh = SubResource("PrismMesh_mw81s")
+
+[node name="TOPDOWN" type="Camera3D" parent="."]
+transform = Transform3D(-4.37114e-08, -1, -4.37114e-08, 0, -4.37114e-08, 1, -1, 4.37114e-08, 1.91069e-15, 0, 10, 0)
+current = true
+
+[node name="Crosshair" type="MeshInstance3D" parent="."]
+transform = Transform3D(0.707107, 0, 0.707107, 0, 1, 0, -0.707107, 0, 0.707107, 0, 0, 0)
+mesh = SubResource("BoxMesh_eteg8")
+
+[node name="MeshInstance3D" type="MeshInstance3D" parent="Crosshair"]
+transform = Transform3D(0.707107, 0, -0.707107, 0, 1, 0, 0.707107, 0, 0.707107, 0, 0, 0)
+skeleton = NodePath("../..")
+
+[node name="Laser" parent="." instance=ExtResource("3_cyvd4")]
+transform = Transform3D(0.707107, 0, 0.707107, -0.707107, -4.37114e-08, 0.707107, 3.09086e-08, -1, -3.09086e-08, 0, 1.4, 0)
+visible = false
+
+[node name="CameraRoot" type="Node3D" parent="."]
+
+[node name="Camyaw" type="Node3D" parent="CameraRoot"]
+
+[node name="CamPitch" type="Node3D" parent="CameraRoot/Camyaw"]
+
+[node name="Camera3D" type="Camera3D" parent="CameraRoot/Camyaw/CamPitch"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 2.59385, 2.04942)

@@ -1,0 +1,41 @@
+[gd_scene load_steps=7 format=3 uid="uid://dw8mg86gncsr3"]
+
+[ext_resource type="PackedScene" uid="uid://ce45euagsvp7e" path="res://ModelV1.tscn" id="1_l8i26"]
+[ext_resource type="Texture2D" uid="uid://bryaxy0uwaax5" path="res://Assets/Skyboxes/SKY2DoomII.webp" id="2_f62rs"]
+[ext_resource type="PackedScene" uid="uid://bkp3xhx5plrg8" path="res://PunchingBag.tscn" id="3_b7tbn"]
+
+[sub_resource type="PanoramaSkyMaterial" id="PanoramaSkyMaterial_sfosl"]
+panorama = ExtResource("2_f62rs")
+filter = false
+
+[sub_resource type="Sky" id="Sky_u48vs"]
+sky_material = SubResource("PanoramaSkyMaterial_sfosl")
+
+[sub_resource type="Environment" id="Environment_dy15p"]
+background_mode = 2
+sky = SubResource("Sky_u48vs")
+ambient_light_color = Color(0.939458, 0.78631, 0.265523, 1)
+ambient_light_sky_contribution = 0.55
+
+[node name="Node3D" type="Node3D"]
+
+[node name="Node3D" parent="." instance=ExtResource("1_l8i26")]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.402557, 0)
+
+[node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
+use_collision = true
+
+[node name="CSGBox3D" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(2.8, 0, 0, 0, 1, 0, 0, 0, 4.65, 0, 0, 4.4)
+size = Vector3(5, 0.5, 5)
+
+[node name="CSGBox3D2" type="CSGBox3D" parent="CSGCombiner3D"]
+transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 1, 7, 11)
+size = Vector3(14, 0.5, 30)
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource("Environment_dy15p")
+
+[node name="Node3D2" parent="." instance=ExtResource("3_b7tbn")]
+transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.4, 7)
