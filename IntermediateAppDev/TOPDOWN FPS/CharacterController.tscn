@@ -1,7 +1,7 @@
 [gd_scene load_steps=7 format=3 uid="uid://fwstwo3gc5ry"]
 
-[ext_resource type="Script" path="res://camera.gd" id="1_71qrp"]
-[ext_resource type="Script" path="res://CharacterBody3D.gd" id="1_fsq6j"]
+[ext_resource type="Script" uid="uid://bqr0ao6loybxe" path="res://camera.gd" id="1_71qrp"]
+[ext_resource type="Script" uid="uid://qnmhb40e7tec" path="res://CharacterBody3D.gd" id="1_fsq6j"]
 [ext_resource type="PackedScene" uid="uid://baqrnhr4uj8du" path="res://laser.tscn" id="3_cyvd4"]
 
 [sub_resource type="BoxShape3D" id="BoxShape3D_njbsl"]

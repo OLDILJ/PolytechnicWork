@@ -3,12 +3,15 @@ extends CharacterBody3D
 @export_category("ToggleBool")
 @export var Sprinting = false;
 @export var DoubleTapToggle = false;
+@export var DoubleTapDodgeToggle = false;
 @export_category("Speed")
 @export var SPEED = 5.0
 @export var SprintMult = 2.0
 @export var RotationSpeed = .05
 var Rotating = false;
 signal DoubleTapTimerStart
+signal DoubleTapDodgeStart
+const DodgeDistance = 50
 const JUMP_VELOCITY = 4.5
 const BaseSpeed = 5.0
 
@@ -31,7 +34,24 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_released("Forward"):
 		Sprinting = false
 		
-		
+	if Input.is_action_just_pressed("SLeft") or Input.is_action_just_pressed("SRight") or Input.is_action_just_pressed("Backward") :
+		emit_signal("DoubleTapDodgeStart")
+		if DoubleTapDodgeToggle:
+			print("DodgeStart")
+			var HorizontalDodgeDir = Input.get_axis("SLeft","SRight")
+			var BackwardDodge = -Input.get_action_strength("Backward");
+			print()
+			var DodgeDirection = (transform.basis * Vector3(HorizontalDodgeDir, 0, BackwardDodge)).normalized()
+			velocity.x = -DodgeDirection.x * DodgeDistance
+			velocity.z = DodgeDirection.z * DodgeDistance
+			move_and_slide()
+			await get_tree().create_timer(0.1).timeout
+			print("DodgeEnd")
+		else:
+			print("DodgeToggleOn")
+			DoubleTapDodgeToggle = true
+			
+			
 	# Handle jump.
 	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
 		velocity.y = JUMP_VELOCITY
@@ -40,7 +60,7 @@ func _physics_process(delta: float) -> void:
 		rotation.y = destinationY
 	if Input.is_action_just_pressed("Backward"):
 		SPEED = BaseSpeed/4
-	# Get the input direction and handle the movement/deceleration.
+
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir := Input.get_vector("SRight", "SLeft", "Backward", "Forward")
 	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
@@ -68,4 +88,9 @@ func _physics_process(delta: float) -> void:
 	
 func _on_double_tap_timer_timeout() -> void:
 	DoubleTapToggle = false
+	pass # Replace with function body.
+
+
+func _on_double_tap_dodge_timer_timeout() -> void:
+	DoubleTapDodgeToggle = false
 	pass # Replace with function body.

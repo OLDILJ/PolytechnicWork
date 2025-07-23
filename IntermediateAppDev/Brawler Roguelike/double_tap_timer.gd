@@ -12,4 +12,3 @@ func _process(delta: float) -> void:
 
 func _on_character_body_3d_double_tap_timer_start() -> void:
 	start()
-	pass # Replace with function body.

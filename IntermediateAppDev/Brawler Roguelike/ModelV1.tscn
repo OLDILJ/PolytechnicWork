@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=3 uid="uid://ce45euagsvp7e"]
+[gd_scene load_steps=8 format=3 uid="uid://ce45euagsvp7e"]
 
 [ext_resource type="ArrayMesh" uid="uid://b1qyhxkuuoed4" path="res://Assets/HumanModel/Model1.obj" id="1_rfwx3"]
 [ext_resource type="Script" uid="uid://b3071qei8rdki" path="res://character_body_3d.gd" id="1_usj5n"]
 [ext_resource type="Script" uid="uid://5a83ptaccrx1" path="res://double_tap_timer.gd" id="3_18ri0"]
 [ext_resource type="Script" uid="uid://d3y3qmrjijmjs" path="res://movelist_script.gd" id="4_71ytx"]
+[ext_resource type="Script" uid="uid://xhc0td1ltfct" path="res://double_tap_dodge_timer.gd" id="5_n2hr6"]
 
 [sub_resource type="Skin" id="Skin_h0og8"]
 
@@ -216,5 +217,12 @@ script = ExtResource("3_18ri0")
 [node name="MovelistScript" type="Node3D" parent="CharacterBody3D"]
 script = ExtResource("4_71ytx")
 
+[node name="DoubleTapDodgeTimer" type="Timer" parent="CharacterBody3D"]
+wait_time = 0.3
+script = ExtResource("5_n2hr6")
+
+[connection signal="DoubleTapDodgeStart" from="CharacterBody3D" to="CharacterBody3D" method="_on_double_tap_dodge_start"]
+[connection signal="DoubleTapDodgeStart" from="CharacterBody3D" to="CharacterBody3D/DoubleTapDodgeTimer" method="_on_character_body_3d_double_tap_dodge_start"]
 [connection signal="DoubleTapTimerStart" from="CharacterBody3D" to="CharacterBody3D/DoubleTapTimer" method="_on_character_body_3d_double_tap_timer_start"]
 [connection signal="timeout" from="CharacterBody3D/DoubleTapTimer" to="CharacterBody3D" method="_on_double_tap_timer_timeout"]
+[connection signal="timeout" from="CharacterBody3D/DoubleTapDodgeTimer" to="CharacterBody3D" method="_on_double_tap_dodge_timer_timeout"]
