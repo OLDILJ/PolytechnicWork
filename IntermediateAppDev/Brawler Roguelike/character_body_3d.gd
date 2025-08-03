@@ -7,7 +7,10 @@ extends CharacterBody3D
 @export_category("Speed")
 @export var SPEED = 5.0
 @export var SprintMult = 2.0
-@export var RotationSpeed = .05
+@export var RotationSpeed = .01
+@export_category("Animation")
+@onready var AnimTree = $human/AnimationTree
+@export var CurrentAnim = AnimTree.
 var Rotating = false;
 signal DoubleTapTimerStart
 signal DoubleTapDodgeStart
