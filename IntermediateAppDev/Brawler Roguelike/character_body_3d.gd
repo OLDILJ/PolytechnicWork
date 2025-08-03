@@ -10,7 +10,10 @@ extends CharacterBody3D
 @export var RotationSpeed = .01
 @export_category("Animation")
 @onready var AnimTree = $human/AnimationTree
-@export var CurrentAnim = AnimTree.
+@export var AnimBlend = 1
+@onready var AnimTreeBlend = AnimTree.get("parameters/Blend2/blend_amount")
+
+
 var Rotating = false;
 signal DoubleTapTimerStart
 signal DoubleTapDodgeStart
@@ -18,9 +21,13 @@ const DodgeDistance = 50
 const JUMP_VELOCITY = 4.5
 const BaseSpeed = 5.0
 
-
-
-func _physics_process(delta: float) -> void:
+func ChangeBlend(NewVal):
+	AnimBlend = NewVal
+	AnimTree.set("parameters/Blend2/blend_amount", AnimBlend)
+	
+func _ready() -> void:
+	AnimTree.set("parameters/Transition/transition_request", "Idle")
+func _physics_process(delta: float) -> void:	
 	# Add the gravity.
 	if not is_on_floor():
 		velocity += get_gravity() * delta
@@ -30,10 +37,15 @@ func _physics_process(delta: float) -> void:
 			Sprinting = true
 			print("Sprinting")
 			SPEED = BaseSpeed * SprintMult
+			AnimTree.set("parameters/Transition/transition_request", "Movement")
+			ChangeBlend(1.5)
 		else:
 			print("Walking")
 			DoubleTapToggle = true
 			SPEED = BaseSpeed
+			AnimTree.set("parameters/Transition/transition_request", "Movement")
+			ChangeBlend(0.5)
+
 	if Input.is_action_just_released("Forward"):
 		Sprinting = false
 		
@@ -63,6 +75,8 @@ func _physics_process(delta: float) -> void:
 		rotation.y = destinationY
 	if Input.is_action_just_pressed("Backward"):
 		SPEED = BaseSpeed/4
+		AnimTree.set("parameters/Transition/transition_request", "Movement")
+		ChangeBlend(0.4)
 
 	# As good practice, you should replace UI actions with custom gameplay actions.
 	var input_dir := Input.get_vector("SRight", "SLeft", "Backward", "Forward")
@@ -74,9 +88,15 @@ func _physics_process(delta: float) -> void:
 		else:
 			velocity.x = move_toward(velocity.x, 0, SPEED)
 			velocity.z = move_toward(velocity.z, 0, SPEED)
+			AnimTree.set("parameters/Transition/transition_request", "Idle")
+			
+
 	else:
 		velocity.x = 0
 		velocity.z = 0
+		AnimTree.set("parameters/Transition/transition_request", "Movement")
+		ChangeBlend(0.33)
+
 	var rotationDir := Input.get_axis("Left","Right")
 	if rotationDir:
 		Rotating = true

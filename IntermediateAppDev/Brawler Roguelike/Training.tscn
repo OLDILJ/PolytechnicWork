@@ -19,7 +19,7 @@ ambient_light_sky_contribution = 0.55
 
 [node name="Node3D" type="Node3D"]
 
-[node name="Node3D" parent="." instance=ExtResource("1_l8i26")]
+[node name="Player" parent="." instance=ExtResource("1_l8i26")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.402557, 0)
 
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
