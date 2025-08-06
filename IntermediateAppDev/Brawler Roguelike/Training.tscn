@@ -22,6 +22,36 @@ ambient_light_sky_contribution = 0.55
 [node name="Player" parent="." instance=ExtResource("1_l8i26")]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, 0.402557, 0)
 
+[node name="Armature" parent="Player/CharacterBody3D/human" index="0"]
+transform = Transform3D(100, 0, 0, 0, -4.37114e-06, 100, 0, -100, -4.37114e-06, 0, 0, 0)
+
+[node name="Skeleton3D" parent="Player/CharacterBody3D/human/Armature" index="0"]
+bones/0/rotation = Quaternion(0.801325, 0.0154033, 0.0165344, 0.597802)
+bones/1/rotation = Quaternion(-0.0800109, -0.0170652, 0.000514785, 0.996648)
+bones/2/rotation = Quaternion(-0.0285236, -0.058608, -0.00161571, 0.997872)
+bones/3/rotation = Quaternion(0.210085, 0.0506128, -0.00574285, 0.976355)
+bones/4/rotation = Quaternion(-0.210009, 0.000117299, 7.23121e-05, 0.9777)
+bones/6/rotation = Quaternion(-0.0581915, -0.057534, -0.854783, 0.512494)
+bones/7/rotation = Quaternion(0.106389, -0.018185, -0.321539, 0.940725)
+bones/8/rotation = Quaternion(0.491427, 0.134255, -0.144283, 0.848326)
+bones/9/rotation = Quaternion(0.0374097, 0.00996664, 0.0279514, 0.998859)
+bones/13/rotation = Quaternion(-0.000205267, -0.0389237, 0.855864, 0.515733)
+bones/14/rotation = Quaternion(-0.0147442, -0.0367694, 0.358998, 0.932497)
+bones/15/rotation = Quaternion(0.107271, -0.0581232, 0.13729, 0.982988)
+bones/16/rotation = Quaternion(0.0374098, -0.00996661, -0.0279515, 0.998859)
+bones/20/rotation = Quaternion(-0.0163794, -0.0448844, 0.998784, -0.0121801)
+bones/21/rotation = Quaternion(-0.170131, 7.46388e-05, -0.0181399, 0.985254)
+bones/22/rotation = Quaternion(0.171173, 0.0486956, 0.0783068, 0.980916)
+bones/23/rotation = Quaternion(0.662715, -0.0780978, -0.00971215, 0.744725)
+bones/25/rotation = Quaternion(-0.0514, 0.586275, 0.806509, 0.0564124)
+bones/26/rotation = Quaternion(-0.506389, -6.50373e-05, 0.0539926, 0.860613)
+bones/27/rotation = Quaternion(0.194487, -0.0629526, -0.0822514, 0.975421)
+bones/28/rotation = Quaternion(0.291347, 0.0669141, 0.0414257, 0.953375)
+bones/30/position = Vector3(0.00109748, 0.0046056, 0.00182529)
+bones/30/rotation = Quaternion(0.521348, -4.37713e-17, 5.01004e-17, 0.853344)
+bones/34/position = Vector3(-0.00109748, -0.00339274, 0.00240399)
+bones/34/rotation = Quaternion(0.208597, 1.32803e-16, 9.11431e-17, 0.978002)
+
 [node name="CSGCombiner3D" type="CSGCombiner3D" parent="."]
 transform = Transform3D(1, 0, 0, 0, 1, 0, 0, 0, 1, 0, -0.25, 0)
 use_collision = true
@@ -39,3 +69,6 @@ environment = SubResource("Environment_dy15p")
 
 [node name="Node3D2" parent="." instance=ExtResource("3_b7tbn")]
 transform = Transform3D(-1, 0, -8.74228e-08, 0, 1, 0, 8.74228e-08, 0, -1, 0, 0.4, 7)
+
+[editable path="Player"]
+[editable path="Player/CharacterBody3D/human"]

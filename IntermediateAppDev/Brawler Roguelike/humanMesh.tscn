@@ -1,0 +1,8 @@
+[gd_scene load_steps=2 format=3 uid="uid://dq515jpbjr7du"]
+
+[ext_resource type="PackedScene" uid="uid://bklonik1ajmm4" path="res://Assets/HumanModel/human.fbx" id="1_x4l0q"]
+
+[node name="human" instance=ExtResource("1_x4l0q")]
+
+[node name="Skeleton3D" parent="Armature" index="0"]
+modifier_callback_mode_process = 0
