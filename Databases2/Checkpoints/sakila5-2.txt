@@ -1,0 +1,11 @@
+
+### 5-2
+
+select F.title, Inv.inventory_id from film F left join inventory Inv on F.film_id=Inv.film_id where Inv.inventory_id is null;
+
+select count(film_id) as film_count, Act.first_name, Act.last_name from actor Act inner join film_actor FilAct on FilAct.actor_id = Act.actor_id group by Act.actor_id order by film_count desc;
+
+select title, rental_rate, replacement_cost, (select rental_rate/replacement_cost * 100) as roi from film;
+
+select (select max(replacement_cost) from film) as Maximum, (select min(replacement_cost)from film) as Minimum, (select avg(replacement_cost)from film) as Average;
+
