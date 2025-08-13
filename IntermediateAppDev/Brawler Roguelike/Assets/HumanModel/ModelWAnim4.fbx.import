@@ -3,13 +3,13 @@
 importer="scene"
 importer_version=1
 type="PackedScene"
-uid="uid://n78ohnmgpeo1"
-path="res://.godot/imported/male_casual.fbx-d01d311778d1aa5c37414f898d5993b7.scn"
+uid="uid://emhjo0vcw04d"
+path="res://.godot/imported/ModelWAnim4.fbx-7096dd948976fd22f8bb758544a53ed5.scn"
 
 [deps]
 
-source_file="res://Assets/HumanModel/male_casual.fbx"
-dest_files=["res://.godot/imported/male_casual.fbx-d01d311778d1aa5c37414f898d5993b7.scn"]
+source_file="res://Assets/HumanModel/ModelWAnim4.fbx"
+dest_files=["res://.godot/imported/ModelWAnim4.fbx-7096dd948976fd22f8bb758544a53ed5.scn"]
 
 [params]
 
@@ -32,16 +32,7 @@ animation/trimming=true
 animation/remove_immutable_tracks=true
 animation/import_rest_as_RESET=false
 import_script/path=""
-_subresources={
-"nodes": {
-"PATH:rig/Skeleton3D": {
-"rest_pose/external_animation_library": null
-},
-"PATH:rig/Skeleton3D/male_player": {
-"import/skip_import": true
-}
-}
-}
+_subresources={}
 fbx/importer=0
 fbx/allow_geometry_helper_nodes=false
 fbx/embedded_image_handling=1
