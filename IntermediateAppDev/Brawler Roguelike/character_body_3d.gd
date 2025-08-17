@@ -52,12 +52,16 @@ func _physics_process(delta: float) -> void:
 	if Input.is_action_just_pressed("SLeft") or Input.is_action_just_pressed("SRight") or Input.is_action_just_pressed("Backward") :
 		emit_signal("DoubleTapDodgeStart")
 		if DoubleTapDodgeToggle:
-			print("DodgeStart")
-			var HorizontalDodgeDir = Input.get_axis("SLeft","SRight")
+			print("DodgeStart");
+			var HorizontalDodgeDir = -Input.get_axis("SLeft","SRight")
 			var BackwardDodge = -Input.get_action_strength("Backward");
-			print()
 			var DodgeDirection = (transform.basis * Vector3(HorizontalDodgeDir, 0, BackwardDodge)).normalized()
-			velocity.x = -DodgeDirection.x * DodgeDistance
+			print(DodgeDirection);
+			if BackwardDodge != 0:
+				AnimTree.set("parameters/Transition/transition_request", "Movement")
+			else:
+				AnimTree.set("parameters/Transition/transition_request", "")
+			velocity.x = DodgeDirection.x * DodgeDistance
 			velocity.z = DodgeDirection.z * DodgeDistance
 			move_and_slide()
 			await get_tree().create_timer(0.1).timeout
