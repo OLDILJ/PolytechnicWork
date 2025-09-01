@@ -1,0 +1,13 @@
+Question1:
+select title, genre from book where author='Harper Lee';
+
+Question 2:
+select * from book join rating on book.bID=rating.bID where ratings = 4 or ratings = 5 order by ratings asc;
+
+Question 3:
+??
+
+Question 4:
+select * from book join rating on book.bID=rating.bID where ratingDate is null;
+
+Question 5:
