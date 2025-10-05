@@ -2,12 +2,12 @@ extends Node2D
 
 class_name BaseState
 
-@onready var animated_sprite = %AnimatedSprite2D
+@onready var animated_sprite = $CharacterBody2D/AnimatedSprite2D
 @onready var change_state
 @onready var persistent_state
 
 func _physics_process(_delta):
-	persistent_state.move_and_slide(persistent_state.velocity, Vector2.UP)
+	persistent_state.move_and_slide(persistent_state.vel, Vector2.UP)
 
 
 #Set up some defaults and change stuff when the state changes

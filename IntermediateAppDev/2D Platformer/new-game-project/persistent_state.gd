@@ -1,9 +1,11 @@
 extends CharacterBody2D
 
 class_name PersistentState
-
+@onready var anim = $AnimatedSprite2D
 var state
 var state_factory
+
+var vel = Vector2()
 
 func _ready():
 	state_factory = StateFactory.new()
@@ -25,6 +27,6 @@ func change_state(new_state_name):
 	if state != null:
 		state.queue_free()
 	state = state_factory.get_state(new_state_name).new()
-	state.setup("change_state", %AnimatedSprite2D, self)
+	state.setup(self, anim, self)
 	state.name = "current_state"
 	add_child(state)

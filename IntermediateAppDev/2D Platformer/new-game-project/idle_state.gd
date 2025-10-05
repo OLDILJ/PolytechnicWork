@@ -3,7 +3,8 @@ extends BaseState
 class_name IdleState
 
 func _ready():
-	animated_sprite.play("idle")
+	pass
+	#animated_sprite.play("idle")
 # set up ability to flip the direction
 func _flip_direction():
 	animated_sprite.flip_h = not animated_sprite.flip_h
