@@ -1,0 +1,31 @@
+[gd_scene load_steps=6 format=3 uid="uid://bbb44jpd4gu7u"]
+
+[ext_resource type="Script" uid="uid://cxnd2icplylsr" path="res://State/Player.gd" id="1_jkfty"]
+[ext_resource type="Script" uid="uid://7u73y7xdv54j" path="res://State/StateMachine.gd" id="2_ewjwe"]
+[ext_resource type="PackedScene" uid="uid://dp1ayxuj4wg84" path="res://animated_sprite_2d.tscn" id="3_ewjwe"]
+[ext_resource type="Script" uid="uid://bdxc8wqv1ikxn" path="res://PlayerController.gd" id="4_jkfty"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_uf0uw"]
+size = Vector2(24, 32)
+
+[node name="CharacterNode" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+script = ExtResource("1_jkfty")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+shape = SubResource("RectangleShape2D_uf0uw")
+
+[node name="AnimatedSprite2D" parent="CharacterBody2D" instance=ExtResource("3_ewjwe")]
+unique_name_in_owner = true
+animation = &"Jump"
+frame_progress = 0.0
+
+[node name="State Machine" type="Node" parent="CharacterBody2D" node_paths=PackedStringArray("initialState")]
+script = ExtResource("2_ewjwe")
+initialState = NodePath("PlayerController")
+
+[node name="PlayerController" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player")]
+script = ExtResource("4_jkfty")
+Player = NodePath("../..")
+metadata/_custom_type_script = "uid://bdxc8wqv1ikxn"
