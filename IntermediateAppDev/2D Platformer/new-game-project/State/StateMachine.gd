@@ -6,7 +6,6 @@ extends Node
 # I also need to define that the current state is a "State"
 
 @export var currentState : State
-
 @export var states : Dictionary = {}
 
 # check all the children of this specific state machine

@@ -3,6 +3,7 @@ extends State
 class_name PlayerController
 
 @export var Player: CharacterBody2D
+@export var AnimationSprite: AnimatedSprite2D
 
 @export var moveSpeed := 100
 
@@ -23,10 +24,12 @@ func PhysicsUpdate(delta: float):
 		Transition.emit(self, "jump")
 	
 	if Player:
-		Player.velocity = moveDirection * moveSpeed
+		Player.velocity.x = moveDirection.x * moveSpeed
 		moveDirection = moveDirection * friction
 		print(Player.velocity.x)
-		if abs(Player.velocity.x) < 10:
+		AnimationSprite.play("Run")
+		if abs(Player.velocity.x) < 15:
 			print("Emergency Halt")
 			Player.velocity.x = 0
 			moveDirection = Vector2.ZERO
+			AnimationSprite.play("Idle")

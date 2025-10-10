@@ -25,7 +25,8 @@ frame_progress = 0.0
 script = ExtResource("2_ewjwe")
 initialState = NodePath("PlayerController")
 
-[node name="PlayerController" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player")]
+[node name="PlayerController" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player", "AnimationSprite")]
 script = ExtResource("4_jkfty")
 Player = NodePath("../..")
+AnimationSprite = NodePath("../../AnimatedSprite2D")
 metadata/_custom_type_script = "uid://bdxc8wqv1ikxn"
