@@ -21,7 +21,7 @@ func PhysicsUpdate(delta: float):
 		moveDirection = Vector2(-1,0)
 	if Input.is_action_pressed("Jump"):
 		print("Sending Jump Signal")
-		Transition.emit(self, "jump")
+		Transition.emit(self, "Jump")
 	
 	if Player:
 		Player.velocity.x = moveDirection.x * moveSpeed
