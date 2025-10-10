@@ -4,8 +4,10 @@ extends CharacterBody2D
 func _physics_process(delta):
 	move_and_slide()
 	
-	if velocity.length() > 0:
+	if velocity.length() > 0 && velocity.y == 0:
 		$AnimatedSprite2D.play("Run")
+	if velocity.y != 0:
+		$AnimatedSprite2D.play("Jump")
 	if velocity.x > 0:
 		$AnimatedSprite2D.flip_h = false
 	else:

@@ -1,15 +1,13 @@
-[gd_scene load_steps=3 format=3 uid="uid://b4vcc4f0gjpvd"]
+[gd_scene load_steps=2 format=3 uid="uid://b4vcc4f0gjpvd"]
 
 [ext_resource type="PackedScene" uid="uid://bbb44jpd4gu7u" path="res://PlayerCharacter.tscn" id="1_y1jsw"]
-[ext_resource type="Script" uid="uid://cxnd2icplylsr" path="res://test.gd" id="2_waekl"]
 
 [node name="Node2D" type="Node2D"]
 
 [node name="AnimatedSprite2D" parent="." instance=ExtResource("1_y1jsw")]
 position = Vector2(260, 130)
-script = null
 
-[node name="CharacterBody2D" parent="AnimatedSprite2D" index="0"]
-script = ExtResource("2_waekl")
+[node name="AnimatedSprite2D" parent="AnimatedSprite2D/CharacterBody2D" index="1"]
+animation = &"Death"
 
 [editable path="AnimatedSprite2D"]
