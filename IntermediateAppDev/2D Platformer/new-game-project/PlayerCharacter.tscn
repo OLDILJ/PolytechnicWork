@@ -1,20 +1,29 @@
-[gd_scene load_steps=5 format=3 uid="uid://bbb44jpd4gu7u"]
+[gd_scene load_steps=6 format=3 uid="uid://bbb44jpd4gu7u"]
 
-[ext_resource type="Script" uid="uid://b1ey8rla0rbra" path="res://base_state.gd" id="1_ewjwe"]
-[ext_resource type="Script" uid="uid://3hmdyxpt8r2q" path="res://persistent_state.gd" id="2_jkfty"]
+[ext_resource type="Script" uid="uid://cxnd2icplylsr" path="res://test.gd" id="1_jkfty"]
+[ext_resource type="Script" uid="uid://7u73y7xdv54j" path="res://State/StateMachine.gd" id="2_ewjwe"]
 [ext_resource type="PackedScene" uid="uid://dp1ayxuj4wg84" path="res://animated_sprite_2d.tscn" id="3_ewjwe"]
+[ext_resource type="Script" uid="uid://bmuks52ln072c" path="res://State/PlayerIdle.gd" id="3_jkfty"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uf0uw"]
 size = Vector2(24, 32)
 
 [node name="CharacterNode" type="Node2D"]
-script = ExtResource("1_ewjwe")
 
 [node name="CharacterBody2D" type="CharacterBody2D" parent="."]
-script = ExtResource("2_jkfty")
+script = ExtResource("1_jkfty")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
 shape = SubResource("RectangleShape2D_uf0uw")
 
 [node name="AnimatedSprite2D" parent="CharacterBody2D" instance=ExtResource("3_ewjwe")]
 unique_name_in_owner = true
+
+[node name="State Machine" type="Node" parent="CharacterBody2D" node_paths=PackedStringArray("initialState")]
+script = ExtResource("2_ewjwe")
+initialState = NodePath("PlayerIdle")
+
+[node name="PlayerIdle" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player")]
+script = ExtResource("3_jkfty")
+Player = NodePath("../..")
+metadata/_custom_type_script = "uid://bmuks52ln072c"
