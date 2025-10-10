@@ -24,6 +24,7 @@ func PhysicsUpdate(delta: float):
 		Transition.emit(self, "Jump")
 	
 	if Player:
+		
 		Player.velocity.x = moveDirection.x * moveSpeed
 		moveDirection = moveDirection * friction
 		print(Player.velocity.x)
