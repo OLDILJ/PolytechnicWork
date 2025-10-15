@@ -13,6 +13,7 @@ var moveDirection : Vector2
 var friction = 0.9
 var NoInput = false
 
+@warning_ignore("unused_parameter")
 func PhysicsUpdate(delta: float):
 	
 	if Input.is_action_pressed("Right"):
@@ -44,6 +45,7 @@ func PhysicsUpdate(delta: float):
 		if NoInput:
 			#print("Enable Friction & Accel Removal")
 			emergencyStopToggle = true
+			@warning_ignore("narrowing_conversion")
 			AccelValue = AccelValue * -friction
 			Player.velocity.x = Player.velocity.x + AccelValue * moveDirection.x
 		if abs(Player.velocity.x) > MoveSpeedCap:
