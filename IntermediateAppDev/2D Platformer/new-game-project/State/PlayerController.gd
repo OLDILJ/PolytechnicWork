@@ -10,8 +10,8 @@ class_name PlayerController
 @export var BrakeThreshold := 50
 var emergencyStopToggle = false
 var moveDirection : Vector2
-var friction = 0.93
-
+var friction = 0.9
+var NoInput = false
 
 func PhysicsUpdate(delta: float):
 	
@@ -25,26 +25,29 @@ func PhysicsUpdate(delta: float):
 		#print("Sending Jump Signal")
 		Transition.emit(self, "Jump")
 	if (Input.is_action_pressed("Left") or Input.is_action_pressed("Right")) == false:
-		moveDirection = Vector2(0,0)
+		NoInput = true
+	else: NoInput = false
 	
 	if Player:
+		@warning_ignore("narrowing_conversion")
 		AccelValue = AccelerationCurve.sample(MoveSpeedCap/abs(Player.velocity.x))
-		print("Math Test ", (MoveSpeedCap/abs(Player.velocity.x)))
-		#print("Accel Value = ", AccelValue)
+		#print("Math Test ", (MoveSpeedCap/abs(Player.velocity.x)))
+		print("Accel Value = ", AccelValue)
 		Player.velocity.x = Player.velocity.x + AccelValue * moveDirection.x
-		#print("Player Velocity ", Player.velocity.x)
+		print("Player Velocity ", Player.velocity.x)
 		AnimationSprite.play("Run")
+		@warning_ignore("integer_division")
 		if abs(Player.velocity.x) > BrakeThreshold + (BrakeThreshold/5):
 			#print("Enable Friction")
 			emergencyStopToggle = true
 			Player.velocity.x = Player.velocity.x * friction
-		if moveDirection.x == 0:
+		if NoInput:
 			#print("Enable Friction & Accel Removal")
 			emergencyStopToggle = true
-			AccelValue = 0
-			Player.velocity.x = Player.velocity.x * friction
+			AccelValue = AccelValue * -friction
+			Player.velocity.x = Player.velocity.x + AccelValue * moveDirection.x
 		if abs(Player.velocity.x) > MoveSpeedCap:
-			Player.velocity.x = MoveSpeedCap
+			Player.velocity.x = MoveSpeedCap * moveDirection.x
 		if ((abs(Player.velocity.x) < BrakeThreshold) && (emergencyStopToggle == true)):
 			#print("Emergency Halt")
 			Player.velocity.x = 0
