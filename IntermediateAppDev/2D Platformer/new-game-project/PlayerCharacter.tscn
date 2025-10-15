@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=3 uid="uid://bbb44jpd4gu7u"]
+[gd_scene load_steps=10 format=3 uid="uid://bbb44jpd4gu7u"]
 
 [ext_resource type="Script" uid="uid://cxnd2icplylsr" path="res://State/Player.gd" id="1_jkfty"]
 [ext_resource type="Script" uid="uid://7u73y7xdv54j" path="res://State/StateMachine.gd" id="2_ewjwe"]
 [ext_resource type="PackedScene" uid="uid://dp1ayxuj4wg84" path="res://animated_sprite_2d.tscn" id="3_ewjwe"]
 [ext_resource type="Script" uid="uid://bdxc8wqv1ikxn" path="res://State/PlayerController.gd" id="4_jkfty"]
 [ext_resource type="Script" uid="uid://ble8o1o2q6ud7" path="res://State/PlayerJump.gd" id="5_5lgxq"]
+[ext_resource type="Script" uid="uid://boa5scnw8xkf7" path="res://camera_2d.gd" id="6_ew46a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uf0uw"]
 size = Vector2(24, 32)
@@ -58,3 +59,8 @@ priority = 1
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
 shape = SubResource("RectangleShape2D_5lgxq")
 debug_color = Color(0.99607843, 0, 0, 0.41960785)
+
+[node name="Camera2D" type="Camera2D" parent="CharacterBody2D"]
+drag_horizontal_enabled = true
+drag_vertical_enabled = true
+script = ExtResource("6_ew46a")
