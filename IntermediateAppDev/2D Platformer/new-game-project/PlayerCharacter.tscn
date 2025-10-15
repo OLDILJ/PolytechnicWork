@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://bbb44jpd4gu7u"]
+[gd_scene load_steps=8 format=3 uid="uid://bbb44jpd4gu7u"]
 
 [ext_resource type="Script" uid="uid://cxnd2icplylsr" path="res://State/Player.gd" id="1_jkfty"]
 [ext_resource type="Script" uid="uid://7u73y7xdv54j" path="res://State/StateMachine.gd" id="2_ewjwe"]
@@ -8,6 +8,10 @@
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uf0uw"]
 size = Vector2(24, 32)
+
+[sub_resource type="Curve" id="Curve_5lgxq"]
+_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+point_count = 2
 
 [node name="CharacterNode" type="Node2D"]
 
@@ -30,10 +34,15 @@ initialState = NodePath("Jump")
 script = ExtResource("4_jkfty")
 Player = NodePath("../..")
 AnimationSprite = NodePath("../../AnimatedSprite2D")
+AccelerationCurve = SubResource("Curve_5lgxq")
 metadata/_custom_type_script = "uid://bdxc8wqv1ikxn"
 
-[node name="Jump" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player", "AnimationSprite")]
+[node name="LandingLagTimer" type="Timer" parent="CharacterBody2D/State Machine/Default"]
+one_shot = true
+
+[node name="Jump" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player", "AnimationSprite", "LandingLagTimer")]
 script = ExtResource("5_5lgxq")
 Player = NodePath("../..")
 AnimationSprite = NodePath("../../AnimatedSprite2D")
+LandingLagTimer = NodePath("../Default/LandingLagTimer")
 metadata/_custom_type_script = "uid://ble8o1o2q6ud7"
