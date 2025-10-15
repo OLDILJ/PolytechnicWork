@@ -38,12 +38,8 @@ AnimationSprite = NodePath("../../AnimatedSprite2D")
 AccelerationCurve = SubResource("Curve_5lgxq")
 metadata/_custom_type_script = "uid://bdxc8wqv1ikxn"
 
-[node name="LandingLagTimer" type="Timer" parent="CharacterBody2D/State Machine/Default"]
-one_shot = true
-
-[node name="Jump" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player", "AnimationSprite", "LandingLagTimer")]
+[node name="Jump" type="Node" parent="CharacterBody2D/State Machine" node_paths=PackedStringArray("Player", "AnimationSprite")]
 script = ExtResource("5_5lgxq")
 Player = NodePath("../..")
 AnimationSprite = NodePath("../../AnimatedSprite2D")
-LandingLagTimer = NodePath("../Default/LandingLagTimer")
 metadata/_custom_type_script = "uid://ble8o1o2q6ud7"
