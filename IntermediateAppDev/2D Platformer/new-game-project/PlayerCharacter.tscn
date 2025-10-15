@@ -10,7 +10,8 @@
 size = Vector2(24, 32)
 
 [sub_resource type="Curve" id="Curve_5lgxq"]
-_data = [Vector2(0, 0), 0.0, 0.0, 0, 0, Vector2(1, 1), 0.0, 0.0, 0, 0]
+_limits = [1.0, 20.0, 1.0, 20.0]
+_data = [Vector2(1, 20), 0.0, 0.0, 0, 0, Vector2(20, 1), 0.0, 0.0, 0, 0]
 point_count = 2
 
 [node name="CharacterNode" type="Node2D"]

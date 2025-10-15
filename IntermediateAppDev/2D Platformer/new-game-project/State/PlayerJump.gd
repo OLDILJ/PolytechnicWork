@@ -10,7 +10,7 @@ class_name PlayerJump
 @export var AirStrafeSpeed := 5
 
 func Enter():
-	Player.velocity.y = -300
+	Player.velocity.y = -JumpForce
 
 func PhysicsUpdate(delta: float):
 	
