@@ -30,6 +30,7 @@ func PhysicsUpdate(delta: float):
 	else: NoInput = false
 	
 	if Player:
+		### Movement Code
 		@warning_ignore("narrowing_conversion")
 		AccelValue = AccelerationCurve.sample(MoveSpeedCap/abs(Player.velocity.x))
 		#print("Math Test ", (MoveSpeedCap/abs(Player.velocity.x)))
@@ -56,3 +57,5 @@ func PhysicsUpdate(delta: float):
 			moveDirection = Vector2.ZERO
 			AnimationSprite.play("Idle")
 			emergencyStopToggle = false
+			
+			
