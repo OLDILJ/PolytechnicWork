@@ -58,7 +58,7 @@ func PhysicsUpdate(delta: float):
 			Player.velocity.x = 0
 			moveDirection = Vector2.ZERO
 			emergencyStopToggle = false
-			if AnimationSprite.get_animation() != "Idle":
+			if AnimationSprite.get_animation() != "Idle" && Player.is_on_floor():
 				print("Swapping To Idle Anim")
 				AnimationSprite.play("Idle")
 
