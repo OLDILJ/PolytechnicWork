@@ -21,6 +21,11 @@ window/size/viewport_width=960
 window/size/viewport_height=960
 window/size/initial_position_type=3
 
+[global_group]
+
+Stomp="Stomp Hitbox"
+Enemy=""
+
 [input]
 
 Jump={

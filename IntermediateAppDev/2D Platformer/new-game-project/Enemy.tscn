@@ -1,4 +1,4 @@
-[gd_scene load_steps=7 format=3 uid="uid://d1eq8rjvwacc4"]
+[gd_scene load_steps=8 format=3 uid="uid://d1eq8rjvwacc4"]
 
 [ext_resource type="Script" uid="uid://bss4mgihbqfdc" path="res://character_body_2d.gd" id="1_e6d4v"]
 [ext_resource type="Texture2D" uid="uid://dggs8lf45cgq1" path="res://Assets/simpleGraphics_tiles32x32.png" id="1_tt7e2"]
@@ -11,6 +11,9 @@ region = Rect2(72, 0, 16, 32)
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_tt7e2"]
 size = Vector2(10, 30)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_e6d4v"]
+size = Vector2(14, 17)
 
 [node name="Node2D" type="Node2D"]
 
@@ -35,3 +38,13 @@ script = ExtResource("3_e6d4v")
 Enemy = NodePath("../..")
 moveSpeed = 40
 metadata/_custom_type_script = "uid://byw010ybnb3v1"
+
+[node name="Area2D" type="Area2D" parent="CharacterBody2D" groups=["Enemy"]]
+collision_layer = 2
+collision_mask = 9
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
+position = Vector2(1, -6.5)
+shape = SubResource("RectangleShape2D_e6d4v")
+
+[connection signal="area_entered" from="CharacterBody2D/Area2D" to="CharacterBody2D" method="_on_area_2d_area_entered"]

@@ -8,7 +8,7 @@
 [ext_resource type="Script" uid="uid://boa5scnw8xkf7" path="res://camera_2d.gd" id="6_ew46a"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_uf0uw"]
-size = Vector2(12, 32)
+size = Vector2(12, 31)
 
 [sub_resource type="Curve" id="Curve_5lgxq"]
 _limits = [1.0, 30.0, 1.0, 30.0]
@@ -26,13 +26,13 @@ script = ExtResource("1_jkfty")
 StompHitbox = NodePath("Area2D")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
-position = Vector2(-1, 0)
+position = Vector2(-1, 0.5)
 shape = SubResource("RectangleShape2D_uf0uw")
 
 [node name="AnimatedSprite2D" parent="CharacterBody2D" instance=ExtResource("3_ewjwe")]
 unique_name_in_owner = true
-animation = &"Idle"
-frame_progress = 0.0
+animation = &"Death"
+frame_progress = 0.9054141
 
 [node name="State Machine" type="Node" parent="CharacterBody2D" node_paths=PackedStringArray("initialState")]
 script = ExtResource("2_ewjwe")
@@ -51,13 +51,14 @@ Player = NodePath("../..")
 AnimationSprite = NodePath("../../AnimatedSprite2D")
 metadata/_custom_type_script = "uid://ble8o1o2q6ud7"
 
-[node name="Area2D" type="Area2D" parent="CharacterBody2D"]
+[node name="Area2D" type="Area2D" parent="CharacterBody2D" groups=["Stomp"]]
 position = Vector2(0, 10)
 collision_layer = 8
 collision_mask = 6
 priority = 1
 
 [node name="CollisionShape2D2" type="CollisionShape2D" parent="CharacterBody2D/Area2D"]
+position = Vector2(0, 3)
 shape = SubResource("RectangleShape2D_5lgxq")
 debug_color = Color(0.99607843, 0, 0, 0.41960785)
 
