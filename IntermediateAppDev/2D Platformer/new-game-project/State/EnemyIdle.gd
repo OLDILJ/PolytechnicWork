@@ -24,4 +24,4 @@ func Update(delta: float):
 
 func PhysicsUpdate(delta: float):
 	if Enemy:
-		Enemy.velocity = moveDirection * moveSpeed
+		Enemy.velocity.x = moveDirection.x * moveSpeed * randf_range(0.9,1.2)

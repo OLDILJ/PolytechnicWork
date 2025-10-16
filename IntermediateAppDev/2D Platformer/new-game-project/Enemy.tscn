@@ -1,0 +1,37 @@
+[gd_scene load_steps=7 format=3 uid="uid://d1eq8rjvwacc4"]
+
+[ext_resource type="Script" uid="uid://bss4mgihbqfdc" path="res://character_body_2d.gd" id="1_e6d4v"]
+[ext_resource type="Texture2D" uid="uid://dggs8lf45cgq1" path="res://Assets/simpleGraphics_tiles32x32.png" id="1_tt7e2"]
+[ext_resource type="Script" uid="uid://7u73y7xdv54j" path="res://State/StateMachine.gd" id="2_2hac7"]
+[ext_resource type="Script" uid="uid://bmuks52ln072c" path="res://State/EnemyIdle.gd" id="3_e6d4v"]
+
+[sub_resource type="AtlasTexture" id="AtlasTexture_s7bn3"]
+atlas = ExtResource("1_tt7e2")
+region = Rect2(72, 0, 16, 32)
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_tt7e2"]
+size = Vector2(10, 30)
+
+[node name="Node2D" type="Node2D"]
+
+[node name="CharacterBody2D" type="CharacterBody2D" parent="."]
+collision_layer = 3
+collision_mask = 25
+script = ExtResource("1_e6d4v")
+
+[node name="Sprite2D" type="Sprite2D" parent="CharacterBody2D"]
+texture = SubResource("AtlasTexture_s7bn3")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="CharacterBody2D"]
+position = Vector2(1, 1)
+shape = SubResource("RectangleShape2D_tt7e2")
+
+[node name="Node" type="Node" parent="CharacterBody2D" node_paths=PackedStringArray("initialState")]
+script = ExtResource("2_2hac7")
+initialState = NodePath("Idle")
+
+[node name="Idle" type="Node" parent="CharacterBody2D/Node" node_paths=PackedStringArray("Enemy")]
+script = ExtResource("3_e6d4v")
+Enemy = NodePath("../..")
+moveSpeed = 40
+metadata/_custom_type_script = "uid://byw010ybnb3v1"
