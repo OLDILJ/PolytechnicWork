@@ -34,25 +34,31 @@ func PhysicsUpdate(delta: float):
 			AnimationSprite.play("Run")
 
 		### Movement Code
-		@warning_ignore("narrowing_conversion")
-		AccelValue = AccelerationCurve.sample(MoveSpeedCap/abs(Player.velocity.x))
-		#print("Math Test ", (MoveSpeedCap/abs(Player.velocity.x)))
-		print("Accel Value = ", AccelValue)
-		Player.velocity.x = Player.velocity.x + AccelValue * moveDirection.x
-		print("Player Velocity ", Player.velocity.x)
-		@warning_ignore("integer_division")
+		if NoInput == false:
+			@warning_ignore("narrowing_conversion")
+			AccelValue = AccelerationCurve.sample(MoveSpeedCap/abs(Player.velocity.x))
+			#print("Math Test ", (MoveSpeedCap/abs(Player.velocity.x)))
+			print("Accel Value = ", AccelValue)
+			Player.velocity.x = Player.velocity.x + AccelValue * moveDirection.x
+			print("Player Velocity ", Player.velocity.x)
+			@warning_ignore("integer_division")
 		if abs(Player.velocity.x) > BrakeThreshold + (BrakeThreshold/5):
 			#print("Enable Friction")
 			emergencyStopToggle = true
 			Player.velocity.x = Player.velocity.x * friction
+		if abs(Player.velocity.x) > MoveSpeedCap:
+			Player.velocity.x = MoveSpeedCap * moveDirection.x
 		if NoInput:
 			#print("Enable Friction & Accel Removal")
 			emergencyStopToggle = true
 			@warning_ignore("narrowing_conversion")
-			AccelValue = AccelValue * -friction
+			AccelValue = AccelValue * friction
+			print(AccelValue)
+			print(Player.velocity.x)
 			Player.velocity.x = Player.velocity.x + AccelValue * moveDirection.x
-		if abs(Player.velocity.x) > MoveSpeedCap:
-			Player.velocity.x = MoveSpeedCap * moveDirection.x
+			if AccelValue == 0:
+				Player.velocity.x = 0
+
 		if ((abs(Player.velocity.x) < BrakeThreshold) && (emergencyStopToggle == true)):
 			#print("Emergency Halt")
 			Player.velocity.x = 0
@@ -61,6 +67,6 @@ func PhysicsUpdate(delta: float):
 			if AnimationSprite.get_animation() != "Idle" && Player.is_on_floor():
 				print("Swapping To Idle Anim")
 				AnimationSprite.play("Idle")
-
+		
 			
 			

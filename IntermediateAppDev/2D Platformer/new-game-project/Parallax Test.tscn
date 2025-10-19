@@ -1,8 +1,9 @@
-[gd_scene load_steps=7 format=3 uid="uid://cwuqjrnc1ujqq"]
+[gd_scene load_steps=8 format=3 uid="uid://cwuqjrnc1ujqq"]
 
-[ext_resource type="Texture2D" uid="uid://dixu8vnh5btcj" path="res://Assets/TestTexture.png" id="1_cn5ic"]
+[ext_resource type="Texture2D" uid="uid://bmyisqeyycd3o" path="res://Assets/Textures/prototype.png" id="1_bhhbo"]
 [ext_resource type="Texture2D" uid="uid://cre55tgdcifcp" path="res://Assets/Dungeon Ruins Tileset/Dungeon Ruins Tileset/Dungeon Ruins Tileset Day.png" id="1_fkpte"]
 [ext_resource type="Texture2D" uid="uid://1uflxx5gmje3" path="res://Assets/Dungeon Ruins Tileset/Dungeon Ruins Tileset/Dungeon Ruins Tileset Night.png" id="3_4pxm3"]
+[ext_resource type="Texture2D" uid="uid://drjuv8iao6viw" path="res://Assets/Textures/prototype (1).png" id="4_ts5hp"]
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_cn5ic"]
 atlas = ExtResource("1_fkpte")
@@ -19,20 +20,17 @@ region = Rect2(288, 168, 128, 40)
 [node name="Node2D" type="Node2D"]
 
 [node name="Parallax2D" type="Parallax2D" parent="."]
-modulate = Color(0.43437496, 0.5159253, 0.43437496, 1)
-self_modulate = Color(0.64705884, 0.8039216, 0.64705884, 1)
+modulate = Color(0.7372549, 0.7372549, 0.7372549, 0.49019608)
 z_index = -1
-repeat_size = Vector2(320, 160)
+repeat_size = Vector2(512, 512)
 
 [node name="TextureRect" type="TextureRect" parent="Parallax2D"]
-modulate = Color(2.7083335, 2.0817623, 0.756718, 1)
 z_index = -3
 offset_right = 1280.0
 offset_bottom = 1280.0
 size_flags_horizontal = 4
 size_flags_vertical = 0
-texture = ExtResource("1_cn5ic")
-expand_mode = 2
+texture = ExtResource("1_bhhbo")
 stretch_mode = 1
 
 [node name="Parallax2D2" type="Parallax2D" parent="."]
@@ -44,6 +42,7 @@ scale = Vector2(0.99999994, 0.99999994)
 texture = SubResource("AtlasTexture_cn5ic")
 
 [node name="Parallax2D3" type="Parallax2D" parent="."]
+modulate = Color(1, 1, 1, 0.8627451)
 repeat_size = Vector2(960, 0)
 
 [node name="Sprite2D" type="Sprite2D" parent="Parallax2D3"]
@@ -65,6 +64,7 @@ scale = Vector2(5, 5)
 texture = SubResource("AtlasTexture_bhhbo")
 
 [node name="Parallax2D5" type="Parallax2D" parent="."]
+modulate = Color(1, 1, 1, 0.8627451)
 scroll_scale = Vector2(0.7, 1)
 repeat_size = Vector2(960, 0)
 
@@ -75,6 +75,7 @@ scale = Vector2(5, 5)
 texture = SubResource("AtlasTexture_4pxm3")
 
 [node name="Parallax2D6" type="Parallax2D" parent="."]
+modulate = Color(1, 1, 1, 0.8627451)
 scroll_scale = Vector2(0.9, 1)
 scroll_offset = Vector2(0, 94)
 repeat_size = Vector2(960, 0)
@@ -87,6 +88,7 @@ scale = Vector2(5, 5)
 texture = SubResource("AtlasTexture_4pxm3")
 
 [node name="Parallax2D7" type="Parallax2D" parent="."]
+modulate = Color(1, 1, 1, 0.8627451)
 scroll_scale = Vector2(0.6, 1)
 scroll_offset = Vector2(0, 94)
 repeat_size = Vector2(960, 0)
@@ -96,3 +98,18 @@ z_index = -1
 position = Vector2(480, 470)
 scale = Vector2(5, 5)
 texture = SubResource("AtlasTexture_4pxm3")
+
+[node name="Parallax2D8" type="Parallax2D" parent="."]
+modulate = Color(0.7372549, 0.7372549, 0.7372549, 0.49019608)
+z_index = -1
+scroll_offset = Vector2(0, 676)
+repeat_size = Vector2(512, 512)
+
+[node name="TextureRect" type="TextureRect" parent="Parallax2D8"]
+z_index = -3
+offset_right = 1280.0
+offset_bottom = 1280.0
+size_flags_horizontal = 4
+size_flags_vertical = 0
+texture = ExtResource("4_ts5hp")
+stretch_mode = 1

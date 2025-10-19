@@ -15,6 +15,6 @@ func _on_area_2d_area_entered(area: Area2D) -> void:
 			print(area.owner.get_children())
 			var BounceEntity = area.owner.get_node("Player")
 			print(BounceEntity)
-			BounceEntity.velocity.y = -600
+			BounceEntity.velocity.y = BounceEntity.velocity.y - 400
 		#area.owner.velocity.y = area.owner.velocity.y - 900
 		queue_free()

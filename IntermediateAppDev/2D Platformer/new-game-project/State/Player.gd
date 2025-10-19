@@ -2,6 +2,7 @@ extends CharacterBody2D
 var idleFlip = true
 var Gravity = 900
 @export var StompHitbox : Area2D
+@export var InteractHitbox : Area2D
 # reminder that all movement stuff is done in States Check STATEMACHINE.gd and State.gd for more info
 func _physics_process(delta):
 

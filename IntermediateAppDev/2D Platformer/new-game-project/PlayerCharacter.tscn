@@ -49,6 +49,7 @@ metadata/_custom_type_script = "uid://bdxc8wqv1ikxn"
 script = ExtResource("5_5lgxq")
 Player = NodePath("../..")
 AnimationSprite = NodePath("../../AnimatedSprite2D")
+JumpForce = 450
 metadata/_custom_type_script = "uid://ble8o1o2q6ud7"
 
 [node name="Area2D" type="Area2D" parent="Player" groups=["Stomp"]]
@@ -66,3 +67,7 @@ debug_color = Color(0.99607843, 0, 0, 0.41960785)
 drag_horizontal_enabled = true
 drag_vertical_enabled = true
 script = ExtResource("6_ew46a")
+
+[node name="Area2D2" type="Area2D" parent="Player"]
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="Player/Area2D2"]
