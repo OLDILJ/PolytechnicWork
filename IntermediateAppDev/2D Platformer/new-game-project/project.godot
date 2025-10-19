@@ -25,6 +25,8 @@ window/size/initial_position_type=3
 
 Stomp="Stomp Hitbox"
 Enemy=""
+InteractHitbox="InteractHitbox"
+Interactable=""
 
 [input]
 

@@ -1,0 +1,35 @@
+[gd_scene load_steps=4 format=3 uid="uid://fg6k85kg5qyx"]
+
+[ext_resource type="Script" uid="uid://ncsfgj066b53" path="res://InteractArea.gd" id="1_gf172"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_gf172"]
+
+[sub_resource type="LabelSettings" id="LabelSettings_gf172"]
+
+[node name="Area2D" type="Area2D" node_paths=PackedStringArray("Collision", "Text") groups=["Interactable"]]
+script = ExtResource("1_gf172")
+Collision = NodePath("CollisionShape2D")
+areaSize = 128.0
+Text = NodePath("Control/Label")
+EnterText = null
+ExitText = null
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_gf172")
+
+[node name="Control" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_left = -12.0
+offset_top = -12.0
+offset_right = 36.0
+offset_bottom = 20.0
+
+[node name="Label" type="Label" parent="Control"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+label_settings = SubResource("LabelSettings_gf172")
+
+[connection signal="area_entered" from="." to="." method="_on_area_entered"]
+[connection signal="area_exited" from="." to="." method="_on_area_exited"]
