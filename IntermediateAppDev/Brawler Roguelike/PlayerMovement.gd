@@ -36,11 +36,14 @@ func PhysicsUpdate(delta: float) -> void:
 		emit_signal("DoubleTapTimerStart")
 		if DoubleTapToggle:
 			Sprinting = true
+			Is_Walking = false
+			print("Is Walking Check ", (Is_Walking))
 			print("Sprinting")
 			SPEED = BaseSpeed * SprintMult
 			Player.ChangeBlend(1.5)
 		else:
 			print("Walking")
+			print("Is Walking Check ", (Is_Walking))
 			DoubleTapToggle = true
 			SPEED = BaseSpeed
 			Is_Walking = true
