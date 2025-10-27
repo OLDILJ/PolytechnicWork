@@ -53,11 +53,8 @@ func _physics_process(delta: float) -> void:
 
 	move_and_slide()
 	
-func _on_double_tap_timer_timeout() -> void:
-	DoubleTapToggle = false
-	pass # Replace with function body.
+
 
 
 func _on_double_tap_dodge_timer_timeout() -> void:
 	DoubleTapDodgeToggle = false
-	pass # Replace with function body.

@@ -12,3 +12,7 @@ func _process(delta: float) -> void:
 
 func _on_character_body_3d_double_tap_timer_start() -> void:
 	start()
+
+
+func _on_movement_double_tap_timer_start() -> void:
+	start()

@@ -13,3 +13,6 @@ func Enter():
 	print("Enter Idle");
 	AnimState.travel("Idle")
 	
+func PhysicsUpdate(delta: float):
+	if Input.is_anything_pressed():
+		Transition.emit(self,"Movement")

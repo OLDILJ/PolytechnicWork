@@ -15,7 +15,10 @@ class_name PlayerMovement
 @export var AnimBlend = 1
 # @onready var AnimTreeBlend = AnimTree.get("parameters/Blend2/blend_amount")
 @export var Player : CharacterBody3D
+@onready var AnimState = AnimTree["parameters/PlayerAnimState/playback"]
 
+var Is_Walking
+var Is_Running
 var Rotating = false;
 signal DoubleTapTimerStart
 signal DoubleTapDodgeStart
@@ -35,13 +38,12 @@ func PhysicsUpdate(delta: float) -> void:
 			Sprinting = true
 			print("Sprinting")
 			SPEED = BaseSpeed * SprintMult
-			AnimTree.set("parameters/Transition/transition_request", "Movement")
 			Player.ChangeBlend(1.5)
 		else:
 			print("Walking")
 			DoubleTapToggle = true
 			SPEED = BaseSpeed
-			AnimTree.set("parameters/Transition/transition_request", "Movement")
+			Is_Walking = true
 			Player.ChangeBlend(0.5)
 
 	if Input.is_action_just_released("Forward"):
@@ -64,14 +66,6 @@ func PhysicsUpdate(delta: float) -> void:
 		else:
 			Player.velocity.x = move_toward(Player.velocity.x, 0, SPEED)
 			Player.velocity.z = move_toward(Player.velocity.z, 0, SPEED)
-			AnimTree.set("parameters/Transition/transition_request", "Idle")
-			
-
-	else:
-		Player.velocity.x = 0
-		Player.velocity.z = 0
-		AnimTree.set("parameters/Transition/transition_request", "Movement")
-		Player.ChangeBlend(0.33)
 
 	var rotationDir := Input.get_axis("Left","Right")
 	if rotationDir:
@@ -82,3 +76,6 @@ func PhysicsUpdate(delta: float) -> void:
 	else:
 		Rotating = true
 		Player.rotation.y = rotate_toward(Player.rotation.y, Player.rotation.y - rotationDir, RotationSpeed)
+		
+func _on_double_tap_timer_timeout() -> void:
+	DoubleTapToggle = false
