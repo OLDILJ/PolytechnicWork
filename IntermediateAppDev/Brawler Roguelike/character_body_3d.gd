@@ -29,26 +29,7 @@ func _ready() -> void:
 	AnimTree.set("parameters/Transition/transition_request", "Idle")
 func _physics_process(delta: float) -> void:	
 	# Add the gravity.
-	if not is_on_floor():
-		velocity += get_gravity() * delta
-	if Input.is_action_just_pressed("Forward"):
-		emit_signal("DoubleTapTimerStart")
-		if DoubleTapToggle:
-			Sprinting = true
-			print("Sprinting")
-			SPEED = BaseSpeed * SprintMult
-			AnimTree.set("parameters/Transition/transition_request", "Movement")
-			ChangeBlend(1.5)
-		else:
-			print("Walking")
-			DoubleTapToggle = true
-			SPEED = BaseSpeed
-			AnimTree.set("parameters/Transition/transition_request", "Movement")
-			ChangeBlend(0.5)
 
-	if Input.is_action_just_released("Forward"):
-		Sprinting = false
-		
 	if Input.is_action_just_pressed("SLeft") or Input.is_action_just_pressed("SRight") or Input.is_action_just_pressed("Backward") :
 		emit_signal("DoubleTapDodgeStart")
 		if DoubleTapDodgeToggle:
@@ -69,48 +50,7 @@ func _physics_process(delta: float) -> void:
 		else:
 			print("DodgeToggleOn")
 			DoubleTapDodgeToggle = true
-			
-			
-	# Handle jump.
-	if Input.is_action_just_pressed("ui_accept") and is_on_floor():
-		velocity.y = JUMP_VELOCITY
-	if Input.is_action_just_pressed("180Turn") and is_on_floor():
-		var destinationY = rotation.y + PI
-		rotation.y = destinationY
-	if Input.is_action_just_pressed("Backward"):
-		SPEED = BaseSpeed/4
-		AnimTree.set("parameters/Transition/transition_request", "Movement")
-		ChangeBlend(0.4)
 
-	# As good practice, you should replace UI actions with custom gameplay actions.
-	var input_dir := Input.get_vector("SRight", "SLeft", "Backward", "Forward")
-	var direction := (transform.basis * Vector3(input_dir.x, 0, input_dir.y)).normalized()
-	if !Rotating:
-		if direction:
-			velocity.x = direction.x * SPEED
-			velocity.z = direction.z * SPEED
-		else:
-			velocity.x = move_toward(velocity.x, 0, SPEED)
-			velocity.z = move_toward(velocity.z, 0, SPEED)
-			AnimTree.set("parameters/Transition/transition_request", "Idle")
-			
-
-	else:
-		velocity.x = 0
-		velocity.z = 0
-		AnimTree.set("parameters/Transition/transition_request", "Movement")
-		ChangeBlend(0.33)
-
-	var rotationDir := Input.get_axis("Left","Right")
-	if rotationDir:
-		Rotating = true
-		rotation.y = rotate_toward(rotation.y, rotation.y - rotationDir, RotationSpeed)
-	if rotationDir == 0:
-		Rotating = false
-	else:
-		Rotating = true
-		rotation.y = rotate_toward(rotation.y, rotation.y - rotationDir, RotationSpeed)
-		
 	move_and_slide()
 	
 func _on_double_tap_timer_timeout() -> void:
