@@ -3,9 +3,11 @@ https://github.com/otago-polytechnic-bit-courses/id623002-s1-26-OLDILJ
 ### OE Repo
 
 ### App Dev
-### App Dev Repo
+### App Dev Repo Teacher
 https://github.com/otago-polytechnic-bit-courses/ID730001-advanced-application-development-concepts
 
+### App Dev Repo
+https://github.com/otago-polytechnic-bit-courses/s1-26-OLDILJ/tree/practical
 #### App Dev Practical
 Design document for Blackjack and Independant Research Project
 
