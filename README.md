@@ -1,6 +1,8 @@
 ### Game dev Repo
 https://github.com/otago-polytechnic-bit-courses/id623002-s1-26-OLDILJ
-### OE Repo
+### OE2
+Interview Date: 23/06
+Repo: https://github.com/OLDILJ/OE2
 
 ### App Dev
 ### App Dev Repo Teacher
@@ -20,3 +22,5 @@ Actual Blackjack program and completed Independant Research Project
 Due June 25th
 **80%** of grade
 
+### Studio 4
+Interview Date: 23/06
