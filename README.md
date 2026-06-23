@@ -1,7 +1,7 @@
 ### Game dev Repo
 https://github.com/otago-polytechnic-bit-courses/id623002-s1-26-OLDILJ
 ### OE2
-Interview Date: 23/06
+Interview Date: 25/06
 Repo: https://github.com/OLDILJ/OE2
 
 ### App Dev
