@@ -1,9 +1,0 @@
-1: Open Device Manager
-1.1:  Device Manager lists all inputs and outputs the computer has access to.
-1.2: Action -> Add Legacy Hardware -> Complete Setup.
-
-2: Display Monitor Settings.
-2.1:  Driver details shows where the driver files are located on the computer. Who made, provided, and has the copyright to the driver.
-2.2:  Search automatically for drivers / Browse my computer for drivers.
-2.3:  The Roll back Driver option is only actived when the device fails to update the driver. It rolls back to the previously installed driver.
-2.3.2: Disable Device/ Uninstall Device.
