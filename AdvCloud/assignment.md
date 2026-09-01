@@ -89,7 +89,7 @@ qemu-img rebase -u -b /home/hogan/xenVMDom/debian-12-generic-amd64-20260821-2577
 ## Pt 3 (15%): 
 
 ### Automation script for pt 2:
-``
+```
 #!/bin/bash
 
 # $1 = clone name and directory
@@ -208,7 +208,7 @@ fi
 
 
 
-``
+```
 
 ## Pt 4 (15%):
 
