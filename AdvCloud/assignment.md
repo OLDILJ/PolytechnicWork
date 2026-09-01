@@ -1,25 +1,3 @@
-## Pt 1 (10%):
-
-### Xen Setup:
-
-### dom0:
-
-#### Hypervisor:
-
-#### Toolstack:
-
-#### Boot To Xen:
-
-
-### Bridge
-
-#### Network evidence:
-
-#### Guest Bridge:
-
-#### show ssh working:
-
-
 ## Pt 2 (15%):
 
 ### QEMU:
@@ -209,26 +187,11 @@ fi
 
 
 ```
+## Pt 6 (10%): Evaluation - QEMU image files vs LVM volumes:
 
-## Pt 4 (15%):
-
-### Ip forwarding + iptables
-
-#### Presistent nat rules:
-
-#### Reversibility:
-
-#### Parameterized interface name:
-
-
-## Pt 5 (20%):
-
-### Deploy Apache On Guest 1:
-
-### Deploy SQL on Guest 2:
-
-### Deploy webpage with both guests talking to each other:
-
-## Pt 6 (10%):
-
-### Evaluate QEMU VS LVM
+qcow2 sits on the host filesystem, extra layer between guest and disk, slightly slower in theory. lvm talks to the storage direct, faster in theory. couldnt actually measure a real difference on this hardware either way. 
+both thin provisioned. qcow2 grows as storage gets written. lvm snapshot has a hard cap at whatever size you give lvcreate -L, write past that and it just fails, doesnt grow on its own.
+qcow2 is (technically) one file, move it anywhere qemu is installed and it just runs, as long as the backing file comes with it. lvm is stuck to the host its on, cant just move it like a file, way more rigid.
+lvcreate -s makes a full clone in under a second, copy on write from the source volume, why clone-guest.sh works so fast for the guests in pt 3. qcow2 clone in pt 2 was a backed image not a live snapshot, still quick but not instant.
+moved my qcow2 working dir once and the backing file path broke, wouldnt boot until i ran qemu-img rebase -u -b to fix it. lvm has no path to break, its just storage inside the vg, nothing pointing anywhere.
+backups simpler with qcow2, just copy the file. lvm needs a snapshot first then back that up, or a live volume can end up inconsistent.
